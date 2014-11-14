@@ -2,10 +2,8 @@
 var fs = require('fs');
 var css = require('css');
 var declarations = require('./lib/declarations');
-var specificityGraph = require('./lib/specificity-graph');
-
-// Reference from CSSStats
-//var ref = require('./lib/ref-stats');
+var selectors = require('./lib/selectors');
+var properties = require('./lib/properties');
 
 module.exports = function(string, options) {
 
@@ -14,8 +12,9 @@ module.exports = function(string, options) {
   var result = {};
   var ast = css.parse(string);
 
-  result.graph = specificityGraph(ast);
+  result.selectors = selectors(ast);
   result.declarations = declarations(ast);
+  result.properties = properties(ast);
 
   return result;
 
