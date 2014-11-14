@@ -3,7 +3,7 @@ var fs = require('fs');
 var css = require('css');
 var declarations = require('./lib/declarations');
 var selectors = require('./lib/selectors');
-var properties = require('./lib/properties');
+var aggregates = require('./lib/aggregates');
 
 module.exports = function(string, options) {
 
@@ -14,7 +14,8 @@ module.exports = function(string, options) {
 
   result.selectors = selectors(ast);
   result.declarations = declarations(ast);
-  result.properties = properties(ast);
+
+  result.aggregates = aggregates(result);
 
   return result;
 
