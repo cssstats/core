@@ -1,5 +1,4 @@
 
-var fs = require('fs');
 var css = require('css');
 var declarations = require('./lib/declarations');
 var selectors = require('./lib/selectors');

@@ -9,7 +9,17 @@
     "specificity": "^0.1.4",
     "css": "^2.1.0"
   },
-  "devDependencies": {
-    "gulp": "^3.8.10"
-  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jxnblk/css-statistics.git"
+  },
+  "keywords": [
+    "CSS",
+    "Performance",
+    "Stats"
+  ],
+  "bugs": {
+    "url": "https://github.com/jxnblk/css-statistics/issues"
+  },
+  "homepage": "https://github.com/jxnblk/css-statistics"
 }
