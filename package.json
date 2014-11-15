@@ -21,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/jxnblk/css-statistics/issues"
   },
-  "homepage": "https://github.com/jxnblk/css-statistics"
+  "homepage": "https://github.com/jxnblk/css-statistics",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
