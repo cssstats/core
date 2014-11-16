@@ -1,6 +1,6 @@
 {
   "name": "css-statistics",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "High-level statistics for stylesheets",
   "main": "index.js",
   "author": "Brent Jackson",
