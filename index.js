@@ -18,6 +18,7 @@ module.exports = function(string, options) {
   result.declarations = declarations(ast);
 
   result.aggregates = aggregates(result);
+  result.aggregates.rules = ast.stylesheet.rules.length;
 
   return result;
 
