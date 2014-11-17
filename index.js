@@ -3,6 +3,7 @@ var css = require('css');
 var declarations = require('./lib/declarations');
 var selectors = require('./lib/selectors');
 var aggregates = require('./lib/aggregates');
+var size = require('./lib/size');
 
 module.exports = function(string, options) {
 
@@ -10,6 +11,8 @@ module.exports = function(string, options) {
 
   var result = {};
   var ast = css.parse(string);
+
+  result.size = size(string);
 
   result.selectors = selectors(ast);
   result.declarations = declarations(ast);
