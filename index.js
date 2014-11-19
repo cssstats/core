@@ -10,7 +10,7 @@ module.exports = function(string, options) {
   options = options || {};
 
   var result = {};
-  var ast = css.parse(string);
+  var ast = css.parse(string, options);
 
   result.size = size(string);
 
