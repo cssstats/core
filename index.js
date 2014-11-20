@@ -12,6 +12,8 @@ module.exports = function(string, options) {
   var result = {};
   var ast = css.parse(string);
 
+  if (!ast) return false;
+
   result.size = size(string);
 
   result.selectors = selectors(ast);
