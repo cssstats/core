@@ -10,7 +10,7 @@ module.exports = function(string, options) {
   options = options || {};
 
   var result = {};
-  var ast = css.parse(string);
+  var ast = css.parse(string, options);
 
   if (!ast) return false;
 
@@ -20,6 +20,7 @@ module.exports = function(string, options) {
   result.declarations = declarations(ast);
 
   result.aggregates = aggregates(result);
+  result.aggregates.rules = ast.stylesheet.rules.length;
 
   return result;
 
