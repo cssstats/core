@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+
+program = require('commander');
+
+program
+  .version('0.0.1');
+
+program
+  .command('file [file]')
+  .description('read a local css file')
+  .action(function(file) {
+    console.log('Analyzing CSS for ' + file);
+  });
+
+program
+  .command('url [url]')
+  .description('read a css file from a url')
+  .action(function(url) {
+    console.log('Retrieving CSS for ' + url);
+  });
+
+program.parse(process.argv);

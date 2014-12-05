@@ -6,8 +6,9 @@
   "author": "Brent Jackson",
   "license": "MIT",
   "dependencies": {
-    "specificity": "^0.1.4",
-    "css": "^2.1.0"
+    "commander": "^2.5.0",
+    "css": "^2.1.0",
+    "specificity": "^0.1.4"
   },
   "repository": {
     "type": "git",
