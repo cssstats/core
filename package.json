@@ -8,6 +8,7 @@
   "dependencies": {
     "commander": "^2.5.0",
     "css": "^2.1.0",
+    "get-css": "0.0.2",
     "specificity": "^0.1.4"
   },
   "repository": {

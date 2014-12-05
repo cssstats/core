@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 var program = require('commander');
+var getCss = require('get-css');
 var cssstats = require('..');
 var fs = require('fs');
 
@@ -24,9 +25,31 @@ program
       var css = fs.readFileSync(file, 'utf8');
       console.log(JSON.stringify(cssstats(css), null, 2));
     } catch (e) {
-      console.log('CSS Statistics encountered an error reading ' + file);
-      console.log(e);
+      handleError(e, file);
+    }
+  });
+
+program
+  .command('url [url]')
+  .description('read a css from a url')
+  .action(function(url) {
+    if (!url) {
+      console.log('Please specify a url');
+      return;
+    }
+
+    try {
+      getCss(url).then(function(css) {
+        console.log(JSON.stringify(cssstats(css.css), null, 2));
+      });
+    } catch (e) {
+      handleError(e, url)
     }
   });
 
 program.parse(process.argv);
+
+function handleError(error, cssLocation) {
+  console.log('CSS Statistics encountered an error reading ' + cssLocation);
+  console.log(e);
+}
