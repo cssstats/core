@@ -9,7 +9,8 @@
     "commander": "^2.5.0",
     "specificity": "^0.1.4",
     "postcss": "^3.0.7",
-    "gzip-size": "^1.0.0"
+    "gzip-size": "^1.0.0",
+    "get-css": "0.0.2"
   },
   "repository": {
     "type": "git",
