@@ -1,5 +1,6 @@
 
 var css = require('css');
+var important = require('./lib/important');
 var declarations = require('./lib/declarations');
 var selectors = require('./lib/selectors');
 var aggregates = require('./lib/aggregates');
@@ -14,6 +15,8 @@ module.exports = function(string, options) {
   var ast = css.parse(string, options);
 
   if (!ast) return false;
+
+  ast = important.annotate(ast);
 
   result.size = size(string);
 
