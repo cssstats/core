@@ -53,5 +53,40 @@
         1
       ]
     }
+  },
+  "rules": [
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "color",
+          "value": "red"
+        }
+      ],
+      "selector": ".red"
+    },
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "color",
+          "value": "tomato"
+        }
+      ],
+      "selector": ".sm-tomato"
+    }
+  ],
+  "aggregates": {
+    "selectors": 2,
+    "declarations": 2,
+    "properties": [
+      "color"
+    ],
+    "color": {
+      "total": 2,
+      "unique": 2
+    }
   }
 }
