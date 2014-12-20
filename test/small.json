@@ -1,0 +1,175 @@
+{
+  "size": 167,
+  "selectors": [
+    {
+      "selector": ".red",
+      "specificity": "0,0,1,0",
+      "parts": [
+        {
+          "selector": ".red",
+          "type": "b",
+          "index": 0,
+          "length": 4
+        }
+      ],
+      "specificity_10": 10
+    },
+    {
+      "selector": ".sm-tomato",
+      "specificity": "0,0,1,0",
+      "parts": [
+        {
+          "selector": ".sm-tomato",
+          "type": "b",
+          "index": 0,
+          "length": 10
+        }
+      ],
+      "specificity_10": 10
+    },
+    {
+      "selector": "0%",
+      "specificity": "0,0,0,1",
+      "parts": [
+        {
+          "selector": "0%",
+          "type": "c",
+          "index": 0,
+          "length": 2
+        }
+      ],
+      "specificity_10": 1
+    },
+    {
+      "selector": "100%",
+      "specificity": "0,0,0,1",
+      "parts": [
+        {
+          "selector": "100%",
+          "type": "c",
+          "index": 0,
+          "length": 4
+        }
+      ],
+      "specificity_10": 1
+    }
+  ],
+  "declarations": {
+    "all": [
+      {
+        "type": "decl",
+        "prop": "color",
+        "value": "red"
+      },
+      {
+        "type": "decl",
+        "prop": "color",
+        "value": "tomato"
+      },
+      {
+        "type": "decl",
+        "prop": "transform",
+        "value": "scale(.5)"
+      },
+      {
+        "type": "decl",
+        "prop": "transform",
+        "value": "scale(1)"
+      }
+    ],
+    "byProperty": {
+      "color": [
+        0,
+        1
+      ],
+      "transform": [
+        2,
+        3
+      ]
+    },
+    "unique": {
+      "color": [
+        0,
+        1
+      ],
+      "transform": [
+        2,
+        3
+      ]
+    },
+    "byMedia": {
+      "(minWidth:30em)": [
+        {
+          "type": "decl",
+          "prop": "color",
+          "value": "tomato"
+        }
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "color",
+          "value": "red"
+        }
+      ],
+      "selector": ".red"
+    },
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "color",
+          "value": "tomato"
+        }
+      ],
+      "selector": ".sm-tomato"
+    },
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "transform",
+          "value": "scale(.5)"
+        }
+      ],
+      "selector": "0%"
+    },
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "transform",
+          "value": "scale(1)"
+        }
+      ],
+      "selector": "100%"
+    }
+  ],
+  "aggregates": {
+    "selectors": 4,
+    "declarations": 4,
+    "properties": [
+      "color",
+      "transform"
+    ],
+    "mediaQueries": [
+      "(minWidth:30em)"
+    ],
+    "color": {
+      "total": 2,
+      "unique": 2
+    },
+    "transform": {
+      "total": 2,
+      "unique": 2
+    }
+  }
+}
