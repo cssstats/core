@@ -7,8 +7,8 @@
   "license": "MIT",
   "dependencies": {
     "commander": "^2.5.0",
-    "css": "^2.1.0",
-    "specificity": "^0.1.4"
+    "specificity": "^0.1.4",
+    "postcss": "^3.0.7"
   },
   "repository": {
     "type": "git",

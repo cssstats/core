@@ -1,9 +1,10 @@
 
-var css = require('css');
+//var css = require('css');
+var postcss = require('postcss');
 var declarations = require('./lib/declarations');
-var selectors = require('./lib/selectors');
-var aggregates = require('./lib/aggregates');
-var rules = require('./lib/rules');
+//var selectors = require('./lib/selectors');
+//var aggregates = require('./lib/aggregates');
+//var rules = require('./lib/rules');
 var size = require('./lib/size');
 
 module.exports = function(string, options) {
@@ -11,16 +12,16 @@ module.exports = function(string, options) {
   options = options || {};
 
   var result = {};
-  var ast = css.parse(string, options);
+  var obj = postcss.parse(string, options);
 
-  if (!ast) return false;
+  if (!obj) return false;
 
   result.size = size(string);
 
-  result.selectors = selectors(ast);
-  result.declarations = declarations(ast);
-  result.rules = rules(ast);
-  result.aggregates = aggregates(result);
+  //result.selectors = selectors(ast);
+  result.declarations = declarations(obj);
+  //result.rules = rules(ast);
+  //result.aggregates = aggregates(result);
 
   return result;
 
