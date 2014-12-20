@@ -9,7 +9,8 @@ var size = require('./lib/size');
 
 module.exports = function(string, options) {
 
-  options = options || {};
+  var options = options || {};
+  options.safe = options.safe || true;
 
   var result = {};
   var obj = postcss.parse(string, options);

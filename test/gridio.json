@@ -1,0 +1,2834 @@
+{
+  "size": 3563,
+  "gzipSize": 530,
+  "selectors": [
+    {
+      "selector": ".odometer.odometer-auto-theme",
+      "specificity": "0,0,2,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-auto-theme",
+          "type": "b",
+          "index": 9,
+          "length": 20
+        }
+      ],
+      "specificity_10": 20
+    },
+    {
+      "selector": ".odometer.odometer-theme-default",
+      "specificity": "0,0,2,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-theme-default",
+          "type": "b",
+          "index": 9,
+          "length": 23
+        }
+      ],
+      "specificity_10": 20
+    },
+    {
+      "selector": ".odometer.odometer-auto-theme .odometer-digit",
+      "specificity": "0,0,3,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-auto-theme",
+          "type": "b",
+          "index": 9,
+          "length": 20
+        },
+        {
+          "selector": ".odometer-digit",
+          "type": "b",
+          "index": 30,
+          "length": 15
+        }
+      ],
+      "specificity_10": 30
+    },
+    {
+      "selector": ".odometer.odometer-theme-default .odometer-digit",
+      "specificity": "0,0,3,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-theme-default",
+          "type": "b",
+          "index": 9,
+          "length": 23
+        },
+        {
+          "selector": ".odometer-digit",
+          "type": "b",
+          "index": 33,
+          "length": 15
+        }
+      ],
+      "specificity_10": 30
+    },
+    {
+      "selector": ".odometer.odometer-auto-theme .odometer-digit .odometer-digit-spacer",
+      "specificity": "0,0,4,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-auto-theme",
+          "type": "b",
+          "index": 9,
+          "length": 20
+        },
+        {
+          "selector": ".odometer-digit",
+          "type": "b",
+          "index": 30,
+          "length": 15
+        },
+        {
+          "selector": ".odometer-digit-spacer",
+          "type": "b",
+          "index": 46,
+          "length": 22
+        }
+      ],
+      "specificity_10": 40
+    },
+    {
+      "selector": ".odometer.odometer-theme-default .odometer-digit .odometer-digit-spacer",
+      "specificity": "0,0,4,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-theme-default",
+          "type": "b",
+          "index": 9,
+          "length": 23
+        },
+        {
+          "selector": ".odometer-digit",
+          "type": "b",
+          "index": 33,
+          "length": 15
+        },
+        {
+          "selector": ".odometer-digit-spacer",
+          "type": "b",
+          "index": 49,
+          "length": 22
+        }
+      ],
+      "specificity_10": 40
+    },
+    {
+      "selector": ".odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner",
+      "specificity": "0,0,4,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-auto-theme",
+          "type": "b",
+          "index": 9,
+          "length": 20
+        },
+        {
+          "selector": ".odometer-digit",
+          "type": "b",
+          "index": 30,
+          "length": 15
+        },
+        {
+          "selector": ".odometer-digit-inner",
+          "type": "b",
+          "index": 46,
+          "length": 21
+        }
+      ],
+      "specificity_10": 40
+    },
+    {
+      "selector": ".odometer.odometer-theme-default .odometer-digit .odometer-digit-inner",
+      "specificity": "0,0,4,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-theme-default",
+          "type": "b",
+          "index": 9,
+          "length": 23
+        },
+        {
+          "selector": ".odometer-digit",
+          "type": "b",
+          "index": 33,
+          "length": 15
+        },
+        {
+          "selector": ".odometer-digit-inner",
+          "type": "b",
+          "index": 49,
+          "length": 21
+        }
+      ],
+      "specificity_10": 40
+    },
+    {
+      "selector": ".odometer.odometer-auto-theme .odometer-digit .odometer-ribbon",
+      "specificity": "0,0,4,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-auto-theme",
+          "type": "b",
+          "index": 9,
+          "length": 20
+        },
+        {
+          "selector": ".odometer-digit",
+          "type": "b",
+          "index": 30,
+          "length": 15
+        },
+        {
+          "selector": ".odometer-ribbon",
+          "type": "b",
+          "index": 46,
+          "length": 16
+        }
+      ],
+      "specificity_10": 40
+    },
+    {
+      "selector": ".odometer.odometer-theme-default .odometer-digit .odometer-ribbon",
+      "specificity": "0,0,4,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-theme-default",
+          "type": "b",
+          "index": 9,
+          "length": 23
+        },
+        {
+          "selector": ".odometer-digit",
+          "type": "b",
+          "index": 33,
+          "length": 15
+        },
+        {
+          "selector": ".odometer-ribbon",
+          "type": "b",
+          "index": 49,
+          "length": 16
+        }
+      ],
+      "specificity_10": 40
+    },
+    {
+      "selector": ".odometer.odometer-auto-theme .odometer-digit .odometer-ribbon-inner",
+      "specificity": "0,0,4,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-auto-theme",
+          "type": "b",
+          "index": 9,
+          "length": 20
+        },
+        {
+          "selector": ".odometer-digit",
+          "type": "b",
+          "index": 30,
+          "length": 15
+        },
+        {
+          "selector": ".odometer-ribbon-inner",
+          "type": "b",
+          "index": 46,
+          "length": 22
+        }
+      ],
+      "specificity_10": 40
+    },
+    {
+      "selector": ".odometer.odometer-theme-default .odometer-digit .odometer-ribbon-inner",
+      "specificity": "0,0,4,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-theme-default",
+          "type": "b",
+          "index": 9,
+          "length": 23
+        },
+        {
+          "selector": ".odometer-digit",
+          "type": "b",
+          "index": 33,
+          "length": 15
+        },
+        {
+          "selector": ".odometer-ribbon-inner",
+          "type": "b",
+          "index": 49,
+          "length": 22
+        }
+      ],
+      "specificity_10": 40
+    },
+    {
+      "selector": ".odometer.odometer-auto-theme .odometer-digit .odometer-value",
+      "specificity": "0,0,4,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-auto-theme",
+          "type": "b",
+          "index": 9,
+          "length": 20
+        },
+        {
+          "selector": ".odometer-digit",
+          "type": "b",
+          "index": 30,
+          "length": 15
+        },
+        {
+          "selector": ".odometer-value",
+          "type": "b",
+          "index": 46,
+          "length": 15
+        }
+      ],
+      "specificity_10": 40
+    },
+    {
+      "selector": ".odometer.odometer-theme-default .odometer-digit .odometer-value",
+      "specificity": "0,0,4,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-theme-default",
+          "type": "b",
+          "index": 9,
+          "length": 23
+        },
+        {
+          "selector": ".odometer-digit",
+          "type": "b",
+          "index": 33,
+          "length": 15
+        },
+        {
+          "selector": ".odometer-value",
+          "type": "b",
+          "index": 49,
+          "length": 15
+        }
+      ],
+      "specificity_10": 40
+    },
+    {
+      "selector": ".odometer.odometer-auto-theme .odometer-digit .odometer-value.odometer-last-value",
+      "specificity": "0,0,5,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-auto-theme",
+          "type": "b",
+          "index": 9,
+          "length": 20
+        },
+        {
+          "selector": ".odometer-digit",
+          "type": "b",
+          "index": 30,
+          "length": 15
+        },
+        {
+          "selector": ".odometer-value",
+          "type": "b",
+          "index": 46,
+          "length": 15
+        },
+        {
+          "selector": ".odometer-last-value",
+          "type": "b",
+          "index": 61,
+          "length": 20
+        }
+      ],
+      "specificity_10": 50
+    },
+    {
+      "selector": ".odometer.odometer-theme-default .odometer-digit .odometer-value.odometer-last-value",
+      "specificity": "0,0,5,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-theme-default",
+          "type": "b",
+          "index": 9,
+          "length": 23
+        },
+        {
+          "selector": ".odometer-digit",
+          "type": "b",
+          "index": 33,
+          "length": 15
+        },
+        {
+          "selector": ".odometer-value",
+          "type": "b",
+          "index": 49,
+          "length": 15
+        },
+        {
+          "selector": ".odometer-last-value",
+          "type": "b",
+          "index": 64,
+          "length": 20
+        }
+      ],
+      "specificity_10": 50
+    },
+    {
+      "selector": ".odometer.odometer-auto-theme.odometer-animating-up .odometer-ribbon-inner",
+      "specificity": "0,0,4,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-auto-theme",
+          "type": "b",
+          "index": 9,
+          "length": 20
+        },
+        {
+          "selector": ".odometer-animating-up",
+          "type": "b",
+          "index": 29,
+          "length": 22
+        },
+        {
+          "selector": ".odometer-ribbon-inner",
+          "type": "b",
+          "index": 52,
+          "length": 22
+        }
+      ],
+      "specificity_10": 40
+    },
+    {
+      "selector": ".odometer.odometer-theme-default.odometer-animating-up .odometer-ribbon-inner",
+      "specificity": "0,0,4,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-theme-default",
+          "type": "b",
+          "index": 9,
+          "length": 23
+        },
+        {
+          "selector": ".odometer-animating-up",
+          "type": "b",
+          "index": 32,
+          "length": 22
+        },
+        {
+          "selector": ".odometer-ribbon-inner",
+          "type": "b",
+          "index": 55,
+          "length": 22
+        }
+      ],
+      "specificity_10": 40
+    },
+    {
+      "selector": ".odometer.odometer-auto-theme.odometer-animating-up.odometer-animating .odometer-ribbon-inner",
+      "specificity": "0,0,5,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-auto-theme",
+          "type": "b",
+          "index": 9,
+          "length": 20
+        },
+        {
+          "selector": ".odometer-animating-up",
+          "type": "b",
+          "index": 29,
+          "length": 22
+        },
+        {
+          "selector": ".odometer-animating",
+          "type": "b",
+          "index": 51,
+          "length": 19
+        },
+        {
+          "selector": ".odometer-ribbon-inner",
+          "type": "b",
+          "index": 71,
+          "length": 22
+        }
+      ],
+      "specificity_10": 50
+    },
+    {
+      "selector": ".odometer.odometer-theme-default.odometer-animating-up.odometer-animating .odometer-ribbon-inner",
+      "specificity": "0,0,5,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-theme-default",
+          "type": "b",
+          "index": 9,
+          "length": 23
+        },
+        {
+          "selector": ".odometer-animating-up",
+          "type": "b",
+          "index": 32,
+          "length": 22
+        },
+        {
+          "selector": ".odometer-animating",
+          "type": "b",
+          "index": 54,
+          "length": 19
+        },
+        {
+          "selector": ".odometer-ribbon-inner",
+          "type": "b",
+          "index": 74,
+          "length": 22
+        }
+      ],
+      "specificity_10": 50
+    },
+    {
+      "selector": ".odometer.odometer-auto-theme.odometer-animating-down .odometer-ribbon-inner",
+      "specificity": "0,0,4,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-auto-theme",
+          "type": "b",
+          "index": 9,
+          "length": 20
+        },
+        {
+          "selector": ".odometer-animating-down",
+          "type": "b",
+          "index": 29,
+          "length": 24
+        },
+        {
+          "selector": ".odometer-ribbon-inner",
+          "type": "b",
+          "index": 54,
+          "length": 22
+        }
+      ],
+      "specificity_10": 40
+    },
+    {
+      "selector": ".odometer.odometer-theme-default.odometer-animating-down .odometer-ribbon-inner",
+      "specificity": "0,0,4,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-theme-default",
+          "type": "b",
+          "index": 9,
+          "length": 23
+        },
+        {
+          "selector": ".odometer-animating-down",
+          "type": "b",
+          "index": 32,
+          "length": 24
+        },
+        {
+          "selector": ".odometer-ribbon-inner",
+          "type": "b",
+          "index": 57,
+          "length": 22
+        }
+      ],
+      "specificity_10": 40
+    },
+    {
+      "selector": ".odometer.odometer-auto-theme.odometer-animating-down.odometer-animating .odometer-ribbon-inner",
+      "specificity": "0,0,5,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-auto-theme",
+          "type": "b",
+          "index": 9,
+          "length": 20
+        },
+        {
+          "selector": ".odometer-animating-down",
+          "type": "b",
+          "index": 29,
+          "length": 24
+        },
+        {
+          "selector": ".odometer-animating",
+          "type": "b",
+          "index": 53,
+          "length": 19
+        },
+        {
+          "selector": ".odometer-ribbon-inner",
+          "type": "b",
+          "index": 73,
+          "length": 22
+        }
+      ],
+      "specificity_10": 50
+    },
+    {
+      "selector": ".odometer.odometer-theme-default.odometer-animating-down.odometer-animating .odometer-ribbon-inner",
+      "specificity": "0,0,5,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-theme-default",
+          "type": "b",
+          "index": 9,
+          "length": 23
+        },
+        {
+          "selector": ".odometer-animating-down",
+          "type": "b",
+          "index": 32,
+          "length": 24
+        },
+        {
+          "selector": ".odometer-animating",
+          "type": "b",
+          "index": 56,
+          "length": 19
+        },
+        {
+          "selector": ".odometer-ribbon-inner",
+          "type": "b",
+          "index": 76,
+          "length": 22
+        }
+      ],
+      "specificity_10": 50
+    },
+    {
+      "selector": ".odometer.odometer-auto-theme",
+      "specificity": "0,0,2,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-auto-theme",
+          "type": "b",
+          "index": 9,
+          "length": 20
+        }
+      ],
+      "specificity_10": 20
+    },
+    {
+      "selector": ".odometer.odometer-theme-default",
+      "specificity": "0,0,2,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-theme-default",
+          "type": "b",
+          "index": 9,
+          "length": 23
+        }
+      ],
+      "specificity_10": 20
+    },
+    {
+      "selector": ".odometer.odometer-auto-theme .odometer-value",
+      "specificity": "0,0,3,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-auto-theme",
+          "type": "b",
+          "index": 9,
+          "length": 20
+        },
+        {
+          "selector": ".odometer-value",
+          "type": "b",
+          "index": 30,
+          "length": 15
+        }
+      ],
+      "specificity_10": 30
+    },
+    {
+      "selector": ".odometer.odometer-theme-default .odometer-value",
+      "specificity": "0,0,3,0",
+      "parts": [
+        {
+          "selector": ".odometer",
+          "type": "b",
+          "index": 0,
+          "length": 9
+        },
+        {
+          "selector": ".odometer-theme-default",
+          "type": "b",
+          "index": 9,
+          "length": 23
+        },
+        {
+          "selector": ".odometer-value",
+          "type": "b",
+          "index": 33,
+          "length": 15
+        }
+      ],
+      "specificity_10": 30
+    }
+  ],
+  "declarations": {
+    "all": [
+      {
+        "type": "decl",
+        "prop": "display",
+        "value": "inline-block",
+        "index": 0
+      },
+      {
+        "type": "decl",
+        "prop": "vertical-align",
+        "value": "middle",
+        "index": 1
+      },
+      {
+        "type": "decl",
+        "prop": "vertical-align",
+        "value": "auto",
+        "index": 2
+      },
+      {
+        "type": "decl",
+        "prop": "zoom",
+        "value": "1",
+        "index": 3
+      },
+      {
+        "type": "decl",
+        "prop": "display",
+        "value": "inline",
+        "index": 4
+      },
+      {
+        "type": "decl",
+        "prop": "position",
+        "value": "relative",
+        "index": 5
+      },
+      {
+        "type": "decl",
+        "prop": "display",
+        "value": "inline-block",
+        "index": 6
+      },
+      {
+        "type": "decl",
+        "prop": "vertical-align",
+        "value": "middle",
+        "index": 7
+      },
+      {
+        "type": "decl",
+        "prop": "vertical-align",
+        "value": "auto",
+        "index": 8
+      },
+      {
+        "type": "decl",
+        "prop": "zoom",
+        "value": "1",
+        "index": 9
+      },
+      {
+        "type": "decl",
+        "prop": "display",
+        "value": "inline",
+        "index": 10
+      },
+      {
+        "type": "decl",
+        "prop": "position",
+        "value": "relative",
+        "index": 11
+      },
+      {
+        "type": "decl",
+        "prop": "display",
+        "value": "inline-block",
+        "index": 12
+      },
+      {
+        "type": "decl",
+        "prop": "vertical-align",
+        "value": "middle",
+        "index": 13
+      },
+      {
+        "type": "decl",
+        "prop": "vertical-align",
+        "value": "auto",
+        "index": 14
+      },
+      {
+        "type": "decl",
+        "prop": "zoom",
+        "value": "1",
+        "index": 15
+      },
+      {
+        "type": "decl",
+        "prop": "display",
+        "value": "inline",
+        "index": 16
+      },
+      {
+        "type": "decl",
+        "prop": "visibility",
+        "value": "hidden",
+        "index": 17
+      },
+      {
+        "type": "decl",
+        "prop": "text-align",
+        "value": "left",
+        "index": 18
+      },
+      {
+        "type": "decl",
+        "prop": "display",
+        "value": "block",
+        "index": 19
+      },
+      {
+        "type": "decl",
+        "prop": "position",
+        "value": "absolute",
+        "index": 20
+      },
+      {
+        "type": "decl",
+        "prop": "top",
+        "value": "0",
+        "index": 21
+      },
+      {
+        "type": "decl",
+        "prop": "left",
+        "value": "0",
+        "index": 22
+      },
+      {
+        "type": "decl",
+        "prop": "right",
+        "value": "0",
+        "index": 23
+      },
+      {
+        "type": "decl",
+        "prop": "bottom",
+        "value": "0",
+        "index": 24
+      },
+      {
+        "type": "decl",
+        "prop": "overflow",
+        "value": "hidden",
+        "index": 25
+      },
+      {
+        "type": "decl",
+        "prop": "display",
+        "value": "block",
+        "index": 26
+      },
+      {
+        "type": "decl",
+        "prop": "display",
+        "value": "block",
+        "index": 27
+      },
+      {
+        "type": "decl",
+        "prop": "-webkit-backface-visibility",
+        "value": "hidden",
+        "index": 28
+      },
+      {
+        "type": "decl",
+        "prop": "display",
+        "value": "block",
+        "index": 29
+      },
+      {
+        "type": "decl",
+        "prop": "-webkit-transform",
+        "value": "translateZ(0)",
+        "index": 30
+      },
+      {
+        "type": "decl",
+        "prop": "position",
+        "value": "absolute",
+        "index": 31
+      },
+      {
+        "type": "decl",
+        "prop": "-webkit-transition",
+        "value": "-webkit-transform 2s",
+        "index": 32
+      },
+      {
+        "type": "decl",
+        "prop": "-moz-transition",
+        "value": "-moz-transform 2s",
+        "index": 33
+      },
+      {
+        "type": "decl",
+        "prop": "-ms-transition",
+        "value": "-ms-transform 2s",
+        "index": 34
+      },
+      {
+        "type": "decl",
+        "prop": "-o-transition",
+        "value": "-o-transform 2s",
+        "index": 35
+      },
+      {
+        "type": "decl",
+        "prop": "transition",
+        "value": "transform 2s",
+        "index": 36
+      },
+      {
+        "type": "decl",
+        "prop": "-webkit-transform",
+        "value": "translateY(-100%)",
+        "index": 37
+      },
+      {
+        "type": "decl",
+        "prop": "-moz-transform",
+        "value": "translateY(-100%)",
+        "index": 38
+      },
+      {
+        "type": "decl",
+        "prop": "-ms-transform",
+        "value": "translateY(-100%)",
+        "index": 39
+      },
+      {
+        "type": "decl",
+        "prop": "-o-transform",
+        "value": "translateY(-100%)",
+        "index": 40
+      },
+      {
+        "type": "decl",
+        "prop": "transform",
+        "value": "translateY(-100%)",
+        "index": 41
+      },
+      {
+        "type": "decl",
+        "prop": "-webkit-transform",
+        "value": "translateY(-100%)",
+        "index": 42
+      },
+      {
+        "type": "decl",
+        "prop": "-moz-transform",
+        "value": "translateY(-100%)",
+        "index": 43
+      },
+      {
+        "type": "decl",
+        "prop": "-ms-transform",
+        "value": "translateY(-100%)",
+        "index": 44
+      },
+      {
+        "type": "decl",
+        "prop": "-o-transform",
+        "value": "translateY(-100%)",
+        "index": 45
+      },
+      {
+        "type": "decl",
+        "prop": "transform",
+        "value": "translateY(-100%)",
+        "index": 46
+      },
+      {
+        "type": "decl",
+        "prop": "-webkit-transition",
+        "value": "-webkit-transform 2s",
+        "index": 47
+      },
+      {
+        "type": "decl",
+        "prop": "-moz-transition",
+        "value": "-moz-transform 2s",
+        "index": 48
+      },
+      {
+        "type": "decl",
+        "prop": "-ms-transition",
+        "value": "-ms-transform 2s",
+        "index": 49
+      },
+      {
+        "type": "decl",
+        "prop": "-o-transition",
+        "value": "-o-transform 2s",
+        "index": 50
+      },
+      {
+        "type": "decl",
+        "prop": "transition",
+        "value": "transform 2s",
+        "index": 51
+      },
+      {
+        "type": "decl",
+        "prop": "-webkit-transform",
+        "value": "translateY(0)",
+        "index": 52
+      },
+      {
+        "type": "decl",
+        "prop": "-moz-transform",
+        "value": "translateY(0)",
+        "index": 53
+      },
+      {
+        "type": "decl",
+        "prop": "-ms-transform",
+        "value": "translateY(0)",
+        "index": 54
+      },
+      {
+        "type": "decl",
+        "prop": "-o-transform",
+        "value": "translateY(0)",
+        "index": 55
+      },
+      {
+        "type": "decl",
+        "prop": "transform",
+        "value": "translateY(0)",
+        "index": 56
+      },
+      {
+        "type": "decl",
+        "prop": "font-family",
+        "value": "\"Helvetica Neue\", sans-serif",
+        "index": 57
+      },
+      {
+        "type": "decl",
+        "prop": "line-height",
+        "value": "1.1em",
+        "index": 58
+      },
+      {
+        "type": "decl",
+        "prop": "text-align",
+        "value": "center",
+        "index": 59
+      }
+    ],
+    "byProperty": {
+      "display": [
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "inline-block",
+          "index": 0
+        },
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "inline",
+          "index": 4
+        },
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "inline-block",
+          "index": 6
+        },
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "inline",
+          "index": 10
+        },
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "inline-block",
+          "index": 12
+        },
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "inline",
+          "index": 16
+        },
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "block",
+          "index": 19
+        },
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "block",
+          "index": 26
+        },
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "block",
+          "index": 27
+        },
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "block",
+          "index": 29
+        }
+      ],
+      "verticalAlign": [
+        {
+          "type": "decl",
+          "prop": "vertical-align",
+          "value": "middle",
+          "index": 1
+        },
+        {
+          "type": "decl",
+          "prop": "vertical-align",
+          "value": "auto",
+          "index": 2
+        },
+        {
+          "type": "decl",
+          "prop": "vertical-align",
+          "value": "middle",
+          "index": 7
+        },
+        {
+          "type": "decl",
+          "prop": "vertical-align",
+          "value": "auto",
+          "index": 8
+        },
+        {
+          "type": "decl",
+          "prop": "vertical-align",
+          "value": "middle",
+          "index": 13
+        },
+        {
+          "type": "decl",
+          "prop": "vertical-align",
+          "value": "auto",
+          "index": 14
+        }
+      ],
+      "zoom": [
+        {
+          "type": "decl",
+          "prop": "zoom",
+          "value": "1",
+          "index": 3
+        },
+        {
+          "type": "decl",
+          "prop": "zoom",
+          "value": "1",
+          "index": 9
+        },
+        {
+          "type": "decl",
+          "prop": "zoom",
+          "value": "1",
+          "index": 15
+        }
+      ],
+      "position": [
+        {
+          "type": "decl",
+          "prop": "position",
+          "value": "relative",
+          "index": 5
+        },
+        {
+          "type": "decl",
+          "prop": "position",
+          "value": "relative",
+          "index": 11
+        },
+        {
+          "type": "decl",
+          "prop": "position",
+          "value": "absolute",
+          "index": 20
+        },
+        {
+          "type": "decl",
+          "prop": "position",
+          "value": "absolute",
+          "index": 31
+        }
+      ],
+      "visibility": [
+        {
+          "type": "decl",
+          "prop": "visibility",
+          "value": "hidden",
+          "index": 17
+        }
+      ],
+      "textAlign": [
+        {
+          "type": "decl",
+          "prop": "text-align",
+          "value": "left",
+          "index": 18
+        },
+        {
+          "type": "decl",
+          "prop": "text-align",
+          "value": "center",
+          "index": 59
+        }
+      ],
+      "top": [
+        {
+          "type": "decl",
+          "prop": "top",
+          "value": "0",
+          "index": 21
+        }
+      ],
+      "left": [
+        {
+          "type": "decl",
+          "prop": "left",
+          "value": "0",
+          "index": 22
+        }
+      ],
+      "right": [
+        {
+          "type": "decl",
+          "prop": "right",
+          "value": "0",
+          "index": 23
+        }
+      ],
+      "bottom": [
+        {
+          "type": "decl",
+          "prop": "bottom",
+          "value": "0",
+          "index": 24
+        }
+      ],
+      "overflow": [
+        {
+          "type": "decl",
+          "prop": "overflow",
+          "value": "hidden",
+          "index": 25
+        }
+      ],
+      "webkitBackfaceVisibility": [
+        {
+          "type": "decl",
+          "prop": "-webkit-backface-visibility",
+          "value": "hidden",
+          "index": 28
+        }
+      ],
+      "webkitTransform": [
+        {
+          "type": "decl",
+          "prop": "-webkit-transform",
+          "value": "translateZ(0)",
+          "index": 30
+        },
+        {
+          "type": "decl",
+          "prop": "-webkit-transform",
+          "value": "translateY(-100%)",
+          "index": 37
+        },
+        {
+          "type": "decl",
+          "prop": "-webkit-transform",
+          "value": "translateY(-100%)",
+          "index": 42
+        },
+        {
+          "type": "decl",
+          "prop": "-webkit-transform",
+          "value": "translateY(0)",
+          "index": 52
+        }
+      ],
+      "webkitTransition": [
+        {
+          "type": "decl",
+          "prop": "-webkit-transition",
+          "value": "-webkit-transform 2s",
+          "index": 32
+        },
+        {
+          "type": "decl",
+          "prop": "-webkit-transition",
+          "value": "-webkit-transform 2s",
+          "index": 47
+        }
+      ],
+      "mozTransition": [
+        {
+          "type": "decl",
+          "prop": "-moz-transition",
+          "value": "-moz-transform 2s",
+          "index": 33
+        },
+        {
+          "type": "decl",
+          "prop": "-moz-transition",
+          "value": "-moz-transform 2s",
+          "index": 48
+        }
+      ],
+      "msTransition": [
+        {
+          "type": "decl",
+          "prop": "-ms-transition",
+          "value": "-ms-transform 2s",
+          "index": 34
+        },
+        {
+          "type": "decl",
+          "prop": "-ms-transition",
+          "value": "-ms-transform 2s",
+          "index": 49
+        }
+      ],
+      "oTransition": [
+        {
+          "type": "decl",
+          "prop": "-o-transition",
+          "value": "-o-transform 2s",
+          "index": 35
+        },
+        {
+          "type": "decl",
+          "prop": "-o-transition",
+          "value": "-o-transform 2s",
+          "index": 50
+        }
+      ],
+      "transition": [
+        {
+          "type": "decl",
+          "prop": "transition",
+          "value": "transform 2s",
+          "index": 36
+        },
+        {
+          "type": "decl",
+          "prop": "transition",
+          "value": "transform 2s",
+          "index": 51
+        }
+      ],
+      "mozTransform": [
+        {
+          "type": "decl",
+          "prop": "-moz-transform",
+          "value": "translateY(-100%)",
+          "index": 38
+        },
+        {
+          "type": "decl",
+          "prop": "-moz-transform",
+          "value": "translateY(-100%)",
+          "index": 43
+        },
+        {
+          "type": "decl",
+          "prop": "-moz-transform",
+          "value": "translateY(0)",
+          "index": 53
+        }
+      ],
+      "msTransform": [
+        {
+          "type": "decl",
+          "prop": "-ms-transform",
+          "value": "translateY(-100%)",
+          "index": 39
+        },
+        {
+          "type": "decl",
+          "prop": "-ms-transform",
+          "value": "translateY(-100%)",
+          "index": 44
+        },
+        {
+          "type": "decl",
+          "prop": "-ms-transform",
+          "value": "translateY(0)",
+          "index": 54
+        }
+      ],
+      "oTransform": [
+        {
+          "type": "decl",
+          "prop": "-o-transform",
+          "value": "translateY(-100%)",
+          "index": 40
+        },
+        {
+          "type": "decl",
+          "prop": "-o-transform",
+          "value": "translateY(-100%)",
+          "index": 45
+        },
+        {
+          "type": "decl",
+          "prop": "-o-transform",
+          "value": "translateY(0)",
+          "index": 55
+        }
+      ],
+      "transform": [
+        {
+          "type": "decl",
+          "prop": "transform",
+          "value": "translateY(-100%)",
+          "index": 41
+        },
+        {
+          "type": "decl",
+          "prop": "transform",
+          "value": "translateY(-100%)",
+          "index": 46
+        },
+        {
+          "type": "decl",
+          "prop": "transform",
+          "value": "translateY(0)",
+          "index": 56
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "decl",
+          "prop": "font-family",
+          "value": "\"Helvetica Neue\", sans-serif",
+          "index": 57
+        }
+      ],
+      "lineHeight": [
+        {
+          "type": "decl",
+          "prop": "line-height",
+          "value": "1.1em",
+          "index": 58
+        }
+      ]
+    },
+    "unique": {
+      "display": [
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "inline-block",
+          "index": 0
+        },
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "inline",
+          "index": 4
+        },
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "block",
+          "index": 19
+        }
+      ],
+      "verticalAlign": [
+        {
+          "type": "decl",
+          "prop": "vertical-align",
+          "value": "middle",
+          "index": 1
+        },
+        {
+          "type": "decl",
+          "prop": "vertical-align",
+          "value": "auto",
+          "index": 2
+        }
+      ],
+      "zoom": [
+        {
+          "type": "decl",
+          "prop": "zoom",
+          "value": "1",
+          "index": 3
+        }
+      ],
+      "position": [
+        {
+          "type": "decl",
+          "prop": "position",
+          "value": "relative",
+          "index": 5
+        },
+        {
+          "type": "decl",
+          "prop": "position",
+          "value": "absolute",
+          "index": 20
+        }
+      ],
+      "visibility": [
+        {
+          "type": "decl",
+          "prop": "visibility",
+          "value": "hidden",
+          "index": 17
+        }
+      ],
+      "textAlign": [
+        {
+          "type": "decl",
+          "prop": "text-align",
+          "value": "left",
+          "index": 18
+        },
+        {
+          "type": "decl",
+          "prop": "text-align",
+          "value": "center",
+          "index": 59
+        }
+      ],
+      "top": [
+        {
+          "type": "decl",
+          "prop": "top",
+          "value": "0",
+          "index": 21
+        }
+      ],
+      "left": [
+        {
+          "type": "decl",
+          "prop": "left",
+          "value": "0",
+          "index": 22
+        }
+      ],
+      "right": [
+        {
+          "type": "decl",
+          "prop": "right",
+          "value": "0",
+          "index": 23
+        }
+      ],
+      "bottom": [
+        {
+          "type": "decl",
+          "prop": "bottom",
+          "value": "0",
+          "index": 24
+        }
+      ],
+      "overflow": [
+        {
+          "type": "decl",
+          "prop": "overflow",
+          "value": "hidden",
+          "index": 25
+        }
+      ],
+      "webkitBackfaceVisibility": [
+        {
+          "type": "decl",
+          "prop": "-webkit-backface-visibility",
+          "value": "hidden",
+          "index": 28
+        }
+      ],
+      "webkitTransform": [
+        {
+          "type": "decl",
+          "prop": "-webkit-transform",
+          "value": "translateZ(0)",
+          "index": 30
+        },
+        {
+          "type": "decl",
+          "prop": "-webkit-transform",
+          "value": "translateY(-100%)",
+          "index": 37
+        },
+        {
+          "type": "decl",
+          "prop": "-webkit-transform",
+          "value": "translateY(0)",
+          "index": 52
+        }
+      ],
+      "webkitTransition": [
+        {
+          "type": "decl",
+          "prop": "-webkit-transition",
+          "value": "-webkit-transform 2s",
+          "index": 32
+        }
+      ],
+      "mozTransition": [
+        {
+          "type": "decl",
+          "prop": "-moz-transition",
+          "value": "-moz-transform 2s",
+          "index": 33
+        }
+      ],
+      "msTransition": [
+        {
+          "type": "decl",
+          "prop": "-ms-transition",
+          "value": "-ms-transform 2s",
+          "index": 34
+        }
+      ],
+      "oTransition": [
+        {
+          "type": "decl",
+          "prop": "-o-transition",
+          "value": "-o-transform 2s",
+          "index": 35
+        }
+      ],
+      "transition": [
+        {
+          "type": "decl",
+          "prop": "transition",
+          "value": "transform 2s",
+          "index": 36
+        }
+      ],
+      "mozTransform": [
+        {
+          "type": "decl",
+          "prop": "-moz-transform",
+          "value": "translateY(-100%)",
+          "index": 38
+        },
+        {
+          "type": "decl",
+          "prop": "-moz-transform",
+          "value": "translateY(0)",
+          "index": 53
+        }
+      ],
+      "msTransform": [
+        {
+          "type": "decl",
+          "prop": "-ms-transform",
+          "value": "translateY(-100%)",
+          "index": 39
+        },
+        {
+          "type": "decl",
+          "prop": "-ms-transform",
+          "value": "translateY(0)",
+          "index": 54
+        }
+      ],
+      "oTransform": [
+        {
+          "type": "decl",
+          "prop": "-o-transform",
+          "value": "translateY(-100%)",
+          "index": 40
+        },
+        {
+          "type": "decl",
+          "prop": "-o-transform",
+          "value": "translateY(0)",
+          "index": 55
+        }
+      ],
+      "transform": [
+        {
+          "type": "decl",
+          "prop": "transform",
+          "value": "translateY(-100%)",
+          "index": 41
+        },
+        {
+          "type": "decl",
+          "prop": "transform",
+          "value": "translateY(0)",
+          "index": 56
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "decl",
+          "prop": "font-family",
+          "value": "\"Helvetica Neue\", sans-serif",
+          "index": 57
+        }
+      ],
+      "lineHeight": [
+        {
+          "type": "decl",
+          "prop": "line-height",
+          "value": "1.1em",
+          "index": 58
+        }
+      ]
+    },
+    "byMedia": {}
+  },
+  "rules": [
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "inline-block",
+          "index": 0
+        },
+        {
+          "type": "decl",
+          "prop": "vertical-align",
+          "value": "middle",
+          "index": 1
+        },
+        {
+          "type": "decl",
+          "prop": "vertical-align",
+          "value": "auto",
+          "index": 2
+        },
+        {
+          "type": "decl",
+          "prop": "zoom",
+          "value": "1",
+          "index": 3
+        },
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "inline",
+          "index": 4
+        },
+        {
+          "type": "decl",
+          "prop": "position",
+          "value": "relative",
+          "index": 5
+        }
+      ],
+      "declarations": [
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "inline-block",
+          "index": 0
+        },
+        {
+          "type": "decl",
+          "prop": "vertical-align",
+          "value": "middle",
+          "index": 1
+        },
+        {
+          "type": "decl",
+          "prop": "vertical-align",
+          "value": "auto",
+          "index": 2
+        },
+        {
+          "type": "decl",
+          "prop": "zoom",
+          "value": "1",
+          "index": 3
+        },
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "inline",
+          "index": 4
+        },
+        {
+          "type": "decl",
+          "prop": "position",
+          "value": "relative",
+          "index": 5
+        }
+      ],
+      "selector": ".odometer.odometer-auto-theme, .odometer.odometer-theme-default"
+    },
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "inline-block",
+          "index": 6
+        },
+        {
+          "type": "decl",
+          "prop": "vertical-align",
+          "value": "middle",
+          "index": 7
+        },
+        {
+          "type": "decl",
+          "prop": "vertical-align",
+          "value": "auto",
+          "index": 8
+        },
+        {
+          "type": "decl",
+          "prop": "zoom",
+          "value": "1",
+          "index": 9
+        },
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "inline",
+          "index": 10
+        },
+        {
+          "type": "decl",
+          "prop": "position",
+          "value": "relative",
+          "index": 11
+        }
+      ],
+      "declarations": [
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "inline-block",
+          "index": 6
+        },
+        {
+          "type": "decl",
+          "prop": "vertical-align",
+          "value": "middle",
+          "index": 7
+        },
+        {
+          "type": "decl",
+          "prop": "vertical-align",
+          "value": "auto",
+          "index": 8
+        },
+        {
+          "type": "decl",
+          "prop": "zoom",
+          "value": "1",
+          "index": 9
+        },
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "inline",
+          "index": 10
+        },
+        {
+          "type": "decl",
+          "prop": "position",
+          "value": "relative",
+          "index": 11
+        }
+      ],
+      "selector": ".odometer.odometer-auto-theme .odometer-digit, .odometer.odometer-theme-default .odometer-digit"
+    },
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "inline-block",
+          "index": 12
+        },
+        {
+          "type": "decl",
+          "prop": "vertical-align",
+          "value": "middle",
+          "index": 13
+        },
+        {
+          "type": "decl",
+          "prop": "vertical-align",
+          "value": "auto",
+          "index": 14
+        },
+        {
+          "type": "decl",
+          "prop": "zoom",
+          "value": "1",
+          "index": 15
+        },
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "inline",
+          "index": 16
+        },
+        {
+          "type": "decl",
+          "prop": "visibility",
+          "value": "hidden",
+          "index": 17
+        }
+      ],
+      "declarations": [
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "inline-block",
+          "index": 12
+        },
+        {
+          "type": "decl",
+          "prop": "vertical-align",
+          "value": "middle",
+          "index": 13
+        },
+        {
+          "type": "decl",
+          "prop": "vertical-align",
+          "value": "auto",
+          "index": 14
+        },
+        {
+          "type": "decl",
+          "prop": "zoom",
+          "value": "1",
+          "index": 15
+        },
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "inline",
+          "index": 16
+        },
+        {
+          "type": "decl",
+          "prop": "visibility",
+          "value": "hidden",
+          "index": 17
+        }
+      ],
+      "selector": ".odometer.odometer-auto-theme .odometer-digit .odometer-digit-spacer, .odometer.odometer-theme-default .odometer-digit .odometer-digit-spacer"
+    },
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "text-align",
+          "value": "left",
+          "index": 18
+        },
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "block",
+          "index": 19
+        },
+        {
+          "type": "decl",
+          "prop": "position",
+          "value": "absolute",
+          "index": 20
+        },
+        {
+          "type": "decl",
+          "prop": "top",
+          "value": "0",
+          "index": 21
+        },
+        {
+          "type": "decl",
+          "prop": "left",
+          "value": "0",
+          "index": 22
+        },
+        {
+          "type": "decl",
+          "prop": "right",
+          "value": "0",
+          "index": 23
+        },
+        {
+          "type": "decl",
+          "prop": "bottom",
+          "value": "0",
+          "index": 24
+        },
+        {
+          "type": "decl",
+          "prop": "overflow",
+          "value": "hidden",
+          "index": 25
+        }
+      ],
+      "declarations": [
+        {
+          "type": "decl",
+          "prop": "text-align",
+          "value": "left",
+          "index": 18
+        },
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "block",
+          "index": 19
+        },
+        {
+          "type": "decl",
+          "prop": "position",
+          "value": "absolute",
+          "index": 20
+        },
+        {
+          "type": "decl",
+          "prop": "top",
+          "value": "0",
+          "index": 21
+        },
+        {
+          "type": "decl",
+          "prop": "left",
+          "value": "0",
+          "index": 22
+        },
+        {
+          "type": "decl",
+          "prop": "right",
+          "value": "0",
+          "index": 23
+        },
+        {
+          "type": "decl",
+          "prop": "bottom",
+          "value": "0",
+          "index": 24
+        },
+        {
+          "type": "decl",
+          "prop": "overflow",
+          "value": "hidden",
+          "index": 25
+        }
+      ],
+      "selector": ".odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner, .odometer.odometer-theme-default .odometer-digit .odometer-digit-inner"
+    },
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "block",
+          "index": 26
+        }
+      ],
+      "declarations": [
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "block",
+          "index": 26
+        }
+      ],
+      "selector": ".odometer.odometer-auto-theme .odometer-digit .odometer-ribbon, .odometer.odometer-theme-default .odometer-digit .odometer-ribbon"
+    },
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "block",
+          "index": 27
+        },
+        {
+          "type": "decl",
+          "prop": "-webkit-backface-visibility",
+          "value": "hidden",
+          "index": 28
+        }
+      ],
+      "declarations": [
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "block",
+          "index": 27
+        },
+        {
+          "type": "decl",
+          "prop": "-webkit-backface-visibility",
+          "value": "hidden",
+          "index": 28
+        }
+      ],
+      "selector": ".odometer.odometer-auto-theme .odometer-digit .odometer-ribbon-inner, .odometer.odometer-theme-default .odometer-digit .odometer-ribbon-inner"
+    },
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "block",
+          "index": 29
+        },
+        {
+          "type": "decl",
+          "prop": "-webkit-transform",
+          "value": "translateZ(0)",
+          "index": 30
+        }
+      ],
+      "declarations": [
+        {
+          "type": "decl",
+          "prop": "display",
+          "value": "block",
+          "index": 29
+        },
+        {
+          "type": "decl",
+          "prop": "-webkit-transform",
+          "value": "translateZ(0)",
+          "index": 30
+        }
+      ],
+      "selector": ".odometer.odometer-auto-theme .odometer-digit .odometer-value, .odometer.odometer-theme-default .odometer-digit .odometer-value"
+    },
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "position",
+          "value": "absolute",
+          "index": 31
+        }
+      ],
+      "declarations": [
+        {
+          "type": "decl",
+          "prop": "position",
+          "value": "absolute",
+          "index": 31
+        }
+      ],
+      "selector": ".odometer.odometer-auto-theme .odometer-digit .odometer-value.odometer-last-value, .odometer.odometer-theme-default .odometer-digit .odometer-value.odometer-last-value"
+    },
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "-webkit-transition",
+          "value": "-webkit-transform 2s",
+          "index": 32
+        },
+        {
+          "type": "decl",
+          "prop": "-moz-transition",
+          "value": "-moz-transform 2s",
+          "index": 33
+        },
+        {
+          "type": "decl",
+          "prop": "-ms-transition",
+          "value": "-ms-transform 2s",
+          "index": 34
+        },
+        {
+          "type": "decl",
+          "prop": "-o-transition",
+          "value": "-o-transform 2s",
+          "index": 35
+        },
+        {
+          "type": "decl",
+          "prop": "transition",
+          "value": "transform 2s",
+          "index": 36
+        }
+      ],
+      "declarations": [
+        {
+          "type": "decl",
+          "prop": "-webkit-transition",
+          "value": "-webkit-transform 2s",
+          "index": 32
+        },
+        {
+          "type": "decl",
+          "prop": "-moz-transition",
+          "value": "-moz-transform 2s",
+          "index": 33
+        },
+        {
+          "type": "decl",
+          "prop": "-ms-transition",
+          "value": "-ms-transform 2s",
+          "index": 34
+        },
+        {
+          "type": "decl",
+          "prop": "-o-transition",
+          "value": "-o-transform 2s",
+          "index": 35
+        },
+        {
+          "type": "decl",
+          "prop": "transition",
+          "value": "transform 2s",
+          "index": 36
+        }
+      ],
+      "selector": ".odometer.odometer-auto-theme.odometer-animating-up .odometer-ribbon-inner, .odometer.odometer-theme-default.odometer-animating-up .odometer-ribbon-inner"
+    },
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "-webkit-transform",
+          "value": "translateY(-100%)",
+          "index": 37
+        },
+        {
+          "type": "decl",
+          "prop": "-moz-transform",
+          "value": "translateY(-100%)",
+          "index": 38
+        },
+        {
+          "type": "decl",
+          "prop": "-ms-transform",
+          "value": "translateY(-100%)",
+          "index": 39
+        },
+        {
+          "type": "decl",
+          "prop": "-o-transform",
+          "value": "translateY(-100%)",
+          "index": 40
+        },
+        {
+          "type": "decl",
+          "prop": "transform",
+          "value": "translateY(-100%)",
+          "index": 41
+        }
+      ],
+      "declarations": [
+        {
+          "type": "decl",
+          "prop": "-webkit-transform",
+          "value": "translateY(-100%)",
+          "index": 37
+        },
+        {
+          "type": "decl",
+          "prop": "-moz-transform",
+          "value": "translateY(-100%)",
+          "index": 38
+        },
+        {
+          "type": "decl",
+          "prop": "-ms-transform",
+          "value": "translateY(-100%)",
+          "index": 39
+        },
+        {
+          "type": "decl",
+          "prop": "-o-transform",
+          "value": "translateY(-100%)",
+          "index": 40
+        },
+        {
+          "type": "decl",
+          "prop": "transform",
+          "value": "translateY(-100%)",
+          "index": 41
+        }
+      ],
+      "selector": ".odometer.odometer-auto-theme.odometer-animating-up.odometer-animating .odometer-ribbon-inner, .odometer.odometer-theme-default.odometer-animating-up.odometer-animating .odometer-ribbon-inner"
+    },
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "-webkit-transform",
+          "value": "translateY(-100%)",
+          "index": 42
+        },
+        {
+          "type": "decl",
+          "prop": "-moz-transform",
+          "value": "translateY(-100%)",
+          "index": 43
+        },
+        {
+          "type": "decl",
+          "prop": "-ms-transform",
+          "value": "translateY(-100%)",
+          "index": 44
+        },
+        {
+          "type": "decl",
+          "prop": "-o-transform",
+          "value": "translateY(-100%)",
+          "index": 45
+        },
+        {
+          "type": "decl",
+          "prop": "transform",
+          "value": "translateY(-100%)",
+          "index": 46
+        }
+      ],
+      "declarations": [
+        {
+          "type": "decl",
+          "prop": "-webkit-transform",
+          "value": "translateY(-100%)",
+          "index": 42
+        },
+        {
+          "type": "decl",
+          "prop": "-moz-transform",
+          "value": "translateY(-100%)",
+          "index": 43
+        },
+        {
+          "type": "decl",
+          "prop": "-ms-transform",
+          "value": "translateY(-100%)",
+          "index": 44
+        },
+        {
+          "type": "decl",
+          "prop": "-o-transform",
+          "value": "translateY(-100%)",
+          "index": 45
+        },
+        {
+          "type": "decl",
+          "prop": "transform",
+          "value": "translateY(-100%)",
+          "index": 46
+        }
+      ],
+      "selector": ".odometer.odometer-auto-theme.odometer-animating-down .odometer-ribbon-inner, .odometer.odometer-theme-default.odometer-animating-down .odometer-ribbon-inner"
+    },
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "-webkit-transition",
+          "value": "-webkit-transform 2s",
+          "index": 47
+        },
+        {
+          "type": "decl",
+          "prop": "-moz-transition",
+          "value": "-moz-transform 2s",
+          "index": 48
+        },
+        {
+          "type": "decl",
+          "prop": "-ms-transition",
+          "value": "-ms-transform 2s",
+          "index": 49
+        },
+        {
+          "type": "decl",
+          "prop": "-o-transition",
+          "value": "-o-transform 2s",
+          "index": 50
+        },
+        {
+          "type": "decl",
+          "prop": "transition",
+          "value": "transform 2s",
+          "index": 51
+        },
+        {
+          "type": "decl",
+          "prop": "-webkit-transform",
+          "value": "translateY(0)",
+          "index": 52
+        },
+        {
+          "type": "decl",
+          "prop": "-moz-transform",
+          "value": "translateY(0)",
+          "index": 53
+        },
+        {
+          "type": "decl",
+          "prop": "-ms-transform",
+          "value": "translateY(0)",
+          "index": 54
+        },
+        {
+          "type": "decl",
+          "prop": "-o-transform",
+          "value": "translateY(0)",
+          "index": 55
+        },
+        {
+          "type": "decl",
+          "prop": "transform",
+          "value": "translateY(0)",
+          "index": 56
+        }
+      ],
+      "declarations": [
+        {
+          "type": "decl",
+          "prop": "-webkit-transition",
+          "value": "-webkit-transform 2s",
+          "index": 47
+        },
+        {
+          "type": "decl",
+          "prop": "-moz-transition",
+          "value": "-moz-transform 2s",
+          "index": 48
+        },
+        {
+          "type": "decl",
+          "prop": "-ms-transition",
+          "value": "-ms-transform 2s",
+          "index": 49
+        },
+        {
+          "type": "decl",
+          "prop": "-o-transition",
+          "value": "-o-transform 2s",
+          "index": 50
+        },
+        {
+          "type": "decl",
+          "prop": "transition",
+          "value": "transform 2s",
+          "index": 51
+        },
+        {
+          "type": "decl",
+          "prop": "-webkit-transform",
+          "value": "translateY(0)",
+          "index": 52
+        },
+        {
+          "type": "decl",
+          "prop": "-moz-transform",
+          "value": "translateY(0)",
+          "index": 53
+        },
+        {
+          "type": "decl",
+          "prop": "-ms-transform",
+          "value": "translateY(0)",
+          "index": 54
+        },
+        {
+          "type": "decl",
+          "prop": "-o-transform",
+          "value": "translateY(0)",
+          "index": 55
+        },
+        {
+          "type": "decl",
+          "prop": "transform",
+          "value": "translateY(0)",
+          "index": 56
+        }
+      ],
+      "selector": ".odometer.odometer-auto-theme.odometer-animating-down.odometer-animating .odometer-ribbon-inner, .odometer.odometer-theme-default.odometer-animating-down.odometer-animating .odometer-ribbon-inner"
+    },
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "font-family",
+          "value": "\"Helvetica Neue\", sans-serif",
+          "index": 57
+        },
+        {
+          "type": "decl",
+          "prop": "line-height",
+          "value": "1.1em",
+          "index": 58
+        }
+      ],
+      "declarations": [
+        {
+          "type": "decl",
+          "prop": "font-family",
+          "value": "\"Helvetica Neue\", sans-serif",
+          "index": 57
+        },
+        {
+          "type": "decl",
+          "prop": "line-height",
+          "value": "1.1em",
+          "index": 58
+        }
+      ],
+      "selector": ".odometer.odometer-auto-theme, .odometer.odometer-theme-default"
+    },
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "text-align",
+          "value": "center",
+          "index": 59
+        }
+      ],
+      "declarations": [
+        {
+          "type": "decl",
+          "prop": "text-align",
+          "value": "center",
+          "index": 59
+        }
+      ],
+      "selector": ".odometer.odometer-auto-theme .odometer-value, .odometer.odometer-theme-default .odometer-value"
+    }
+  ],
+  "aggregates": {
+    "selectors": 28,
+    "declarations": 60,
+    "properties": [
+      "display",
+      "verticalAlign",
+      "zoom",
+      "position",
+      "visibility",
+      "textAlign",
+      "top",
+      "left",
+      "right",
+      "bottom",
+      "overflow",
+      "webkitBackfaceVisibility",
+      "webkitTransform",
+      "webkitTransition",
+      "mozTransition",
+      "msTransition",
+      "oTransition",
+      "transition",
+      "mozTransform",
+      "msTransform",
+      "oTransform",
+      "transform",
+      "fontFamily",
+      "lineHeight"
+    ],
+    "mediaQueries": [],
+    "display": {
+      "total": 10,
+      "unique": 3
+    },
+    "verticalAlign": {
+      "total": 6,
+      "unique": 2
+    },
+    "zoom": {
+      "total": 3,
+      "unique": 1
+    },
+    "position": {
+      "total": 4,
+      "unique": 2
+    },
+    "visibility": {
+      "total": 1,
+      "unique": 1
+    },
+    "textAlign": {
+      "total": 2,
+      "unique": 2
+    },
+    "top": {
+      "total": 1,
+      "unique": 1
+    },
+    "left": {
+      "total": 1,
+      "unique": 1
+    },
+    "right": {
+      "total": 1,
+      "unique": 1
+    },
+    "bottom": {
+      "total": 1,
+      "unique": 1
+    },
+    "overflow": {
+      "total": 1,
+      "unique": 1
+    },
+    "webkitBackfaceVisibility": {
+      "total": 1,
+      "unique": 1
+    },
+    "webkitTransform": {
+      "total": 4,
+      "unique": 3
+    },
+    "webkitTransition": {
+      "total": 2,
+      "unique": 1
+    },
+    "mozTransition": {
+      "total": 2,
+      "unique": 1
+    },
+    "msTransition": {
+      "total": 2,
+      "unique": 1
+    },
+    "oTransition": {
+      "total": 2,
+      "unique": 1
+    },
+    "transition": {
+      "total": 2,
+      "unique": 1
+    },
+    "mozTransform": {
+      "total": 3,
+      "unique": 2
+    },
+    "msTransform": {
+      "total": 3,
+      "unique": 2
+    },
+    "oTransform": {
+      "total": 3,
+      "unique": 2
+    },
+    "transform": {
+      "total": 3,
+      "unique": 2
+    },
+    "fontFamily": {
+      "total": 1,
+      "unique": 1
+    },
+    "lineHeight": {
+      "total": 1,
+      "unique": 1
+    }
+  }
+}

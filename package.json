@@ -25,7 +25,9 @@
     "url": "https://github.com/jxnblk/css-statistics/issues"
   },
   "homepage": "https://github.com/jxnblk/css-statistics",
-  "devDependencies": {},
+  "devDependencies": {
+    "get-css": "0.0.2"
+  },
   "scripts": {
     "test": "node test"
   }

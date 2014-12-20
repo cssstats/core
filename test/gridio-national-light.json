@@ -1,0 +1,18 @@
+{
+  "size": 112018,
+  "gzipSize": 84766,
+  "selectors": [],
+  "declarations": {
+    "all": [],
+    "byProperty": {},
+    "unique": {},
+    "byMedia": {}
+  },
+  "rules": [],
+  "aggregates": {
+    "selectors": 0,
+    "declarations": 0,
+    "properties": [],
+    "mediaQueries": []
+  }
+}
