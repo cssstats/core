@@ -2,7 +2,7 @@
 //var css = require('css');
 var postcss = require('postcss');
 var declarations = require('./lib/declarations');
-//var selectors = require('./lib/selectors');
+var selectors = require('./lib/selectors');
 //var aggregates = require('./lib/aggregates');
 //var rules = require('./lib/rules');
 var size = require('./lib/size');
@@ -18,7 +18,7 @@ module.exports = function(string, options) {
 
   result.size = size(string);
 
-  //result.selectors = selectors(ast);
+  result.selectors = selectors(obj);
   result.declarations = declarations(obj);
   //result.rules = rules(ast);
   //result.aggregates = aggregates(result);

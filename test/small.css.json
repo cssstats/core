@@ -1,0 +1,57 @@
+{
+  "size": 83,
+  "selectors": [
+    {
+      "selector": ".red",
+      "specificity": "0,0,1,0",
+      "parts": [
+        {
+          "selector": ".red",
+          "type": "b",
+          "index": 0,
+          "length": 4
+        }
+      ],
+      "specificity_10": 10
+    },
+    {
+      "selector": ".sm-tomato",
+      "specificity": "0,0,1,0",
+      "parts": [
+        {
+          "selector": ".sm-tomato",
+          "type": "b",
+          "index": 0,
+          "length": 10
+        }
+      ],
+      "specificity_10": 10
+    }
+  ],
+  "declarations": {
+    "all": [
+      {
+        "type": "decl",
+        "prop": "color",
+        "value": "red"
+      },
+      {
+        "type": "decl",
+        "prop": "color",
+        "value": "tomato"
+      }
+    ],
+    "byProperty": {
+      "color": [
+        0,
+        1
+      ]
+    },
+    "unique": {
+      "color": [
+        0,
+        1
+      ]
+    }
+  }
+}
