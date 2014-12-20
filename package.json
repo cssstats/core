@@ -1,14 +1,15 @@
 {
-  "name": "css-statistics",
+  "name": "cssstats",
   "version": "0.1.0",
-  "description": "High-level statistics for stylesheets",
+  "description": "High-level stats for stylesheets",
   "main": "index.js",
   "author": "Brent Jackson",
   "license": "MIT",
   "dependencies": {
     "commander": "^2.5.0",
     "specificity": "^0.1.4",
-    "postcss": "^3.0.7"
+    "postcss": "^3.0.7",
+    "gzip-size": "^1.0.0"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,8 @@
   "keywords": [
     "CSS",
     "Performance",
-    "Stats"
+    "Stats",
+    "cssstats"
   ],
   "bugs": {
     "url": "https://github.com/jxnblk/css-statistics/issues"

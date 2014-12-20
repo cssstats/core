@@ -1,5 +1,6 @@
 
 var postcss = require('postcss');
+var gzipSize = require('gzip-size');
 var declarations = require('./lib/declarations');
 var selectors = require('./lib/selectors');
 var aggregates = require('./lib/aggregates');
@@ -16,6 +17,7 @@ module.exports = function(string, options) {
   if (!obj) return false;
 
   result.size = size(string);
+  result.gzipSize = gzipSize.sync(string);
 
   result.selectors = selectors(obj);
   result.declarations = declarations(obj);
