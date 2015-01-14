@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 var program = require('commander');
+var normUrl = require('normalize-url');
 var getCss = require('get-css');
 var cssstats = require('..');
 var fs = require('fs');
@@ -39,7 +40,7 @@ program
     }
 
     try {
-      getCss(url).then(function(css) {
+      getCss(normUrl(url)).then(function(css) {
         console.log(JSON.stringify(cssstats(css.css), null, 2));
       });
     } catch (e) {
@@ -51,5 +52,5 @@ program.parse(process.argv);
 
 function handleError(error, cssLocation) {
   console.log('CSS Statistics encountered an error reading ' + cssLocation);
-  console.log(e);
+  console.log(error);
 }
