@@ -1,0 +1,56 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+var normUrl = require('normalize-url');
+var getCss = require('get-css');
+var cssstats = require('..');
+var fs = require('fs');
+
+var version = '0.0.1'
+
+console.log('CSS Statistics CLI (' + version + ')');
+
+program
+  .version(version);
+
+program
+  .command('file [file]')
+  .description('read a local css file')
+  .action(function(file) {
+    if (!file) {
+      console.log('Please specify a CSS file');
+      return;
+    }
+
+    try {
+      var css = fs.readFileSync(file, 'utf8');
+      console.log(JSON.stringify(cssstats(css), null, 2));
+    } catch (e) {
+      handleError(e, file);
+    }
+  });
+
+program
+  .command('url [url]')
+  .description('read a css from a url')
+  .action(function(url) {
+    if (!url) {
+      console.log('Please specify a url');
+      return;
+    }
+
+    try {
+      getCss(normUrl(url)).then(function(css) {
+        console.log(JSON.stringify(cssstats(css.css), null, 2));
+      });
+    } catch (e) {
+      handleError(e, url)
+    }
+  });
+
+program.parse(process.argv);
+
+function handleError(error, cssLocation) {
+  console.log('CSS Statistics encountered an error reading ' + cssLocation);
+  console.log(error);
+}
