@@ -63,3 +63,20 @@ For every unique property found in the stylesheet, `aggregates` also includes th
 
 See the `/test` folder for example JSON results.
 
+### Using the CLI
+
+```
+npm i -g cssstats
+```
+
+With a file:
+
+```bash
+cssstats file ./path/to/file.css
+```
+
+With a url:
+
+```
+cssstats url http://basscss.com
+```
