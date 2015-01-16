@@ -1,4 +1,8 @@
 {
+  "averages": {
+    "specificity": 5.5,
+    "ruleSize": 1
+  },
   "size": 167,
   "gzipSize": 137,
   "selectors": [
@@ -53,6 +57,88 @@
         }
       ],
       "specificity_10": 1
+    }
+  ],
+  "rules": [
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "color",
+          "value": "red",
+          "index": 0
+        }
+      ],
+      "declarations": [
+        {
+          "type": "decl",
+          "prop": "color",
+          "value": "red",
+          "index": 0
+        }
+      ],
+      "selector": ".red"
+    },
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "color",
+          "value": "tomato",
+          "index": 1
+        }
+      ],
+      "declarations": [
+        {
+          "type": "decl",
+          "prop": "color",
+          "value": "tomato",
+          "index": 1
+        }
+      ],
+      "selector": ".sm-tomato"
+    },
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "transform",
+          "value": "scale(.5)",
+          "index": 2
+        }
+      ],
+      "declarations": [
+        {
+          "type": "decl",
+          "prop": "transform",
+          "value": "scale(.5)",
+          "index": 2
+        }
+      ],
+      "selector": "0%"
+    },
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "transform",
+          "value": "scale(1)",
+          "index": 3
+        }
+      ],
+      "declarations": [
+        {
+          "type": "decl",
+          "prop": "transform",
+          "value": "scale(1)",
+          "index": 3
+        }
+      ],
+      "selector": "100%"
     }
   ],
   "declarations": {
@@ -153,88 +239,6 @@
       ]
     }
   },
-  "rules": [
-    {
-      "type": "rule",
-      "childs": [
-        {
-          "type": "decl",
-          "prop": "color",
-          "value": "red",
-          "index": 0
-        }
-      ],
-      "declarations": [
-        {
-          "type": "decl",
-          "prop": "color",
-          "value": "red",
-          "index": 0
-        }
-      ],
-      "selector": ".red"
-    },
-    {
-      "type": "rule",
-      "childs": [
-        {
-          "type": "decl",
-          "prop": "color",
-          "value": "tomato",
-          "index": 1
-        }
-      ],
-      "declarations": [
-        {
-          "type": "decl",
-          "prop": "color",
-          "value": "tomato",
-          "index": 1
-        }
-      ],
-      "selector": ".sm-tomato"
-    },
-    {
-      "type": "rule",
-      "childs": [
-        {
-          "type": "decl",
-          "prop": "transform",
-          "value": "scale(.5)",
-          "index": 2
-        }
-      ],
-      "declarations": [
-        {
-          "type": "decl",
-          "prop": "transform",
-          "value": "scale(.5)",
-          "index": 2
-        }
-      ],
-      "selector": "0%"
-    },
-    {
-      "type": "rule",
-      "childs": [
-        {
-          "type": "decl",
-          "prop": "transform",
-          "value": "scale(1)",
-          "index": 3
-        }
-      ],
-      "declarations": [
-        {
-          "type": "decl",
-          "prop": "transform",
-          "value": "scale(1)",
-          "index": 3
-        }
-      ],
-      "selector": "100%"
-    }
-  ],
   "aggregates": {
     "selectors": 4,
     "declarations": 4,

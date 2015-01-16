@@ -24,10 +24,12 @@ module.exports = function(string, options) {
   var selectorStats = selectors(obj);
   result.selectors = selectorStats.selectors;
   result.averages.specificity = selectorStats.averageSpecificity;
-  console.log(selectorStats);
+
+  var ruleStats = rules(obj);
+  result.rules = ruleStats.rules;
+  result.averages.ruleSize = ruleStats.averageRuleSize;
 
   result.declarations = declarations(obj);
-  result.rules = rules(obj);
   result.aggregates = aggregates(result);
 
   return result;

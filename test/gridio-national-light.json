@@ -1,14 +1,17 @@
 {
+  "averages": {
+    "ruleSize": 0
+  },
   "size": 112018,
   "gzipSize": 84766,
   "selectors": [],
+  "rules": [],
   "declarations": {
     "all": [],
     "byProperty": {},
     "unique": {},
     "byMedia": {}
   },
-  "rules": [],
   "aggregates": {
     "selectors": 0,
     "declarations": 0,
