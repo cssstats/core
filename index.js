@@ -17,15 +17,21 @@ module.exports = function(string, options) {
 
   if (!obj) return false;
 
+  result.averages = {};
   result.size = size(string);
   result.gzipSize = gzipSize.sync(string);
 
-  result.selectors = selectors(obj);
+  var selectorStats = selectors(obj);
+  result.selectors = selectorStats.selectors;
+  result.averages.specificity = selectorStats.averageSpecificity;
+
+  var ruleStats = rules(obj);
+  result.rules = ruleStats.rules;
+  result.averages.ruleSize = ruleStats.averageRuleSize;
+
   result.declarations = declarations(obj);
-  result.rules = rules(obj);
   result.aggregates = aggregates(result);
 
   return result;
 
 };
-
