@@ -26,9 +26,10 @@
   },
   "homepage": "https://github.com/jxnblk/css-statistics",
   "devDependencies": {
-    "get-css": "0.0.2"
+    "get-css": "0.0.2",
+    "mocha": "^2.1.0"
   },
   "scripts": {
-    "test": "node test"
+    "test": "mocha test"
   }
 }
