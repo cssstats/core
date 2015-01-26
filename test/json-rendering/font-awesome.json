@@ -31780,7 +31780,8 @@
         }
       ]
     },
-    "byMedia": {}
+    "byMedia": {},
+    "vendorPrefixCount": 17
   },
   "aggregates": {
     "selectors": 586,

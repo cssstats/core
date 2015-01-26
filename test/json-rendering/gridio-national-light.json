@@ -10,7 +10,8 @@
     "all": [],
     "byProperty": {},
     "unique": {},
-    "byMedia": {}
+    "byMedia": {},
+    "vendorPrefixCount": 0
   },
   "aggregates": {
     "selectors": 0,

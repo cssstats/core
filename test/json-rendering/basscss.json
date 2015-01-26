@@ -20858,7 +20858,8 @@
           "index": 300
         }
       ]
-    }
+    },
+    "vendorPrefixCount": 28
   },
   "aggregates": {
     "selectors": 347,
