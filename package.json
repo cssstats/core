@@ -6,10 +6,12 @@
   "author": "Brent Jackson",
   "license": "MIT",
   "dependencies": {
+    "camelcase": "^1.0.2",
     "commander": "^2.5.0",
-    "specificity": "^0.1.4",
+    "gzip-size": "^1.0.0",
+    "is-vendor-prefixed": "0.0.1",
     "postcss": "^3.0.7",
-    "gzip-size": "^1.0.0"
+    "specificity": "^0.1.4"
   },
   "repository": {
     "type": "git",
