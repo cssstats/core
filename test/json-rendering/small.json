@@ -1,6 +1,10 @@
 {
-  "size": 164,
-  "gzipSize": 135,
+  "averages": {
+    "specificity": 5.5,
+    "ruleSize": 1.25
+  },
+  "size": 192,
+  "gzipSize": 152,
   "selectors": [
     {
       "selector": ".red",
@@ -55,104 +59,6 @@
       "specificity_10": 1
     }
   ],
-  "declarations": {
-    "all": [
-      {
-        "type": "decl",
-        "prop": "color",
-        "value": "red",
-        "index": 0
-      },
-      {
-        "type": "decl",
-        "prop": "color",
-        "value": "tomato",
-        "index": 1
-      },
-      {
-        "type": "decl",
-        "prop": "transform",
-        "value": "scale(.5)",
-        "index": 2
-      },
-      {
-        "type": "decl",
-        "prop": "transform",
-        "value": "scale(1)",
-        "index": 3
-      }
-    ],
-    "byProperty": {
-      "color": [
-        {
-          "type": "decl",
-          "prop": "color",
-          "value": "red",
-          "index": 0
-        },
-        {
-          "type": "decl",
-          "prop": "color",
-          "value": "tomato",
-          "index": 1
-        }
-      ],
-      "transform": [
-        {
-          "type": "decl",
-          "prop": "transform",
-          "value": "scale(.5)",
-          "index": 2
-        },
-        {
-          "type": "decl",
-          "prop": "transform",
-          "value": "scale(1)",
-          "index": 3
-        }
-      ]
-    },
-    "unique": {
-      "color": [
-        {
-          "type": "decl",
-          "prop": "color",
-          "value": "red",
-          "index": 0
-        },
-        {
-          "type": "decl",
-          "prop": "color",
-          "value": "tomato",
-          "index": 1
-        }
-      ],
-      "transform": [
-        {
-          "type": "decl",
-          "prop": "transform",
-          "value": "scale(.5)",
-          "index": 2
-        },
-        {
-          "type": "decl",
-          "prop": "transform",
-          "value": "scale(1)",
-          "index": 3
-        }
-      ]
-    },
-    "byMedia": {
-      "(minWidth:30em)": [
-        {
-          "type": "decl",
-          "prop": "color",
-          "value": "tomato",
-          "index": 1
-        }
-      ]
-    }
-  },
   "rules": [
     {
       "type": "rule",
@@ -182,6 +88,12 @@
           "prop": "color",
           "value": "tomato",
           "index": 1
+        },
+        {
+          "type": "decl",
+          "prop": "background-color",
+          "value": "hotpink",
+          "index": 2
         }
       ],
       "declarations": [
@@ -190,6 +102,12 @@
           "prop": "color",
           "value": "tomato",
           "index": 1
+        },
+        {
+          "type": "decl",
+          "prop": "background-color",
+          "value": "hotpink",
+          "index": 2
         }
       ],
       "selector": ".sm-tomato"
@@ -201,7 +119,7 @@
           "type": "decl",
           "prop": "transform",
           "value": "scale(.5)",
-          "index": 2
+          "index": 3
         }
       ],
       "declarations": [
@@ -209,7 +127,7 @@
           "type": "decl",
           "prop": "transform",
           "value": "scale(.5)",
-          "index": 2
+          "index": 3
         }
       ],
       "selector": "0%"
@@ -221,7 +139,7 @@
           "type": "decl",
           "prop": "transform",
           "value": "scale(1)",
-          "index": 3
+          "index": 4
         }
       ],
       "declarations": [
@@ -229,17 +147,144 @@
           "type": "decl",
           "prop": "transform",
           "value": "scale(1)",
-          "index": 3
+          "index": 4
         }
       ],
       "selector": "100%"
     }
   ],
+  "declarations": {
+    "all": [
+      {
+        "type": "decl",
+        "prop": "color",
+        "value": "red",
+        "index": 0
+      },
+      {
+        "type": "decl",
+        "prop": "color",
+        "value": "tomato",
+        "index": 1
+      },
+      {
+        "type": "decl",
+        "prop": "background-color",
+        "value": "hotpink",
+        "index": 2
+      },
+      {
+        "type": "decl",
+        "prop": "transform",
+        "value": "scale(.5)",
+        "index": 3
+      },
+      {
+        "type": "decl",
+        "prop": "transform",
+        "value": "scale(1)",
+        "index": 4
+      }
+    ],
+    "byProperty": {
+      "color": [
+        {
+          "type": "decl",
+          "prop": "color",
+          "value": "red",
+          "index": 0
+        },
+        {
+          "type": "decl",
+          "prop": "color",
+          "value": "tomato",
+          "index": 1
+        }
+      ],
+      "backgroundColor": [
+        {
+          "type": "decl",
+          "prop": "background-color",
+          "value": "hotpink",
+          "index": 2
+        }
+      ],
+      "transform": [
+        {
+          "type": "decl",
+          "prop": "transform",
+          "value": "scale(.5)",
+          "index": 3
+        },
+        {
+          "type": "decl",
+          "prop": "transform",
+          "value": "scale(1)",
+          "index": 4
+        }
+      ]
+    },
+    "unique": {
+      "color": [
+        {
+          "type": "decl",
+          "prop": "color",
+          "value": "red",
+          "index": 0
+        },
+        {
+          "type": "decl",
+          "prop": "color",
+          "value": "tomato",
+          "index": 1
+        }
+      ],
+      "backgroundColor": [
+        {
+          "type": "decl",
+          "prop": "background-color",
+          "value": "hotpink",
+          "index": 2
+        }
+      ],
+      "transform": [
+        {
+          "type": "decl",
+          "prop": "transform",
+          "value": "scale(.5)",
+          "index": 3
+        },
+        {
+          "type": "decl",
+          "prop": "transform",
+          "value": "scale(1)",
+          "index": 4
+        }
+      ]
+    },
+    "byMedia": {
+      "(minWidth:30em)": [
+        {
+          "type": "decl",
+          "prop": "color",
+          "value": "tomato",
+          "index": 1
+        },
+        {
+          "type": "decl",
+          "prop": "background-color",
+          "value": "hotpink",
+          "index": 2
+        }
+      ]
+    }
+  },
   "aggregates": {
     "selectors": 4,
-    "declarations": 4,
+    "declarations": 5,
     "properties": [
       "color",
+      "backgroundColor",
       "transform"
     ],
     "mediaQueries": [
@@ -248,6 +293,10 @@
     "color": {
       "total": 2,
       "unique": 2
+    },
+    "backgroundColor": {
+      "total": 1,
+      "unique": 1
     },
     "transform": {
       "total": 2,

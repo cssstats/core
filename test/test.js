@@ -9,6 +9,26 @@ describe('css-statistics', function() {
       renderJson(stylesheet);
     });
   });
+
+  describe('averages', function() {
+    var stats;
+
+    before(function() {
+      stats = cssstats(fixture('small'));
+    });
+
+    it('should correctly count specificity stats', function() {
+      assert.equal(stats.averages.specificity, 5.5);
+    });
+
+    it('should correctly count rule size stats', function() {
+      assert.equal(stats.averages.ruleSize, 2.75);
+    });
+
+    it('should correclty count vendor prefixes', function() {
+      assert.equal(stats.declarations.vendorPrefixCount, 4);
+    })
+  });
 });
 
 function fixture(name) {
