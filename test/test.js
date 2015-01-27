@@ -7,16 +7,17 @@ describe('css-statistics', function() {
 
   before(function() {
     stats = cssstats(fixture('small'));
+    console.log(stats);
   });
 
   describe('base stats', function() {
 
     it('should calculate the correct file size', function() {
-      assert.equal(stats.size, 552);
+      assert.equal(stats.size, 573);
     });
 
     it('should calculate the correct gzipped file size', function() {
-      assert.equal(stats.gzipSize, 216);
+      assert.equal(stats.gzipSize, 232);
     });
   });
 
@@ -27,29 +28,41 @@ describe('css-statistics', function() {
     });
 
     it('should correctly count rule size stats', function() {
-      assert.equal(stats.averages.ruleSize, 2.75);
+      assert.equal(stats.averages.ruleSize, 3);
     });
   });
 
   describe('aggregates', function() {
 
     it('should correclty count declarations', function() {
-      assert.equal(stats.aggregates.declarations, 11);
+      assert.equal(stats.aggregates.declarations, 12);
     });
 
-    it('should correclty count selectors', function() {
+    it('should correctly count selectors', function() {
       assert.equal(stats.aggregates.selectors, 4);
+    });
+
+    it('should correctly count media queries', function() {
+      assert.equal(stats.aggregates.mediaQueries.length, 1);
+    });
+
+    it('should maintain the units from the media query', function() {
+      assert.equal(stats.aggregates.mediaQueries[0], '(minWidth:30.123em)');
     });
   });
 
   describe('declarations', function() {
 
-    it('should correclty count vendor prefixes', function() {
+    it('should correctly count vendor prefixes', function() {
       assert.equal(stats.declarations.vendorPrefixCount, 4);
     });
 
-    it('should correclty count important values', function() {
+    it('should correctly count important values', function() {
       assert.equal(stats.declarations.importantCount, 2);
+    });
+
+    it('should correctly maintains em units', function() {
+      assert.equal(stats.declarations.unique.width[0].value, '55.625em');
     });
   });
 
