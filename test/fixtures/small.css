@@ -1,4 +1,4 @@
-.red { color: red }
+.red { color: red !important }
 
 @media (min-width: 30em) {
   .sm-tomato { color: tomato; background-color: hotpink; }
@@ -10,7 +10,7 @@
 
     -webkit-transform: translateY(-20px) translate3d(0, 0, 0);
     -ms-transform: translateY(-20px) translate3d(0, 0, 0);
-    transform: translateY(-20px) translate3d(0, 0, 0);
+    transform: translateY(-20px) translate3d(0, 0, 0) !important;
   }
 
   100% {

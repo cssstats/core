@@ -3,8 +3,8 @@
     "specificity": 5.5,
     "ruleSize": 2.75
   },
-  "size": 530,
-  "gzipSize": 205,
+  "size": 552,
+  "gzipSize": 216,
   "selectors": [
     {
       "selector": ".red",
@@ -66,6 +66,7 @@
         {
           "type": "decl",
           "prop": "color",
+          "important": true,
           "value": "red",
           "index": 0
         }
@@ -74,6 +75,7 @@
         {
           "type": "decl",
           "prop": "color",
+          "important": true,
           "value": "red",
           "index": 0
         }
@@ -136,6 +138,7 @@
         {
           "type": "decl",
           "prop": "transform",
+          "important": true,
           "value": "translateY(-20px) translate3d(0, 0, 0)",
           "index": 6
         }
@@ -162,6 +165,7 @@
         {
           "type": "decl",
           "prop": "transform",
+          "important": true,
           "value": "translateY(-20px) translate3d(0, 0, 0)",
           "index": 6
         }
@@ -230,6 +234,7 @@
       {
         "type": "decl",
         "prop": "color",
+        "important": true,
         "value": "red",
         "index": 0
       },
@@ -266,6 +271,7 @@
       {
         "type": "decl",
         "prop": "transform",
+        "important": true,
         "value": "translateY(-20px) translate3d(0, 0, 0)",
         "index": 6
       },
@@ -299,6 +305,7 @@
         {
           "type": "decl",
           "prop": "color",
+          "important": true,
           "value": "red",
           "index": 0
         },
@@ -363,6 +370,7 @@
         {
           "type": "decl",
           "prop": "transform",
+          "important": true,
           "value": "translateY(-20px) translate3d(0, 0, 0)",
           "index": 6
         },
@@ -379,6 +387,7 @@
         {
           "type": "decl",
           "prop": "color",
+          "important": true,
           "value": "red",
           "index": 0
         },
@@ -443,6 +452,7 @@
         {
           "type": "decl",
           "prop": "transform",
+          "important": true,
           "value": "translateY(-20px) translate3d(0, 0, 0)",
           "index": 6
         },
@@ -470,6 +480,7 @@
         }
       ]
     },
+    "importantCount": 0,
     "vendorPrefixCount": 4
   },
   "aggregates": {

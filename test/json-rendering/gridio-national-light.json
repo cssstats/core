@@ -11,6 +11,7 @@
     "byProperty": {},
     "unique": {},
     "byMedia": {},
+    "importantCount": 0,
     "vendorPrefixCount": 0
   },
   "aggregates": {

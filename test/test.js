@@ -12,11 +12,11 @@ describe('css-statistics', function() {
   describe('base stats', function() {
 
     it('should calculate the correct file size', function() {
-      assert.equal(stats.size, 530);
+      assert.equal(stats.size, 552);
     });
 
     it('should calculate the correct gzipped file size', function() {
-      assert.equal(stats.gzipSize, 205);
+      assert.equal(stats.gzipSize, 216);
     });
   });
 
@@ -47,11 +47,15 @@ describe('css-statistics', function() {
     it('should correclty count vendor prefixes', function() {
       assert.equal(stats.declarations.vendorPrefixCount, 4);
     });
+
+    it('should correclty count important values', function() {
+      assert.equal(stats.declarations.importantCount, 2);
+    });
   });
 
   it('should be able to parse css and produce stats', function() {
     ['basscss', 'small', 'font-awesome', 'gridio', 'gridio-national-light'].forEach(function(stylesheet) {
-      renderJson(stylesheet);
+      // renderJson(stylesheet);
     });
   });
 });
