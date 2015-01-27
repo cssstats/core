@@ -1,14 +1,19 @@
 {
-  "size": 112018,
-  "gzipSize": 84766,
+  "averages": {
+    "ruleSize": 0
+  },
+  "size": 112017,
+  "gzipSize": 84764,
   "selectors": [],
+  "rules": [],
   "declarations": {
     "all": [],
     "byProperty": {},
     "unique": {},
-    "byMedia": {}
+    "byMedia": {},
+    "importantCount": 0,
+    "vendorPrefixCount": 0
   },
-  "rules": [],
   "aggregates": {
     "selectors": 0,
     "declarations": 0,
