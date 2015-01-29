@@ -87,6 +87,14 @@ describe('font shorthand property', function() {
   it('should be able to grab the font-family declaration', function() {
     assert.equal(stats.aggregates.fontFamily.total, 1);
   });
+
+  it('should be able to grab the font-weight declaration', function() {
+    assert.equal(stats.aggregates.fontWeight.total, 1);
+  });
+
+  it('should be able to grab the font-style declaration', function() {
+    assert.equal(stats.aggregates.fontStyle.total, 1);
+  });
 });
 
 function fixture(name) {

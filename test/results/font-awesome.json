@@ -25121,6 +25121,12 @@
           "prop": "font-size",
           "value": "2em",
           "index": 74
+        },
+        {
+          "type": "decl",
+          "prop": "font-size",
+          "value": 14,
+          "index": 1
         }
       ],
       "textRendering": [
@@ -28446,6 +28452,14 @@
           "value": "\"\\f20c\"",
           "index": 554
         }
+      ],
+      "fontFamily": [
+        {
+          "type": "decl",
+          "prop": "font-family",
+          "value": "FontAwesome",
+          "index": 1
+        }
       ]
     },
     "unique": {
@@ -28501,6 +28515,12 @@
           "prop": "font-size",
           "value": "5em",
           "index": 12
+        },
+        {
+          "type": "decl",
+          "prop": "font-size",
+          "value": 14,
+          "index": 1
         }
       ],
       "textRendering": [
@@ -31778,6 +31798,14 @@
           "value": "\"\\f20c\"",
           "index": 554
         }
+      ],
+      "fontFamily": [
+        {
+          "type": "decl",
+          "prop": "font-family",
+          "value": "FontAwesome",
+          "index": 1
+        }
       ]
     },
     "byMedia": {},
@@ -31817,7 +31845,8 @@
       "msTransform",
       "height",
       "color",
-      "content"
+      "content",
+      "fontFamily"
     ],
     "mediaQueries": [],
     "display": {
@@ -31829,8 +31858,8 @@
       "unique": 1
     },
     "fontSize": {
-      "total": 7,
-      "unique": 6
+      "total": 8,
+      "unique": 7
     },
     "textRendering": {
       "total": 1,
@@ -31939,6 +31968,10 @@
     "content": {
       "total": 479,
       "unique": 479
+    },
+    "fontFamily": {
+      "total": 1,
+      "unique": 1
     }
   }
 }
