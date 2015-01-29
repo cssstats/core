@@ -53,6 +53,19 @@ describe('css-statistics', function() {
     });
   });
 
+  describe('keyframes', function() {
+    var keyframeStats;
+
+    before(function() {
+      keyframeStats = cssstats(fixture('keyframes'));
+    });
+
+    it('should correctly get statistics for CSS in, and after, a keyframe', function() {
+      assert.equal(keyframeStats.aggregates.color.total, 5);
+      assert.equal(keyframeStats.aggregates.color.unique, 4);
+    });
+  });
+
   it('should be able to parse css and produce stats', function() {
     ['basscss', 'small', 'font-awesome', 'gridio', 'gridio-national-light'].forEach(function(stylesheet) {
       renderJson(stylesheet);
