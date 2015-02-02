@@ -73,6 +73,30 @@ describe('css-statistics', function() {
   });
 });
 
+describe('font shorthand property', function() {
+  var stats;
+
+  before(function() {
+    stats = cssstats(fixture('font-shorthand'));
+  });
+
+  it('should be able to grab the font-size declaration', function() {
+    assert.equal(stats.aggregates.fontSize.total, 2);
+  });
+
+  it('should be able to grab the font-family declaration', function() {
+    assert.equal(stats.aggregates.fontFamily.total, 1);
+  });
+
+  it('should be able to grab the font-weight declaration', function() {
+    assert.equal(stats.aggregates.fontWeight.total, 1);
+  });
+
+  it('should be able to grab the font-style declaration', function() {
+    assert.equal(stats.aggregates.fontStyle.total, 1);
+  });
+});
+
 function fixture(name) {
   return fs.readFileSync('test/fixtures/' + name + '.css', 'utf8').toString().trim();
 }
