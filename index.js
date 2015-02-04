@@ -32,6 +32,9 @@ module.exports = function(string, options) {
   result.declarations = declarations(obj);
   result.aggregates = aggregates(result);
 
+  result.aggregates.idSelectors = selectorStats.idSelectors;
+  result.aggregates.classSelectors = selectorStats.classSelectors;
+
   return result;
 
 };

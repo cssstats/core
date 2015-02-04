@@ -1,4 +1,4 @@
-.red { color: red !important }
+.red, #foo { color: red !important }
 
 @media (min-width: 30em) {
   .sm-tomato { color: tomato; background-color: hotpink; }

@@ -12,18 +12,18 @@ describe('css-statistics', function() {
   describe('base stats', function() {
 
     it('should calculate the correct file size', function() {
-      assert.equal(stats.size, 552);
+      assert.equal(stats.size, 558);
     });
 
     it('should calculate the correct gzipped file size', function() {
-      assert.equal(stats.gzipSize, 216);
+      assert.equal(stats.gzipSize, 224);
     });
   });
 
   describe('averages', function() {
 
     it('should correctly count specificity stats', function() {
-      assert.equal(stats.averages.specificity, 5.5);
+      assert.equal(stats.averages.specificity, 24.4);
     });
 
     it('should correctly count rule size stats', function() {
@@ -33,22 +33,30 @@ describe('css-statistics', function() {
 
   describe('aggregates', function() {
 
-    it('should correclty count declarations', function() {
+    it('should correctly count declarations', function() {
       assert.equal(stats.aggregates.declarations, 11);
     });
 
-    it('should correclty count selectors', function() {
-      assert.equal(stats.aggregates.selectors, 4);
+    it('should correctly count selectors', function() {
+      assert.equal(stats.aggregates.selectors, 5);
+    });
+
+    it('should correctly count the number of id selectors', function() {
+      assert.equal(stats.aggregates.idSelectors, 1);
+    });
+
+    it('should correctly count the number of class selectors', function() {
+      assert.equal(stats.aggregates.classSelectors, 2);
     });
   });
 
   describe('declarations', function() {
 
-    it('should correclty count vendor prefixes', function() {
+    it('should correctly count vendor prefixes', function() {
       assert.equal(stats.declarations.vendorPrefixCount, 4);
     });
 
-    it('should correclty count important values', function() {
+    it('should correctly count important values', function() {
       assert.equal(stats.declarations.importantCount, 2);
     });
   });

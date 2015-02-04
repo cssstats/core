@@ -1,5 +1,6 @@
 {
   "averages": {
+    "specificity": 0,
     "ruleSize": 0
   },
   "size": 112017,
@@ -18,6 +19,8 @@
     "selectors": 0,
     "declarations": 0,
     "properties": [],
-    "mediaQueries": []
+    "mediaQueries": [],
+    "idSelectors": 0,
+    "classSelectors": 0
   }
 }

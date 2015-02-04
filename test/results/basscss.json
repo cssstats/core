@@ -21271,6 +21271,8 @@
     "borderLeftColor": {
       "total": 1,
       "unique": 1
-    }
+    },
+    "idSelectors": 0,
+    "classSelectors": 279
   }
 }

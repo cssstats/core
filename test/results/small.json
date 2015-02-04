@@ -1,10 +1,10 @@
 {
   "averages": {
-    "specificity": 5.5,
+    "specificity": 24.4,
     "ruleSize": 2.75
   },
-  "size": 552,
-  "gzipSize": 216,
+  "size": 558,
+  "gzipSize": 224,
   "selectors": [
     {
       "selector": ".red",
@@ -18,6 +18,19 @@
         }
       ],
       "specificity_10": 10
+    },
+    {
+      "selector": "#foo",
+      "specificity": "0,1,0,0",
+      "parts": [
+        {
+          "selector": "#foo",
+          "type": "a",
+          "index": 0,
+          "length": 4
+        }
+      ],
+      "specificity_10": 100
     },
     {
       "selector": ".sm-tomato",
@@ -80,7 +93,7 @@
           "index": 0
         }
       ],
-      "selector": ".red"
+      "selector": ".red, #foo"
     },
     {
       "type": "rule",
@@ -484,7 +497,7 @@
     "vendorPrefixCount": 4
   },
   "aggregates": {
-    "selectors": 4,
+    "selectors": 5,
     "declarations": 11,
     "properties": [
       "color",
@@ -520,6 +533,8 @@
     "transform": {
       "total": 2,
       "unique": 2
-    }
+    },
+    "idSelectors": 1,
+    "classSelectors": 2
   }
 }

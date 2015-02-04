@@ -10,6 +10,8 @@
     "commander": "^2.5.0",
     "cssfontparser": "^1.1.0",
     "gzip-size": "^1.0.0",
+    "has-class-selector": "0.0.1",
+    "has-id-selector": "0.0.1",
     "is-vendor-prefixed": "0.0.1",
     "lodash": "^3.0.0",
     "postcss": "^3.0.7",
