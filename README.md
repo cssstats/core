@@ -55,11 +55,12 @@ Aggregate data for the entire stylesheet.
 - `declarations` - total number of declarations
 - `properties` - an array of properties used in the stylesheet
 - `mediaQueries` - an array of media query strings used in the stylesheet
+- `idSelectors` - total number of selectors containing an id
+- `classSelectors` - total number of selectors containing a class
 
 For every unique property found in the stylesheet, `aggregates` also includes these values:
 - `[property].total` - total number of [property] declarations
 - `[property].unique` - number of unique [property] declarations
 
 
-See the `/test` folder for example JSON results.
-
+See the `/test/results` folder for example JSON results.
