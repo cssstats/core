@@ -1,7 +1,7 @@
 .red { color: red !important }
 
-@media (min-width: 30em) {
-  .sm-tomato { color: tomato; background-color: hotpink; }
+@media (min-width: 30.123em) {
+  .sm-tomato { color: tomato; background-color: hotpink; width: 55.625em; }
 }
 
 @keyframes grow {
