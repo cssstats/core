@@ -45,6 +45,12 @@ An object with keys for each unique property/value found in the stylesheet.
 ##### `declarations.byMedia`
 An object with keys for each media query found in the stylesheet.
 
+##### `declarations.importantCount`
+The number of declarations with values that contain `!important`
+
+##### `declarations.vendorPrefixCount`
+The number of declaration properties that have vendor prefixes.
+
 #### `rules`
 Flattened array of rules from PostCSS.
 
@@ -55,11 +61,14 @@ Aggregate data for the entire stylesheet.
 - `declarations` - total number of declarations
 - `properties` - an array of properties used in the stylesheet
 - `mediaQueries` - an array of media query strings used in the stylesheet
+- `idSelectors` - total number of selectors containing an id
+- `classSelectors` - total number of selectors containing a class
+- `pseudoElementSelectors` - total number of selectors containing an pseudo element
+- `pseudoClassSelectors` - total number of selectors containing a pseudo class
 
 For every unique property found in the stylesheet, `aggregates` also includes these values:
 - `[property].total` - total number of [property] declarations
 - `[property].unique` - number of unique [property] declarations
 
 
-See the `/test` folder for example JSON results.
-
+See the `/test/results` folder for example JSON results.

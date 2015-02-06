@@ -31972,6 +31972,10 @@
     "fontFamily": {
       "total": 1,
       "unique": 1
-    }
+    },
+    "idSelectors": 0,
+    "classSelectors": 582,
+    "pseudoClassSelectors": 5,
+    "pseudoElementSelectors": 549
   }
 }
