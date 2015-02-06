@@ -34,6 +34,8 @@ module.exports = function(string, options) {
 
   result.aggregates.idSelectors = selectorStats.idSelectors;
   result.aggregates.classSelectors = selectorStats.classSelectors;
+  result.aggregates.pseudoClassSelectors = selectorStats.pseudoClassSelectors;
+  result.aggregates.pseudoElementSelectors = selectorStats.pseudoElementSelectors;
 
   return result;
 
