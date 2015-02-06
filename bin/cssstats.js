@@ -3,8 +3,9 @@
 var program = require('commander');
 var cssstats = require('..');
 var fs = require('fs');
+var stdin = require('stdin');
 
-var version = '0.0.1'
+var version = '1.3.1'
 
 console.log('CSS Statistics CLI (' + version + ')');
 
@@ -30,3 +31,13 @@ program
   });
 
 program.parse(process.argv);
+
+if (!program.args.length) {
+  console.log('Input some CSS\n^C to cancel\n^D when complete');
+
+  stdin(function(css) {
+    if (css) {
+      console.log(JSON.stringify(cssstats(css), null, 2));
+    }
+  });
+}
