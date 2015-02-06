@@ -21,6 +21,8 @@
     "properties": [],
     "mediaQueries": [],
     "idSelectors": 0,
-    "classSelectors": 0
+    "classSelectors": 0,
+    "pseudoClassSelectors": 0,
+    "pseudoElementSelectors": 0
   }
 }

@@ -1,8 +1,12 @@
 .red, #foo { color: red !important }
 
 @media (min-width: 30em) {
-  .sm-tomato { color: tomato; background-color: hotpink; }
+  .sm-tomato { color: tomato; background-color: hotpink; -ms-border-radius: 0 }
 }
+
+.sm-tomato::after { content: 'hello' }
+
+.sm-tomato:first-child:last-child { opacity: .8, border-bottom: none; }
 
 @keyframes grow {
   0% {

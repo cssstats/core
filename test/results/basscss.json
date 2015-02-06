@@ -21273,6 +21273,8 @@
       "unique": 1
     },
     "idSelectors": 0,
-    "classSelectors": 279
+    "classSelectors": 279,
+    "pseudoClassSelectors": 41,
+    "pseudoElementSelectors": 3
   }
 }

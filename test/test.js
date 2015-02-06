@@ -12,33 +12,33 @@ describe('css-statistics', function() {
   describe('base stats', function() {
 
     it('should calculate the correct file size', function() {
-      assert.equal(stats.size, 558);
+      assert.equal(stats.size, 692);
     });
 
     it('should calculate the correct gzipped file size', function() {
-      assert.equal(stats.gzipSize, 224);
+      assert.equal(stats.gzipSize, 287);
     });
   });
 
   describe('averages', function() {
 
     it('should correctly count specificity stats', function() {
-      assert.equal(stats.averages.specificity, 24.4);
+      assert.equal(stats.averages.specificity, 23.285714285714285);
     });
 
     it('should correctly count rule size stats', function() {
-      assert.equal(stats.averages.ruleSize, 2.75);
+      assert.equal(stats.averages.ruleSize, 2.5);
     });
   });
 
   describe('aggregates', function() {
 
     it('should correctly count declarations', function() {
-      assert.equal(stats.aggregates.declarations, 11);
+      assert.equal(stats.aggregates.declarations, 15);
     });
 
     it('should correctly count selectors', function() {
-      assert.equal(stats.aggregates.selectors, 5);
+      assert.equal(stats.aggregates.selectors, 7);
     });
 
     it('should correctly count the number of id selectors', function() {
@@ -46,14 +46,22 @@ describe('css-statistics', function() {
     });
 
     it('should correctly count the number of class selectors', function() {
-      assert.equal(stats.aggregates.classSelectors, 2);
+      assert.equal(stats.aggregates.classSelectors, 4);
+    });
+
+    it('should correctly count the number of pseudo element selectors', function() {
+      assert.equal(stats.aggregates.pseudoElementSelectors, 1);
+    });
+
+    it('should correctly count the number of pseudo class selectors', function() {
+      assert.equal(stats.aggregates.pseudoClassSelectors, 1);
     });
   });
 
   describe('declarations', function() {
 
     it('should correctly count vendor prefixes', function() {
-      assert.equal(stats.declarations.vendorPrefixCount, 4);
+      assert.equal(stats.declarations.vendorPrefixCount, 5);
     });
 
     it('should correctly count important values', function() {
