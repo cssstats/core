@@ -1,4 +1,5 @@
 
+var fs = require('fs');
 var postcss = require('postcss');
 var gzipSize = require('gzip-size');
 var declarations = require('./lib/declarations');
@@ -8,6 +9,10 @@ var rules = require('./lib/rules');
 var size = require('./lib/size');
 
 module.exports = function(string, options) {
+
+  if (fs.existsSync(string)) {
+    string = fs.readFileSync(string, 'utf8');
+  }
 
   var options = options || {};
   options.safe = options.safe || true;
