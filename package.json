@@ -1,6 +1,6 @@
 {
   "name": "cssstats",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "High-level stats for stylesheets",
   "main": "index.js",
   "author": "Brent Jackson",
