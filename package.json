@@ -16,7 +16,7 @@
     "has-pseudo-element": "0.0.1",
     "is-vendor-prefixed": "0.0.1",
     "lodash": "^3.0.0",
-    "postcss": "^3.0.7",
+    "postcss": "^4.0.6",
     "specificity": "^0.1.4"
   },
   "repository": {
