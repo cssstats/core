@@ -6,7 +6,7 @@ Used in http://cssstats.com
 ## Installation
 
 ```sh
-npm install cssstats
+npm install --save cssstats
 ```
 
 ## Usage
@@ -17,6 +17,13 @@ var cssstats = require('csstats');
 
 var css = fs.readFileSync('./styles.css', 'utf8');
 var obj = cssstats(css);
+```
+
+### Using the CLI
+
+```sh
+npm i -g cssstats
+cssstats file path/to/file.css > results.json
 ```
 
 ### Returned Object
