@@ -1,12 +1,12 @@
 {
   "name": "cssstats",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "High-level stats for stylesheets",
   "main": "index.js",
   "author": "Brent Jackson",
   "license": "MIT",
   "bin": {
-    "cssstats": "./cssstats.js"
+    "cssstats": "./bin/cssstats.js"
   },
   "dependencies": {
     "camelcase": "^1.0.2",
