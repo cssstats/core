@@ -1,5 +1,6 @@
 var fs = require('fs');
 var assert = require('assert');
+var postcss = require('postcss');
 var cssstats = require('..');
 
 describe('css-statistics', function() {
@@ -7,6 +8,15 @@ describe('css-statistics', function() {
 
   before(function() {
     stats = cssstats(fixture('small'));
+  });
+
+  describe('AST arguments', function() {
+
+    it('should be handled correctly', function() {
+      var ast = postcss.parse(fixture('small'));
+      var astStats = cssstats(ast);
+      assert.deepEqual(astStats.aggregates, stats.aggregates);
+    });
   });
 
   describe('base stats', function() {

@@ -209,7 +209,7 @@
         {
           "type": "decl",
           "prop": "opacity",
-          "value": ".8,",
+          "value": ".8",
           "index": 5
         },
         {
@@ -223,7 +223,7 @@
         {
           "type": "decl",
           "prop": "opacity",
-          "value": ".8,",
+          "value": ".8",
           "index": 5
         },
         {
@@ -386,7 +386,7 @@
       {
         "type": "decl",
         "prop": "opacity",
-        "value": ".8,",
+        "value": ".8",
         "index": 5
       },
       {
@@ -489,7 +489,7 @@
         {
           "type": "decl",
           "prop": "opacity",
-          "value": ".8,",
+          "value": ".8",
           "index": 5
         },
         {
@@ -601,7 +601,7 @@
         {
           "type": "decl",
           "prop": "opacity",
-          "value": ".8,",
+          "value": ".8",
           "index": 5
         },
         {

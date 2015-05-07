@@ -19,6 +19,18 @@ var css = fs.readFileSync('./styles.css', 'utf8');
 var obj = cssstats(css);
 ```
 
+Instead of a CSS string, you can also pass the [PostCSS AST](https://github.com/postcss/postcss):
+
+```js
+var fs = require('fs');
+var postcss = require('postcss');
+var cssstats = require('csstats');
+
+var css = fs.readFileSync('./styles.css', 'utf8');
+var ast = postcss.parse(css);
+var obj = cssstats(ast);
+```
+
 ### Using the CLI
 
 ```sh
