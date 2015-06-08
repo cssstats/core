@@ -38,6 +38,13 @@ npm i -g cssstats
 cssstats file path/to/file.css > results.json
 ```
 
+You can also pipe CSS to cssstats:
+
+```sh
+cat some-css-file.css | cssstats
+getcss google.com | cssstats
+```
+
 ### Returned Object
 
 #### `size`
