@@ -5,7 +5,7 @@ var cssstats = require('..');
 var fs = require('fs');
 var stdin = require('stdin');
 
-var version = '1.3.1'
+var version = '1.6.0'
 
 console.log('CSS Statistics CLI (' + version + ')');
 
