@@ -22,6 +22,7 @@
     "mediaQueries": [],
     "idSelectors": 0,
     "classSelectors": 0,
+    "repeatedSelectors": [],
     "pseudoClassSelectors": 0,
     "pseudoElementSelectors": 0
   }

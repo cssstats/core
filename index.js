@@ -44,6 +44,7 @@ module.exports = function(cssStringOrAST, options) {
 
   result.aggregates.idSelectors = selectorStats.idSelectors;
   result.aggregates.classSelectors = selectorStats.classSelectors;
+  result.aggregates.repeatedSelectors = selectorStats.repeatedSelectors;
   result.aggregates.pseudoClassSelectors = selectorStats.pseudoClassSelectors;
   result.aggregates.pseudoElementSelectors = selectorStats.pseudoElementSelectors;
 
