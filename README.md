@@ -47,42 +47,23 @@ getcss google.com | cssstats
 
 ### Returned Object
 
-#### `size`
-The size of the file in bytes
+__`size`:__ The size of the file in bytes
 
-#### `gzipSize`
-The size of the stylesheet gzipped in bytes
+__`gzipSize`:__ The size of the stylesheet gzipped in bytes
 
-#### `selectors`
-An array of selectors sorted by source order with the selector string, specificity score, and parts array
+__`selectors`:__ An array of selectors sorted by source order with the selector string, specificity score, and parts array
 
-#### `declarations`
-An object of declarations.
+__`declarations`:__ An object of declarations.
+- `declarations.all`: An array of declaration objects from PostCSS.
+- `declarations.byProperty`: An object with keys for each property found in the stylesheet.
+- `declarations.unique`: An object with keys for each unique property/value found in the stylesheet.
+- `declarations.byMedia`: An object with keys for each media query found in the stylesheet.
+- `declarations.importantCount`: The number of declarations with values that contain `!important`
+- `declarations.vendorPrefixCount`: The number of declaration properties that have vendor prefixes.
 
-##### `declarations.all`
-An array of declaration objects from PostCSS.
+__`rules`:__ Flattened array of rules from PostCSS.
 
-##### `declarations.byProperty`
-An object with keys for each property found in the stylesheet.
-
-##### `declarations.unique`
-An object with keys for each unique property/value found in the stylesheet.
-
-##### `declarations.byMedia`
-An object with keys for each media query found in the stylesheet.
-
-##### `declarations.importantCount`
-The number of declarations with values that contain `!important`
-
-##### `declarations.vendorPrefixCount`
-The number of declaration properties that have vendor prefixes.
-
-#### `rules`
-Flattened array of rules from PostCSS.
-
-#### `aggregates`
-Aggregate data for the entire stylesheet.
-
+__`aggregates`:__ Aggregate data for the entire stylesheet.
 - `selectors` - total number of selectors
 - `declarations` - total number of declarations
 - `properties` - an array of properties used in the stylesheet
