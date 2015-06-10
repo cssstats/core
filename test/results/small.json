@@ -743,7 +743,8 @@
       ]
     },
     "importantCount": 2,
-    "vendorPrefixCount": 5
+    "vendorPrefixCount": 5,
+    "displayNoneCount": 0
   },
   "aggregates": {
     "selectors": 8,

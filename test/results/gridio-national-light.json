@@ -13,7 +13,8 @@
     "unique": {},
     "byMedia": {},
     "importantCount": 0,
-    "vendorPrefixCount": 0
+    "vendorPrefixCount": 0,
+    "displayNoneCount": 0
   },
   "aggregates": {
     "selectors": 0,
