@@ -25171,6 +25171,12 @@
           "prop": "line-height",
           "value": "inherit",
           "index": 73
+        },
+        {
+          "type": "decl",
+          "prop": "line-height",
+          "value": 14,
+          "index": 1
         }
       ],
       "verticalAlign": [
@@ -28565,6 +28571,12 @@
           "prop": "line-height",
           "value": "inherit",
           "index": 73
+        },
+        {
+          "type": "decl",
+          "prop": "line-height",
+          "value": 14,
+          "index": 1
         }
       ],
       "verticalAlign": [
@@ -31874,8 +31886,8 @@
       "unique": 1
     },
     "lineHeight": {
-      "total": 3,
-      "unique": 3
+      "total": 4,
+      "unique": 4
     },
     "verticalAlign": {
       "total": 2,
@@ -31975,6 +31987,12 @@
     },
     "idSelectors": 0,
     "classSelectors": 582,
+    "repeatedSelectors": [
+      "0%",
+      "100%",
+      ".fa-stack-1x",
+      ".fa-stack-2x"
+    ],
     "pseudoClassSelectors": 5,
     "pseudoElementSelectors": 549
   }

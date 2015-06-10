@@ -2838,6 +2838,10 @@
     },
     "idSelectors": 0,
     "classSelectors": 28,
+    "repeatedSelectors": [
+      ".odometer.odometer-auto-theme",
+      ".odometer.odometer-theme-default"
+    ],
     "pseudoClassSelectors": 0,
     "pseudoElementSelectors": 0
   }
