@@ -60,6 +60,7 @@ __`declarations`:__ An object of declarations.
 - `declarations.byMedia`: An object with keys for each media query found in the stylesheet.
 - `declarations.importantCount`: The number of declarations with values that contain `!important`
 - `declarations.vendorPrefixCount`: The number of declaration properties that have vendor prefixes.
+- `declarations.displayNoneCount`: The number of `display: none;` declarations.
 
 __`rules`:__ Flattened array of rules from PostCSS.
 
@@ -72,6 +73,7 @@ __`aggregates`:__ Aggregate data for the entire stylesheet.
 - `classSelectors` - total number of selectors containing a class
 - `pseudoElementSelectors` - total number of selectors containing an pseudo element
 - `pseudoClassSelectors` - total number of selectors containing a pseudo class
+- `repeatedSelectors` - array of selectors that were declared more than once
 
 For every unique property found in the stylesheet, `aggregates` also includes these values:
 - `[property].total` - total number of [property] declarations

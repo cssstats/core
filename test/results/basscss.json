@@ -20860,7 +20860,8 @@
       ]
     },
     "importantCount": 10,
-    "vendorPrefixCount": 28
+    "vendorPrefixCount": 28,
+    "displayNoneCount": 6
   },
   "aggregates": {
     "selectors": 347,

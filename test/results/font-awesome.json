@@ -31822,7 +31822,8 @@
     },
     "byMedia": {},
     "importantCount": 0,
-    "vendorPrefixCount": 17
+    "vendorPrefixCount": 17,
+    "displayNoneCount": 0
   },
   "aggregates": {
     "selectors": 586,
