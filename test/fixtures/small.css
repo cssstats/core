@@ -10,6 +10,10 @@
 
 .sm-tomato:first-child:last-child { opacity: .8; border-bottom: none; }
 
+.box { margin: 10px; padding: 5px; }
+.box:first-child { margin: 0px 0; }
+.box:last-child { margin-bottom: 0px; }
+
 @keyframes grow {
   0% {
     opacity: 0;
