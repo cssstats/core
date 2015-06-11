@@ -12,6 +12,7 @@
     "byProperty": {},
     "unique": {},
     "byMedia": {},
+    "propertyResetDeclarations": {},
     "importantCount": 0,
     "vendorPrefixCount": 0,
     "displayNoneCount": 0,
