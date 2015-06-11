@@ -61,6 +61,7 @@ __`declarations`:__ An object of declarations.
 - `declarations.importantCount`: The number of declarations with values that contain `!important`
 - `declarations.vendorPrefixCount`: The number of declaration properties that have vendor prefixes.
 - `declarations.displayNoneCount`: The number of `display: none;` declarations.
+- `declarations.uniqueDeclarationsCount`: The number of unique declarations.
 
 __`rules`:__ Flattened array of rules from PostCSS.
 

@@ -1,6 +1,6 @@
 .red, #foo { color: red !important }
 
-.red { color: blue }
+.red { color: red }
 
 @media (min-width: 30em) {
   .sm-tomato { color: tomato; background-color: hotpink; -ms-border-radius: 0 }

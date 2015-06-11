@@ -20861,7 +20861,8 @@
     },
     "importantCount": 10,
     "vendorPrefixCount": 28,
-    "displayNoneCount": 6
+    "displayNoneCount": 6,
+    "uniqueDeclarationsCount": 232
   },
   "aggregates": {
     "selectors": 347,
