@@ -84,7 +84,7 @@ describe('css-statistics', function() {
 
     it('should correctly count the number of unique declarations', function() {
       assert.equal(stats.declarations.uniqueDeclarationsCount, 19);
-    })
+    });
 
     it('should correctly count the number of declarations that reset properties', function() {
       assert.deepEqual(stats.declarations.propertyResetDeclarations, {'margin': 1, 'marginBottom': 1});

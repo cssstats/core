@@ -25,7 +25,7 @@ module.exports = function(cssStringOrAST, options) {
     throw new TypeError('cssstats expects a string or PostCSS AST');
   }
 
-  if (!obj) return false;
+  if (!obj) { return false; }
 
   result.averages = {};
   result.size = size(string);

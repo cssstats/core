@@ -39,9 +39,11 @@
   "homepage": "https://github.com/jxnblk/css-statistics",
   "devDependencies": {
     "get-css": "0.0.2",
-    "mocha": "^2.1.0"
+    "mocha": "^2.1.0",
+    "jshint": "2.8.0"
   },
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha test",
+    "jshint": "jshint index.js lib test"
   }
 }
