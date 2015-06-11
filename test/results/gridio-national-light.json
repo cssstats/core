@@ -14,7 +14,8 @@
     "byMedia": {},
     "importantCount": 0,
     "vendorPrefixCount": 0,
-    "displayNoneCount": 0
+    "displayNoneCount": 0,
+    "uniqueDeclarationsCount": 0
   },
   "aggregates": {
     "selectors": 0,

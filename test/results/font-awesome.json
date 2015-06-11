@@ -31823,7 +31823,8 @@
     "byMedia": {},
     "importantCount": 0,
     "vendorPrefixCount": 17,
-    "displayNoneCount": 0
+    "displayNoneCount": 0,
+    "uniqueDeclarationsCount": 545
   },
   "aggregates": {
     "selectors": 586,

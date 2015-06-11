@@ -22,11 +22,11 @@ describe('css-statistics', function() {
   describe('base stats', function() {
 
     it('should calculate the correct file size', function() {
-      assert.equal(stats.size, 714);
+      assert.equal(stats.size, 713);
     });
 
     it('should calculate the correct gzipped file size', function() {
-      assert.equal(stats.gzipSize, 296);
+      assert.equal(stats.gzipSize, 293);
     });
   });
 
@@ -81,6 +81,10 @@ describe('css-statistics', function() {
     it('should correctly count important values', function() {
       assert.equal(stats.declarations.importantCount, 2);
     });
+
+    it('should correctly count the number of unique declarations', function() {
+      assert.equal(stats.declarations.uniqueDeclarationsCount, 15);
+    })
   });
 
   describe('keyframes', function() {
