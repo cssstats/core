@@ -84,7 +84,7 @@ describe('css-statistics', function() {
 
     it('should correctly count the number of unique declarations', function() {
       assert.equal(stats.declarations.uniqueDeclarationsCount, 15);
-    })
+    });
   });
 
   describe('keyframes', function() {
