@@ -6,4 +6,4 @@ node_js:
 install: npm install
 script:
   - npm test
-  - npm jshint
+  - npm run jshint
