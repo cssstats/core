@@ -22,33 +22,33 @@ describe('css-statistics', function() {
   describe('base stats', function() {
 
     it('should calculate the correct file size', function() {
-      assert.equal(stats.size, 713);
+      assert.equal(stats.size, 827);
     });
 
     it('should calculate the correct gzipped file size', function() {
-      assert.equal(stats.gzipSize, 293);
+      assert.equal(stats.gzipSize, 336);
     });
   });
 
   describe('averages', function() {
 
     it('should correctly count specificity stats', function() {
-      assert.equal(stats.averages.specificity, 21.625);
+      assert.equal(stats.averages.specificity, 20.272727272727273);
     });
 
     it('should correctly count rule size stats', function() {
-      assert.equal(stats.averages.ruleSize, 2.2857142857142856);
+      assert.equal(stats.averages.ruleSize, 2);
     });
   });
 
   describe('aggregates', function() {
 
     it('should correctly count declarations', function() {
-      assert.equal(stats.aggregates.declarations, 16);
+      assert.equal(stats.aggregates.declarations, 20);
     });
 
     it('should correctly count selectors', function() {
-      assert.equal(stats.aggregates.selectors, 8);
+      assert.equal(stats.aggregates.selectors, 11);
     });
 
     it('should correctly count the number of id selectors', function() {
@@ -56,7 +56,7 @@ describe('css-statistics', function() {
     });
 
     it('should correctly count the number of class selectors', function() {
-      assert.equal(stats.aggregates.classSelectors, 5);
+      assert.equal(stats.aggregates.classSelectors, 8);
     });
 
     it('should correctly count the number of pseudo element selectors', function() {
@@ -64,7 +64,7 @@ describe('css-statistics', function() {
     });
 
     it('should correctly count the number of pseudo class selectors', function() {
-      assert.equal(stats.aggregates.pseudoClassSelectors, 1);
+      assert.equal(stats.aggregates.pseudoClassSelectors, 3);
     });
 
     it('should correctly aggregate the repeated selectors', function() {
@@ -83,8 +83,12 @@ describe('css-statistics', function() {
     });
 
     it('should correctly count the number of unique declarations', function() {
-      assert.equal(stats.declarations.uniqueDeclarationsCount, 15);
+      assert.equal(stats.declarations.uniqueDeclarationsCount, 19);
     })
+
+    it('should correctly count the number of declarations that reset properties', function() {
+      assert.deepEqual(stats.declarations.propertyResetDeclarations, {'margin': 1, 'marginBottom': 1});
+    });
   });
 
   describe('keyframes', function() {

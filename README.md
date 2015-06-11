@@ -58,6 +58,7 @@ __`declarations`:__ An object of declarations.
 - `declarations.byProperty`: An object with keys for each property found in the stylesheet.
 - `declarations.unique`: An object with keys for each unique property/value found in the stylesheet.
 - `declarations.byMedia`: An object with keys for each media query found in the stylesheet.
+- `declarations.propertyResetDeclarations`: An object with keys for each property with a value of `0` found in the stylesheet. (Actually only margins and paddings are counted)
 - `declarations.importantCount`: The number of declarations with values that contain `!important`
 - `declarations.vendorPrefixCount`: The number of declaration properties that have vendor prefixes.
 - `declarations.displayNoneCount`: The number of `display: none;` declarations.

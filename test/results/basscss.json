@@ -20859,6 +20859,13 @@
         }
       ]
     },
+    "propertyResetDeclarations": {
+      "margin": 3,
+      "marginTop": 6,
+      "marginLeft": 5,
+      "marginRight": 2,
+      "marginBottom": 1
+    },
     "importantCount": 10,
     "vendorPrefixCount": 28,
     "displayNoneCount": 6,
