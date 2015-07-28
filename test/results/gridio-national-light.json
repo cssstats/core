@@ -34,6 +34,7 @@
   "mediaQueries": {
     "total": 0,
     "unique": 0,
-    "values": []
+    "values": [],
+    "contents": {}
   }
 }

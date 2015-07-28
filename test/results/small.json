@@ -121,6 +121,56 @@
     "unique": 1,
     "values": [
       "(min-width: 30em)"
-    ]
+    ],
+    "contents": {
+      "(min-width: 30em)": {
+        "rules": {
+          "total": 1,
+          "size": {
+            "graph": [
+              3
+            ],
+            "max": 0,
+            "average": 3
+          }
+        },
+        "selectors": {
+          "total": 1,
+          "id": 0,
+          "class": 1,
+          "type": 0,
+          "pseudoClass": 0,
+          "pseudoElement": 0,
+          "repeated": [],
+          "values": [
+            ".sm-tomato"
+          ],
+          "specificity": {
+            "graph": [
+              10
+            ],
+            "max": 10,
+            "average": 10
+          }
+        },
+        "declarations": {
+          "total": 3,
+          "important": 0,
+          "vendorPrefix": 1,
+          "properties": {
+            "color": [
+              "tomato"
+            ],
+            "background-color": [
+              "hotpink"
+            ],
+            "-ms-border-radius": [
+              "0"
+            ]
+          },
+          "resets": {}
+        }
+      }
+    }
   }
 }

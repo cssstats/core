@@ -1696,6 +1696,386 @@
       "(min-width: 40em)",
       "(min-width: 52em)",
       "(min-width: 64em)"
-    ]
+    ],
+    "contents": {
+      "(min-width: 40em)": {
+        "rules": {
+          "total": 18,
+          "size": {
+            "graph": [
+              1,
+              1,
+              3,
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              2
+            ],
+            "max": 0,
+            "average": 1.3333333333333333
+          }
+        },
+        "selectors": {
+          "total": 18,
+          "id": 0,
+          "class": 18,
+          "type": 0,
+          "pseudoClass": 0,
+          "pseudoElement": 0,
+          "repeated": [],
+          "values": [
+            ".sm-show",
+            ".sm-hide",
+            ".sm-col",
+            ".sm-col-right",
+            ".sm-col-1",
+            ".sm-col-2",
+            ".sm-col-3",
+            ".sm-col-4",
+            ".sm-col-5",
+            ".sm-col-6",
+            ".sm-col-7",
+            ".sm-col-8",
+            ".sm-col-9",
+            ".sm-col-10",
+            ".sm-col-11",
+            ".sm-col-12",
+            ".sm-table",
+            ".sm-table-cell"
+          ],
+          "specificity": {
+            "graph": [
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10
+            ],
+            "max": 10,
+            "average": 10
+          }
+        },
+        "declarations": {
+          "total": 24,
+          "important": 2,
+          "vendorPrefix": 2,
+          "properties": {
+            "display": [
+              "block",
+              "none",
+              "table",
+              "table-cell"
+            ],
+            "float": [
+              "left",
+              "right"
+            ],
+            "-moz-box-sizing": [
+              "border-box",
+              "border-box"
+            ],
+            "box-sizing": [
+              "border-box",
+              "border-box"
+            ],
+            "width": [
+              "8.333333333333332%",
+              "16.666666666666664%",
+              "25%",
+              "33.33333333333333%",
+              "41.66666666666667%",
+              "50%",
+              "58.333333333333336%",
+              "66.66666666666666%",
+              "75%",
+              "83.33333333333334%",
+              "91.66666666666666%",
+              "100%",
+              "100%"
+            ],
+            "vertical-align": [
+              "middle"
+            ]
+          },
+          "resets": {}
+        }
+      },
+      "(min-width: 52em)": {
+        "rules": {
+          "total": 18,
+          "size": {
+            "graph": [
+              1,
+              1,
+              3,
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              2
+            ],
+            "max": 0,
+            "average": 1.3333333333333333
+          }
+        },
+        "selectors": {
+          "total": 18,
+          "id": 0,
+          "class": 18,
+          "type": 0,
+          "pseudoClass": 0,
+          "pseudoElement": 0,
+          "repeated": [],
+          "values": [
+            ".md-show",
+            ".md-hide",
+            ".md-col",
+            ".md-col-right",
+            ".md-col-1",
+            ".md-col-2",
+            ".md-col-3",
+            ".md-col-4",
+            ".md-col-5",
+            ".md-col-6",
+            ".md-col-7",
+            ".md-col-8",
+            ".md-col-9",
+            ".md-col-10",
+            ".md-col-11",
+            ".md-col-12",
+            ".md-table",
+            ".md-table-cell"
+          ],
+          "specificity": {
+            "graph": [
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10
+            ],
+            "max": 10,
+            "average": 10
+          }
+        },
+        "declarations": {
+          "total": 24,
+          "important": 2,
+          "vendorPrefix": 2,
+          "properties": {
+            "display": [
+              "block",
+              "none",
+              "table",
+              "table-cell"
+            ],
+            "float": [
+              "left",
+              "right"
+            ],
+            "-moz-box-sizing": [
+              "border-box",
+              "border-box"
+            ],
+            "box-sizing": [
+              "border-box",
+              "border-box"
+            ],
+            "width": [
+              "8.333333333333332%",
+              "16.666666666666664%",
+              "25%",
+              "33.33333333333333%",
+              "41.66666666666667%",
+              "50%",
+              "58.333333333333336%",
+              "66.66666666666666%",
+              "75%",
+              "83.33333333333334%",
+              "91.66666666666666%",
+              "100%",
+              "100%"
+            ],
+            "vertical-align": [
+              "middle"
+            ]
+          },
+          "resets": {}
+        }
+      },
+      "(min-width: 64em)": {
+        "rules": {
+          "total": 18,
+          "size": {
+            "graph": [
+              1,
+              1,
+              3,
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              2
+            ],
+            "max": 0,
+            "average": 1.3333333333333333
+          }
+        },
+        "selectors": {
+          "total": 18,
+          "id": 0,
+          "class": 18,
+          "type": 0,
+          "pseudoClass": 0,
+          "pseudoElement": 0,
+          "repeated": [],
+          "values": [
+            ".lg-show",
+            ".lg-hide",
+            ".lg-col",
+            ".lg-col-right",
+            ".lg-col-1",
+            ".lg-col-2",
+            ".lg-col-3",
+            ".lg-col-4",
+            ".lg-col-5",
+            ".lg-col-6",
+            ".lg-col-7",
+            ".lg-col-8",
+            ".lg-col-9",
+            ".lg-col-10",
+            ".lg-col-11",
+            ".lg-col-12",
+            ".lg-table",
+            ".lg-table-cell"
+          ],
+          "specificity": {
+            "graph": [
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10
+            ],
+            "max": 10,
+            "average": 10
+          }
+        },
+        "declarations": {
+          "total": 24,
+          "important": 2,
+          "vendorPrefix": 2,
+          "properties": {
+            "display": [
+              "block",
+              "none",
+              "table",
+              "table-cell"
+            ],
+            "float": [
+              "left",
+              "right"
+            ],
+            "-moz-box-sizing": [
+              "border-box",
+              "border-box"
+            ],
+            "box-sizing": [
+              "border-box",
+              "border-box"
+            ],
+            "width": [
+              "8.333333333333332%",
+              "16.666666666666664%",
+              "25%",
+              "33.33333333333333%",
+              "41.66666666666667%",
+              "50%",
+              "58.333333333333336%",
+              "66.66666666666666%",
+              "75%",
+              "83.33333333333334%",
+              "91.66666666666666%",
+              "100%",
+              "100%"
+            ],
+            "vertical-align": [
+              "middle"
+            ]
+          },
+          "resets": {}
+        }
+      }
+    }
   }
 }
