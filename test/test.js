@@ -152,6 +152,40 @@ describe('font shorthand property', function () {
 })
 */
 
+describe('cssstats lite', function () {
+  var stats
+
+  before(function () {
+    stats = cssstats(fixture('small'), { lite: true })
+    // console.log(JSON.stringify(stats, null, '  '))
+  })
+
+  it('should not contain rulesize graph', function () {
+    assert.equal(stats.rules.size.graph, null)
+  })
+
+  it('should not contain repeated selectors', function () {
+    assert.equal(stats.selectors.repeated, null)
+  })
+
+  it('should not contain selector values', function () {
+    assert.equal(stats.selectors.values, null)
+  })
+
+  it('should not contain selector specificity graph', function () {
+    assert.equal(stats.selectors.specificity.graph, null)
+  })
+
+  it('should not contain declaration resets', function () {
+    assert.equal(stats.declarations.resets, null)
+  })
+
+  it('should not contain media query contents', function () {
+    assert.equal(stats.mediaQueries.content, null)
+  })
+
+})
+
 function fixture (name) {
   return fs.readFileSync('test/fixtures/' + name + '.css', 'utf8').toString().trim()
 }
