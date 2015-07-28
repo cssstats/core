@@ -3,10 +3,10 @@ var _ = require('lodash')
 var postcss = require('postcss')
 var gzipSize = require('gzip-size')
 var size = require('./lib/size')
+var rules = require('./lib/rules')
 var selectors = require('./lib/selectors')
 // var declarations = require('./lib/declarations')
 // var aggregates = require('./lib/aggregates')
-// var rules = require('./lib/rules')
 
 module.exports = function(src, opts) {
 
@@ -24,13 +24,8 @@ module.exports = function(src, opts) {
     stats.size = size(string)
     stats.gzipSize = gzipSize.sync(string)
 
-    stats.rules = {}
-    stats.rules.total = 0
+    stats.rules = rules(root)
     stats.selectors = selectors(root)
-
-    root.eachRule(function(rule) {
-      stats.rules.total++
-    })
 
     stats.aggregates = {}
 
