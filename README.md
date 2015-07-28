@@ -11,27 +11,38 @@ npm install --save cssstats
 
 ## Usage
 
-```js
-var fs = require('fs');
-var cssstats = require('csstats');
-
-var css = fs.readFileSync('./styles.css', 'utf8');
-var obj = cssstats(css);
-```
-
-Instead of a CSS string, you can also pass the [PostCSS AST](https://github.com/postcss/postcss):
+### Node
 
 ```js
-var fs = require('fs');
-var postcss = require('postcss');
-var cssstats = require('csstats');
+var fs = require('fs')
+var cssstats = require('csstats')
 
-var css = fs.readFileSync('./styles.css', 'utf8');
-var ast = postcss.parse(css);
-var obj = cssstats(ast);
+var css = fs.readFileSync('./styles.css', 'utf8')
+var stats = cssstats(css)
 ```
 
-### Using the CLI
+### PostCSS Plugin
+
+CSS Stats can be used as a [PostCSS](https://github.com/postcss/postcss) plugin.
+The stats will be added to PostCSS's messages array.
+
+```js
+var fs = require('fs')
+var postcss = require('postcss')
+var cssstats = require('csstats')
+
+var css = fs.readFileSync('./styles.css', 'utf8')
+postcss()
+  .use(cssstats())
+  .process(css)
+  .then(function (result) {
+    result.messages.forEach(function (message) {
+      console.log(message)
+    })
+  })
+```
+
+#### CLI
 
 ```sh
 npm i -g cssstats
@@ -47,39 +58,97 @@ getcss google.com | cssstats
 
 ### Returned Object
 
-__`size`:__ The size of the file in bytes
+```js
+// Example
+{
+  size: n,
+  gzipSize: n,
+  rules: {
+    total: n,
+    size: {
+      graph: [n],
+      max: n,
+      average: n
+    }
+  },
+  selectors: {
+    total: n,
+    id: n,
+    class: n,
+    type: n,
+    pseudoClass: n,
+    psuedoElement: n,
+    repeated: [str],
+    values: [str],
+    specificity: {
+      graph: [n],
+      max: n
+      average: n
+    }
+  },
+  declarations: {
+    total: n,
+    important: n,
+    vendorPrefix: n,
+    properties:
+      prop: [str]
+    },
+    resets: {
+      prop: n
+    }
+  },
+  mediaQueries: {
+    total: n,
+    unique: n,
+    values: [str]
+  }
+}
+```
 
-__`gzipSize`:__ The size of the stylesheet gzipped in bytes
+#### `size`
+The size of the file in bytes
 
-__`selectors`:__ An array of selectors sorted by source order with the selector string, specificity score, and parts array
+#### `gzipSize`
+The size of the stylesheet gzipped in bytes
 
-__`declarations`:__ An object of declarations.
-- `declarations.all`: An array of declaration objects from PostCSS.
-- `declarations.byProperty`: An object with keys for each property found in the stylesheet.
-- `declarations.unique`: An object with keys for each unique property/value found in the stylesheet.
-- `declarations.byMedia`: An object with keys for each media query found in the stylesheet.
-- `declarations.propertyResetDeclarations`: An object with keys for each property with a value of `0` found in the stylesheet. (Actually only margins and paddings are counted)
-- `declarations.importantCount`: The number of declarations with values that contain `!important`
-- `declarations.vendorPrefixCount`: The number of declaration properties that have vendor prefixes.
-- `declarations.displayNoneCount`: The number of `display: none;` declarations.
-- `declarations.uniqueDeclarationsCount`: The number of unique declarations.
+#### `rules` object
 
-__`rules`:__ Flattened array of rules from PostCSS.
+- `total` - total number of rules
+- `size` object
+  - `size.graph` - an array of ruleset sizes (number of declarations per rule) in source order
+  - `size.max` - maximum ruleset size
+  - `size.average` - average ruleset size
 
-__`aggregates`:__ Aggregate data for the entire stylesheet.
-- `selectors` - total number of selectors
-- `declarations` - total number of declarations
-- `properties` - an array of properties used in the stylesheet
-- `mediaQueries` - an array of media query strings used in the stylesheet
-- `idSelectors` - total number of selectors containing an id
-- `classSelectors` - total number of selectors containing a class
-- `pseudoElementSelectors` - total number of selectors containing an pseudo element
-- `pseudoClassSelectors` - total number of selectors containing a pseudo class
-- `repeatedSelectors` - array of selectors that were declared more than once
+#### `selectors` object
 
-For every unique property found in the stylesheet, `aggregates` also includes these values:
-- `[property].total` - total number of [property] declarations
-- `[property].unique` - number of unique [property] declarations
+- `total` - total number of selectors
+- `id` - total number of id selectors
+- `class` - total number of class selectors
+- `type` - total number of type selectors
+- `pseudoClass` - total number of pseudo class selectors
+- `pseudoElement` - total number of pseudo element selectors
+- `repeated` - array of strings of repeated selectors
+- `values` - array of strings for all selectors
+- `specificity` object
+  - `specificity.graph` - array of numbers for each selector’s specificity as a base 10 number
+  - `specificity.max` - maximum specificity as a base 10 number
+  - `specificity.average` - average specificity as a base 10 number
+
+#### `declarations` object
+
+- `total` - total number of declarations
+- `important` - total number of `!important` declarations
+- `vendorPrefix` - total number of vendor prefixed declarations
+- `properties` - object with each unique property and an array of that property’s values
+
+#### `mediaQueries` object
+
+- `total` - total number of media queries
+- `unique` - total unique media queries
+- `values` - array of values for each media query
 
 
 See the `/test/results` folder for example JSON results.
+
+MIT License
+
