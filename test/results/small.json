@@ -116,5 +116,12 @@
       "margin-bottom": 1
     }
   },
+  "mediaQueries": {
+    "total": 1,
+    "unique": 1,
+    "values": [
+      "(min-width: 30em)"
+    ]
+  },
   "aggregates": {}
 }

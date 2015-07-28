@@ -1680,5 +1680,23 @@
       "margin-bottom": 1
     }
   },
+  "mediaQueries": {
+    "total": 12,
+    "unique": 3,
+    "values": [
+      "(min-width: 40em)",
+      "(min-width: 52em)",
+      "(min-width: 64em)",
+      "(min-width: 40em)",
+      "(min-width: 52em)",
+      "(min-width: 64em)",
+      "(min-width: 40em)",
+      "(min-width: 52em)",
+      "(min-width: 64em)",
+      "(min-width: 40em)",
+      "(min-width: 52em)",
+      "(min-width: 64em)"
+    ]
+  },
   "aggregates": {}
 }

@@ -6,6 +6,7 @@ var size = require('./lib/size')
 var rules = require('./lib/rules')
 var selectors = require('./lib/selectors')
 var declarations = require('./lib/declarations')
+var mediaQueries = require('./lib/media-queries')
 
 module.exports = function(src, opts) {
 
@@ -26,6 +27,7 @@ module.exports = function(src, opts) {
     stats.rules = rules(root)
     stats.selectors = selectors(root)
     stats.declarations = declarations(root)
+    stats.mediaQueries = mediaQueries(root)
 
     stats.aggregates = {}
 
