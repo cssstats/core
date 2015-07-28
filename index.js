@@ -28,8 +28,6 @@ module.exports = function (src, opts) {
     stats.declarations = declarations(root)
     stats.mediaQueries = mediaQueries(root)
 
-    stats.aggregates = {}
-
     // Add extra stats when lite option is not set
     // if (!opts.lite) {
     //   _.assign(stats, {

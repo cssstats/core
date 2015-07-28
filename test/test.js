@@ -19,7 +19,7 @@ describe('css-statistics', function () {
         .process(fixture('small'))
         .then(function (result) {
           var pluginStats = result.messages[0].stats
-          assert.deepEqual(pluginStats.aggregates, stats.aggregates)
+          assert.deepEqual(pluginStats.selectors, stats.selectors)
           done()
         })
     })
