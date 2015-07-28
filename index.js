@@ -12,7 +12,8 @@ module.exports = function (src, opts) {
 
   opts = opts || {}
   opts = _.defaults(opts, {
-    safe: true
+    safe: true,
+    lite: false
   })
 
   function parse (root, result) {
@@ -23,16 +24,10 @@ module.exports = function (src, opts) {
     stats.size = size(string)
     stats.gzipSize = gzipSize.sync(string)
 
-    stats.rules = rules(root)
-    stats.selectors = selectors(root)
-    stats.declarations = declarations(root)
-    stats.mediaQueries = mediaQueries(root)
-
-    // Add extra stats when lite option is not set
-    // if (!opts.lite) {
-    //   _.assign(stats, {
-    //   })
-    // }
+    stats.rules = rules(root, opts)
+    stats.selectors = selectors(root, opts)
+    stats.declarations = declarations(root, opts)
+    stats.mediaQueries = mediaQueries(root, opts)
 
     // Push message to PostCSS when used as a plugin
     if (result && result.messages) {
