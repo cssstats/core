@@ -2,10 +2,10 @@
 var _ = require('lodash')
 var postcss = require('postcss')
 var gzipSize = require('gzip-size')
-var declarations = require('./lib/declarations')
+// var declarations = require('./lib/declarations')
 var selectors = require('./lib/selectors')
-var aggregates = require('./lib/aggregates')
-var rules = require('./lib/rules')
+// var aggregates = require('./lib/aggregates')
+// var rules = require('./lib/rules')
 var size = require('./lib/size')
 
 module.exports = function(src, opts) {
@@ -16,22 +16,64 @@ module.exports = function(src, opts) {
     lite: false
   })
 
-  var obj
-  var string
-  var results = {}
+  function parse(root, result) {
 
-  if (_.isString(src)) {
-    obj = postcss.parse(src, opts)
-    string = src
-  } else if (_.isObject(src)) {
-    obj = src
-    string = obj.toString()
-  } else {
-    throw new TypeError('cssstats expects a string or PostCSS AST')
+    var stats = {}
+
+    var string = postcss().process(root).css
+    stats.size = size(string)
+    stats.gzipSize = gzipSize.sync(string)
+
+    stats.rules = {}
+    stats.selectors = {}
+    stats.rules.total = 0
+    stats.selectors.total = 0
+
+    root.eachRule(function(rule) {
+      stats.rules.total++
+      rule.selectors.forEach(function(selector) {
+        stats.selectors.total++
+      })
+    })
+
+    stats.aggregates = {}
+
+    // Add extra stats when lite option is not set
+    if (!opts.lite) {
+      _.assign(stats, {
+      })
+    }
+
+    // Push message to PostCSS when used as a plugin
+    if (result && result.messages) {
+      result.messages.push({
+        type:    'cssstats',
+        plugin:  'postcss-cssstats',
+        stats: stats
+      })
+    }
+
+    // Return stats for default usage
+    return stats
+
   }
 
-  if (!obj) { return false }
+  if (typeof src === 'string') {
+    // Default behavior
+    var root = postcss.parse(src, { safe: true })
+    var result = parse(root, {})
+    return result
+  } else if (typeof src === 'object' || typeof src === 'undefined') {
+    // Return a PostCSS plugin
+    return parse
+  } else {
+    throw new TypeError('cssstats expects a string or to be used as a PostCSS plugin')
+  }
 
+
+}
+
+/* v1 Object
   results.averages = {}
   results.size = size(string)
   results.gzipSize = gzipSize.sync(string)
@@ -52,7 +94,5 @@ module.exports = function(src, opts) {
   results.aggregates.repeatedSelectors = selectorStats.repeatedSelectors
   results.aggregates.pseudoClassSelectors = selectorStats.pseudoClassSelectors
   results.aggregates.pseudoElementSelectors = selectorStats.pseudoElementSelectors
+*/
 
-  return results
-
-}
