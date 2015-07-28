@@ -11,7 +11,10 @@ var size = require('./lib/size')
 module.exports = function(src, opts) {
 
   opts = opts || {}
-  opts.safe = opts.safe || true
+  opts = _.defaults(opts, {
+    safe: true,
+    lite: false
+  })
 
   var obj
   var string
