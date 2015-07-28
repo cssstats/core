@@ -8,15 +8,14 @@ var selectors = require('./lib/selectors')
 var declarations = require('./lib/declarations')
 var mediaQueries = require('./lib/media-queries')
 
-module.exports = function(src, opts) {
+module.exports = function (src, opts) {
 
   opts = opts || {}
   opts = _.defaults(opts, {
-    safe: true,
-    // lite: false
+    safe: true
   })
 
-  function parse(root, result) {
+  function parse (root, result) {
 
     var stats = {}
 
@@ -40,8 +39,8 @@ module.exports = function(src, opts) {
     // Push message to PostCSS when used as a plugin
     if (result && result.messages) {
       result.messages.push({
-        type:    'cssstats',
-        plugin:  'postcss-cssstats',
+        type: 'cssstats',
+        plugin: 'postcss-cssstats',
         stats: stats
       })
     }
@@ -62,7 +61,6 @@ module.exports = function(src, opts) {
   } else {
     throw new TypeError('cssstats expects a string or to be used as a PostCSS plugin')
   }
-
 
 }
 

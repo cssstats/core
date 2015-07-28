@@ -47,5 +47,12 @@
     "jshint": "jshint index.js lib test",
     "standard": "standard",
     "test": "mocha test"
+  },
+  "standard": {
+    "global": [
+      "before",
+      "describe",
+      "it"
+    ]
   }
 }
