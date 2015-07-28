@@ -1,32 +1,35 @@
 {
-  "averages": {
-    "specificity": 0,
-    "ruleSize": 0
-  },
   "size": 112017,
   "gzipSize": 84764,
-  "selectors": [],
-  "rules": [],
-  "declarations": {
-    "all": [],
-    "byProperty": {},
-    "unique": {},
-    "byMedia": {},
-    "propertyResetDeclarations": {},
-    "importantCount": 0,
-    "vendorPrefixCount": 0,
-    "displayNoneCount": 0,
-    "uniqueDeclarationsCount": 0
+  "rules": {
+    "total": 0,
+    "size": {
+      "graph": [],
+      "max": 0,
+      "average": 0
+    }
   },
-  "aggregates": {
-    "selectors": 0,
-    "declarations": 0,
-    "properties": [],
-    "mediaQueries": [],
-    "idSelectors": 0,
-    "classSelectors": 0,
-    "repeatedSelectors": [],
-    "pseudoClassSelectors": 0,
-    "pseudoElementSelectors": 0
-  }
+  "selectors": {
+    "total": 0,
+    "id": 0,
+    "class": 0,
+    "type": 0,
+    "pseudoClass": 0,
+    "pseudoElement": 0,
+    "repeated": [],
+    "values": [],
+    "specificity": {
+      "graph": [],
+      "max": 0,
+      "average": 0
+    }
+  },
+  "declarations": {
+    "total": 0,
+    "important": 0,
+    "vendorPrefix": 0,
+    "properties": {},
+    "resets": {}
+  },
+  "aggregates": {}
 }
