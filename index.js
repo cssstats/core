@@ -5,7 +5,7 @@ var gzipSize = require('gzip-size')
 var size = require('./lib/size')
 var rules = require('./lib/rules')
 var selectors = require('./lib/selectors')
-// var declarations = require('./lib/declarations')
+var declarations = require('./lib/declarations')
 // var aggregates = require('./lib/aggregates')
 
 module.exports = function(src, opts) {
@@ -26,6 +26,7 @@ module.exports = function(src, opts) {
 
     stats.rules = rules(root)
     stats.selectors = selectors(root)
+    stats.declarations = declarations(root)
 
     stats.aggregates = {}
 
