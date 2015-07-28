@@ -2,11 +2,11 @@
 var _ = require('lodash')
 var postcss = require('postcss')
 var gzipSize = require('gzip-size')
-// var declarations = require('./lib/declarations')
+var size = require('./lib/size')
 var selectors = require('./lib/selectors')
+// var declarations = require('./lib/declarations')
 // var aggregates = require('./lib/aggregates')
 // var rules = require('./lib/rules')
-var size = require('./lib/size')
 
 module.exports = function(src, opts) {
 
@@ -25,15 +25,11 @@ module.exports = function(src, opts) {
     stats.gzipSize = gzipSize.sync(string)
 
     stats.rules = {}
-    stats.selectors = {}
     stats.rules.total = 0
-    stats.selectors.total = 0
+    stats.selectors = selectors(root)
 
     root.eachRule(function(rule) {
       stats.rules.total++
-      rule.selectors.forEach(function(selector) {
-        stats.selectors.total++
-      })
     })
 
     stats.aggregates = {}
