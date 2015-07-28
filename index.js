@@ -8,17 +8,17 @@ var aggregates = require('./lib/aggregates')
 var rules = require('./lib/rules')
 var size = require('./lib/size')
 
-module.exports = function(src, options) {
+module.exports = function(src, opts) {
 
-  options = options || {}
-  options.safe = options.safe || true
+  opts = opts || {}
+  opts.safe = opts.safe || true
 
   var obj
   var string
   var results = {}
 
   if (_.isString(src)) {
-    obj = postcss.parse(src, options)
+    obj = postcss.parse(src, opts)
     string = src
   } else if (_.isObject(src)) {
     obj = src
