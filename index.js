@@ -8,7 +8,7 @@ var aggregates = require('./lib/aggregates')
 var rules = require('./lib/rules')
 var size = require('./lib/size')
 
-module.exports = function(cssStringOrAST, options) {
+module.exports = function(src, options) {
 
   options = options || {}
   options.safe = options.safe || true
@@ -17,11 +17,11 @@ module.exports = function(cssStringOrAST, options) {
   var string
   var results = {}
 
-  if (_.isString(cssStringOrAST)) {
-    obj = postcss.parse(cssStringOrAST, options)
-    string = cssStringOrAST
-  } else if (_.isObject(cssStringOrAST)) {
-    obj = cssStringOrAST
+  if (_.isString(src)) {
+    obj = postcss.parse(src, options)
+    string = src
+  } else if (_.isObject(src)) {
+    obj = src
     string = obj.toString()
   } else {
     throw new TypeError('cssstats expects a string or PostCSS AST')
