@@ -6,14 +6,13 @@ var size = require('./lib/size')
 var rules = require('./lib/rules')
 var selectors = require('./lib/selectors')
 var declarations = require('./lib/declarations')
-// var aggregates = require('./lib/aggregates')
 
 module.exports = function(src, opts) {
 
   opts = opts || {}
   opts = _.defaults(opts, {
     safe: true,
-    lite: false
+    // lite: false
   })
 
   function parse(root, result) {
@@ -31,10 +30,10 @@ module.exports = function(src, opts) {
     stats.aggregates = {}
 
     // Add extra stats when lite option is not set
-    if (!opts.lite) {
-      _.assign(stats, {
-      })
-    }
+    // if (!opts.lite) {
+    //   _.assign(stats, {
+    //   })
+    // }
 
     // Push message to PostCSS when used as a plugin
     if (result && result.messages) {
@@ -64,27 +63,4 @@ module.exports = function(src, opts) {
 
 
 }
-
-/* v1 Object
-  results.averages = {}
-  results.size = size(string)
-  results.gzipSize = gzipSize.sync(string)
-
-  var selectorStats = selectors(obj)
-  results.selectors = selectorStats.selectors
-  results.averages.specificity = selectorStats.averageSpecificity
-
-  var ruleStats = rules(obj)
-  results.rules = ruleStats.rules
-  results.averages.ruleSize = ruleStats.averageRuleSize
-
-  results.declarations = declarations(obj)
-  results.aggregates = aggregates(results)
-
-  results.aggregates.idSelectors = selectorStats.idSelectors
-  results.aggregates.classSelectors = selectorStats.classSelectors
-  results.aggregates.repeatedSelectors = selectorStats.repeatedSelectors
-  results.aggregates.pseudoClassSelectors = selectorStats.pseudoClassSelectors
-  results.aggregates.pseudoElementSelectors = selectorStats.pseudoElementSelectors
-*/
 
