@@ -150,5 +150,51 @@ The size of the stylesheet gzipped in bytes
 
 See the `/test/results` folder for example JSON results.
 
+### Usage examples
+
+#### Get total number of unique colors
+
+```js
+var _ = require('lodash')
+var cssstats = require('cssstats')
+
+var stats = cssstats(css)
+
+var uniqueColorsCount = _.uniq(stats.declarations.properties.colors).length
+```
+
+#### `display: none` count
+
+```js
+var displayNoneCount = stats.declarations.properties.display
+  .filter(function (val) {
+    return val === 'none'
+  })
+  .length
+```
+
+#### Find the selector with the highest specificity
+
+```js
+var maxSpecificity = _.max(stats.selectors.specificity.graph)
+var index = stats.selectors.specificity.graph.indexOf(maxSpecificity)
+var maxSelector = stats.selectors.values[index]
+```
+
+#### Sort selectors by highest specificity
+
+```js
+var ranked = _.zipWith(stats.selectors.values, stats.selectors.specificity.graph, function (a, b) {
+    return {
+      selector: a,
+      specificity: b
+    }
+  })
+  .sort(function (a, b) {
+    return b.specificity - a.specificity
+  })
+```
+
+
 MIT License
 
