@@ -38,6 +38,11 @@ module.exports = function (src, opts) {
       })
     }
 
+    stats.toJSON = function () {
+      console.log('toJSON', stats)
+      return stats
+    }
+
     // Return stats for default usage
     return stats
 
