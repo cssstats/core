@@ -662,7 +662,6 @@
   },
   "declarations": {
     "total": 471,
-    "important": 10,
     "properties": {
       "margin": [
         "0",
@@ -1344,7 +1343,6 @@
         },
         "declarations": {
           "total": 1,
-          "important": 1,
           "properties": {
             "display": [
               "block"
@@ -1381,7 +1379,6 @@
         },
         "declarations": {
           "total": 1,
-          "important": 1,
           "properties": {
             "display": [
               "block"
@@ -1418,7 +1415,6 @@
         },
         "declarations": {
           "total": 1,
-          "important": 1,
           "properties": {
             "display": [
               "block"
@@ -1455,7 +1451,6 @@
         },
         "declarations": {
           "total": 1,
-          "important": 1,
           "properties": {
             "display": [
               "none"
@@ -1492,7 +1487,6 @@
         },
         "declarations": {
           "total": 1,
-          "important": 1,
           "properties": {
             "display": [
               "none"
@@ -1529,7 +1523,6 @@
         },
         "declarations": {
           "total": 1,
-          "important": 1,
           "properties": {
             "display": [
               "none"
@@ -1592,7 +1585,6 @@
         },
         "declarations": {
           "total": 18,
-          "important": 0,
           "properties": {
             "float": [
               "left",
@@ -1678,7 +1670,6 @@
         },
         "declarations": {
           "total": 18,
-          "important": 0,
           "properties": {
             "float": [
               "left",
@@ -1764,7 +1755,6 @@
         },
         "declarations": {
           "total": 18,
-          "important": 0,
           "properties": {
             "float": [
               "left",
@@ -1826,7 +1816,6 @@
         },
         "declarations": {
           "total": 4,
-          "important": 0,
           "properties": {
             "display": [
               "table",
@@ -1872,7 +1861,6 @@
         },
         "declarations": {
           "total": 4,
-          "important": 0,
           "properties": {
             "display": [
               "table",
@@ -1918,7 +1906,6 @@
         },
         "declarations": {
           "total": 4,
-          "important": 0,
           "properties": {
             "display": [
               "table",

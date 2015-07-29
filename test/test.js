@@ -6,15 +6,18 @@ var cssstats = require('..')
 
 describe('css-statistics', function () {
   var stats
+  var options = {
+    importantDeclarations: true
+  }
 
   before(function () {
-    stats = cssstats(fixture('small'))
+    stats = cssstats(fixture('small'), options)
   })
 
   describe('PostCSS plugin', function () {
     it('should be handled correctly', function (done) {
       postcss()
-        .use(cssstats())
+        .use(cssstats(options))
         .process(fixture('small'))
         .then(function (result) {
           var pluginStats = result.messages[0].stats
@@ -80,7 +83,7 @@ describe('css-statistics', function () {
     })
 
     it('should correctly count important values', function () {
-      assert.equal(stats.declarations.important, 2)
+      assert.equal(stats.declarations.important.length, 2)
     })
   })
 

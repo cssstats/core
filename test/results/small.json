@@ -47,7 +47,6 @@
   },
   "declarations": {
     "total": 20,
-    "important": 2,
     "properties": {
       "color": [
         "red",
@@ -131,7 +130,6 @@
         },
         "declarations": {
           "total": 3,
-          "important": 0,
           "properties": {
             "color": [
               "tomato"

@@ -67,6 +67,7 @@ var stats = cssstats(css, { mediaQueries: false })
 - `safe` (boolean, default: `true`) - enables PostCSS safe mode for parsing CSS with syntax errors
 - `lite` (boolean, default `false`) - returns a smaller object for performance concerns
 - `mediaQueries` (boolean, default `true`) - determines whether or not to generate stats for each media query block
+- `importantDeclarations` (boolean, deault `false`) - include an array of declarations with `!important`
 
 The following options add the results of helper methods to the returned object. This is helpful when using `JSON.stringify()`.
 

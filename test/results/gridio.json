@@ -68,7 +68,6 @@
   },
   "declarations": {
     "total": 60,
-    "important": 0,
     "properties": {
       "display": [
         "inline-block",

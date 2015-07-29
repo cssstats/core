@@ -19,7 +19,8 @@ module.exports = function (src, opts) {
     sortedSpecificityGraph: false,
     repeatedSelectors: false,
     propertyResets: false,
-    vendorPrefixedProperties: false
+    vendorPrefixedProperties: false,
+    importantDeclarations: false
   })
 
   function parse (root, result) {
