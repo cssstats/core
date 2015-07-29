@@ -13,7 +13,8 @@ module.exports = function (src, opts) {
   opts = opts || {}
   opts = _.defaults(opts, {
     safe: true,
-    lite: false
+    lite: false,
+    mediaQueries: true
   })
 
   function parse (root, result) {
