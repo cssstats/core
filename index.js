@@ -43,7 +43,10 @@ module.exports = function (src, opts) {
       // console.log('toJSON', stats)
       delete stats.selectors.getSpecificityGraph
       delete stats.selectors.getRepeatedValues
+      delete stats.selectors.getSortedSpecificity
       delete stats.declarations.getPropertyResets
+      delete stats.declarations.getUniquePropertyCount
+      delete stats.declarations.getPropertyValueCount
       return stats
     }
 

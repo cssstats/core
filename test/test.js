@@ -100,6 +100,10 @@ describe('css-statistics', function () {
     it('should generate a specificity graph', function () {
       assert.deepEqual(stats.selectors.getSpecificityGraph(), [ 10, 100, 10, 10, 11, 30, 10, 20, 20, 1, 1 ])
     })
+
+    it('should return a sorted specificity array', function () {
+      assert.deepEqual(stats.selectors.getSortedSpecificity(), [ { selector: '#foo', specificity: 100 }, { selector: '.sm-tomato:first-child:last-child', specificity: 30 }, { selector: '.box:first-child', specificity: 20 }, { selector: '.box:last-child', specificity: 20 }, { selector: '.sm-tomato::after', specificity: 11 }, { selector: '.red', specificity: 10 }, { selector: '.box', specificity: 10 }, { selector: '.sm-tomato', specificity: 10 }, { selector: '.red', specificity: 10 }, { selector: '0%', specificity: 1 }, { selector: '100%', specificity: 1 } ])
+    })
   })
 
   describe('declaration methods', function () {
