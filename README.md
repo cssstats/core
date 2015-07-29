@@ -56,6 +56,18 @@ cat some-css-file.css | cssstats
 getcss google.com | cssstats
 ```
 
+#### Options
+
+Options may be passed as a second argument.
+
+```js
+var stats = cssstats(css, { mediaQueries: false })
+```
+
+- `safe` (boolean, default: `true`) - enables PostCSS safe mode for parsing CSS with syntax errors
+- `lite` (boolean, default `false`) - returns a smaller object for performance concerns
+- `mediaQueries` (boolean, default `true`) - determines whether or not to generate stats for each media query block
+
 ### Returned Object
 
 ```js
@@ -78,10 +90,8 @@ getcss google.com | cssstats
     type: n,
     pseudoClass: n,
     psuedoElement: n,
-    repeated: [str],
     values: [str],
     specificity: {
-      graph: [n],
       max: n
       average: n
     }
@@ -92,15 +102,46 @@ getcss google.com | cssstats
     vendorPrefix: n,
     properties:
       prop: [str]
-    },
-    resets: {
-      prop: n
     }
   },
   mediaQueries: {
     total: n,
     unique: n,
-    values: [str]
+    values: [str],
+    contents: [
+      {
+        value: str,
+        rules: {
+          total: n,
+          size: {
+            graph: [n],
+            max: n,
+            average: n
+          }
+        },
+        selectors: {
+          total: n,
+          id: n,
+          class: n,
+          type: n,
+          pseudoClass: n,
+          pseudoElement: n,
+          values: [str],
+          specificity: {
+            max: n,
+            average: n
+          }
+        },
+        declarations: {
+          total: n,
+          important: n,
+          vendorPrefix: n,
+          properties: {
+            prop: [str]
+          }
+        }
+      }
+    ]
   }
 }
 ```
@@ -127,12 +168,13 @@ The size of the stylesheet gzipped in bytes
 - `type` - total number of type selectors
 - `pseudoClass` - total number of pseudo class selectors
 - `pseudoElement` - total number of pseudo element selectors
-- `repeated` - array of strings of repeated selectors
 - `values` - array of strings for all selectors
 - `specificity` object
-  - `specificity.graph` - array of numbers for each selector’s specificity as a base 10 number
   - `specificity.max` - maximum specificity as a base 10 number
   - `specificity.average` - average specificity as a base 10 number
+- `getSpecificityGraph()` - method that returns an array of numbers for each selector’s specificity as a base 10 number
+- `getRepeatedValues()` - method that returns an array of strings of repeated selectors
+- `getSortedSpecificity()` - method that returns an array of selectors with base 10 specificity score, sorted from highest to lowest
 
 #### `declarations` object
 
@@ -140,12 +182,16 @@ The size of the stylesheet gzipped in bytes
 - `important` - total number of `!important` declarations
 - `vendorPrefix` - total number of vendor prefixed declarations
 - `properties` - object with each unique property and an array of that property’s values
+- `getPropertyResets()` - method that returns an object with the number of times margin or padding is reset for each property
+- `getUniquePropertyCount(property)` - method that returns the number of unique values for the given property
+- `getPropertyValueCount(property, value)` - method that returns the number of times a declaration occurs for the given property and value
 
 #### `mediaQueries` object
 
 - `total` - total number of media queries
 - `unique` - total unique media queries
 - `values` - array of values for each media query
+- `contents` - array of media query blocks with stats for each
 
 
 See the `/test/results` folder for example JSON results.
@@ -155,44 +201,21 @@ See the `/test/results` folder for example JSON results.
 #### Get total number of unique colors
 
 ```js
-var _ = require('lodash')
 var cssstats = require('cssstats')
-
 var stats = cssstats(css)
-
-var uniqueColorsCount = _.uniq(stats.declarations.properties.colors).length
+var uniqueColorsCount = stats.declarations.getUniquePropertyCount('color')
 ```
 
 #### `display: none` count
 
 ```js
-var displayNoneCount = stats.declarations.properties.display
-  .filter(function (val) {
-    return val === 'none'
-  })
-  .length
-```
-
-#### Find the selector with the highest specificity
-
-```js
-var maxSpecificity = _.max(stats.selectors.specificity.graph)
-var index = stats.selectors.specificity.graph.indexOf(maxSpecificity)
-var maxSelector = stats.selectors.values[index]
+var displayNoneCount = stats.declarations.getPropertyValueCount('display', 'none')
 ```
 
 #### Sort selectors by highest specificity
 
 ```js
-var ranked = _.zipWith(stats.selectors.values, stats.selectors.specificity.graph, function (a, b) {
-    return {
-      selector: a,
-      specificity: b
-    }
-  })
-  .sort(function (a, b) {
-    return b.specificity - a.specificity
-  })
+var sortedSelectors = stats.selectors.getSortedSpecificity()
 ```
 
 
