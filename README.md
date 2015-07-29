@@ -68,6 +68,14 @@ var stats = cssstats(css, { mediaQueries: false })
 - `lite` (boolean, default `false`) - returns a smaller object for performance concerns
 - `mediaQueries` (boolean, default `true`) - determines whether or not to generate stats for each media query block
 
+The following options add the results of helper methods to the returned object. This is helpful when using `JSON.stringify()`.
+
+- `specificityGraph` (boolean, deault `false`)
+- `sortedSpecificityGraph` (boolean, deault `false`)
+- `repeatedSelectors` (boolean, deault `false`)
+- `propertyResets` (boolean, deault `false`)
+- `vendorPrefixedProperties` (boolean, deault `false`)
+
 ### Returned Object
 
 ```js
@@ -102,13 +110,13 @@ var stats = cssstats(css, { mediaQueries: false })
   declarations: {
     total: n,
     important: n,
-    vendorPrefix: n,
     properties:
       prop: [str]
     },
     getPropertyResets(),
     getUniquePropertyCount(),
-    getPropertyValueCount()
+    getPropertyValueCount(),
+    getVendorPrefixed()
   },
   mediaQueries: {
     total: n,
@@ -191,6 +199,7 @@ The size of the stylesheet gzipped in bytes
 - `getPropertyResets()` - method that returns an object with the number of times margin or padding is reset for each property
 - `getUniquePropertyCount(property)` - method that returns the number of unique values for the given property
 - `getPropertyValueCount(property, value)` - method that returns the number of times a declaration occurs for the given property and value
+- `getVendorPrefixed(property, value)` - method that returns an array of declarations with vendor prefixed properties
 
 #### `mediaQueries` object
 

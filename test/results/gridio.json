@@ -69,7 +69,6 @@
   "declarations": {
     "total": 60,
     "important": 0,
-    "vendorPrefix": 22,
     "properties": {
       "display": [
         "inline-block",

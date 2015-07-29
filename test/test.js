@@ -76,7 +76,7 @@ describe('css-statistics', function () {
 
   describe('declarations', function () {
     it('should correctly count vendor prefixes', function () {
-      assert.equal(stats.declarations.vendorPrefix, 5)
+      assert.equal(stats.declarations.getVendorPrefixed().length, 5)
     })
 
     it('should correctly count important values', function () {

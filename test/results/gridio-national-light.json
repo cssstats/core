@@ -25,7 +25,6 @@
   "declarations": {
     "total": 0,
     "important": 0,
-    "vendorPrefix": 0,
     "properties": {}
   },
   "mediaQueries": {

@@ -18,7 +18,8 @@ module.exports = function (src, opts) {
     specificityGraph: false,
     sortedSpecificityGraph: false,
     repeatedSelectors: false,
-    propertyResets: false
+    propertyResets: false,
+    vendorPrefixedProperties: false
   })
 
   function parse (root, result) {

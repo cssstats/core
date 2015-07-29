@@ -663,7 +663,6 @@
   "declarations": {
     "total": 471,
     "important": 10,
-    "vendorPrefix": 28,
     "properties": {
       "margin": [
         "0",
@@ -1346,7 +1345,6 @@
         "declarations": {
           "total": 1,
           "important": 1,
-          "vendorPrefix": 0,
           "properties": {
             "display": [
               "block"
@@ -1384,7 +1382,6 @@
         "declarations": {
           "total": 1,
           "important": 1,
-          "vendorPrefix": 0,
           "properties": {
             "display": [
               "block"
@@ -1422,7 +1419,6 @@
         "declarations": {
           "total": 1,
           "important": 1,
-          "vendorPrefix": 0,
           "properties": {
             "display": [
               "block"
@@ -1460,7 +1456,6 @@
         "declarations": {
           "total": 1,
           "important": 1,
-          "vendorPrefix": 0,
           "properties": {
             "display": [
               "none"
@@ -1498,7 +1493,6 @@
         "declarations": {
           "total": 1,
           "important": 1,
-          "vendorPrefix": 0,
           "properties": {
             "display": [
               "none"
@@ -1536,7 +1530,6 @@
         "declarations": {
           "total": 1,
           "important": 1,
-          "vendorPrefix": 0,
           "properties": {
             "display": [
               "none"
@@ -1600,7 +1593,6 @@
         "declarations": {
           "total": 18,
           "important": 0,
-          "vendorPrefix": 2,
           "properties": {
             "float": [
               "left",
@@ -1687,7 +1679,6 @@
         "declarations": {
           "total": 18,
           "important": 0,
-          "vendorPrefix": 2,
           "properties": {
             "float": [
               "left",
@@ -1774,7 +1765,6 @@
         "declarations": {
           "total": 18,
           "important": 0,
-          "vendorPrefix": 2,
           "properties": {
             "float": [
               "left",
@@ -1837,7 +1827,6 @@
         "declarations": {
           "total": 4,
           "important": 0,
-          "vendorPrefix": 0,
           "properties": {
             "display": [
               "table",
@@ -1884,7 +1873,6 @@
         "declarations": {
           "total": 4,
           "important": 0,
-          "vendorPrefix": 0,
           "properties": {
             "display": [
               "table",
@@ -1931,7 +1919,6 @@
         "declarations": {
           "total": 4,
           "important": 0,
-          "vendorPrefix": 0,
           "properties": {
             "display": [
               "table",

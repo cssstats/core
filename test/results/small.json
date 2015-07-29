@@ -48,7 +48,6 @@
   "declarations": {
     "total": 20,
     "important": 2,
-    "vendorPrefix": 5,
     "properties": {
       "color": [
         "red",
@@ -133,7 +132,6 @@
         "declarations": {
           "total": 3,
           "important": 0,
-          "vendorPrefix": 1,
           "properties": {
             "color": [
               "tomato"
