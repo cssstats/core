@@ -12,7 +12,6 @@ describe('css-statistics', function () {
   })
 
   describe('PostCSS plugin', function () {
-
     it('should be handled correctly', function (done) {
       postcss()
         .use(cssstats())
@@ -26,7 +25,6 @@ describe('css-statistics', function () {
   })
 
   describe('base stats', function () {
-
     it('should calculate the correct file size', function () {
       assert.equal(stats.size, 827)
     })
@@ -37,7 +35,6 @@ describe('css-statistics', function () {
   })
 
   describe('averages', function () {
-
     it('should correctly count specificity stats', function () {
       assert.equal(stats.selectors.specificity.average, 20.272727272727273)
     })
@@ -47,8 +44,7 @@ describe('css-statistics', function () {
     })
   })
 
-  describe('aggregates', function () {
-
+  describe('totals', function () {
     it('should correctly count declarations', function () {
       assert.equal(stats.declarations.total, 20)
     })
@@ -79,22 +75,12 @@ describe('css-statistics', function () {
   })
 
   describe('declarations', function () {
-
     it('should correctly count vendor prefixes', function () {
       assert.equal(stats.declarations.vendorPrefix, 5)
     })
 
     it('should correctly count important values', function () {
       assert.equal(stats.declarations.important, 2)
-    })
-
-    // Deprecate in favor of presentation-side uniquing
-    // it('should correctly count the number of unique declarations', function () {
-    //   assert.equal(stats.declarations.uniqueDeclarationsCount, 19)
-    // })
-
-    it('should correctly count the number of declarations that reset properties', function () {
-      assert.deepEqual(stats.declarations.getPropertyResets(), {'margin': 1, 'margin-bottom': 1})
     })
   })
 
@@ -107,7 +93,26 @@ describe('css-statistics', function () {
 
     it('should correctly get statistics for CSS in, and after, a keyframe', function () {
       assert.equal(keyframeStats.declarations.properties.color.length, 5)
-      // assert.equal(keyframeStats.aggregates.color.unique, 4)
+    })
+  })
+
+  describe('selector methods', function () {
+    it('should generate a specificity graph', function () {
+      assert.deepEqual(stats.selectors.getSpecificityGraph(), [ 10, 100, 10, 10, 11, 30, 10, 20, 20, 1, 1 ])
+    })
+  })
+
+  describe('declaration methods', function () {
+    it('should correctly count the number of declarations that reset properties', function () {
+      assert.deepEqual(stats.declarations.getPropertyResets(), {'margin': 1, 'margin-bottom': 1})
+    })
+
+    it('should correctly count the number of unique colors', function () {
+      assert.equal(stats.declarations.getUniquePropertyCount('color'), 2)
+    })
+
+    it('should correctly count the number of color: red', function () {
+      assert.equal(stats.declarations.getPropertyValueCount('color', 'red'), 2)
     })
   })
 
@@ -125,58 +130,23 @@ describe('css-statistics', function () {
   })
 })
 
-// This seems like something better suited for the app, not the core
-/*
-describe('font shorthand property', function () {
-  var stats
-
-  before(function () {
-    stats = cssstats(fixture('font-shorthand'))
-  })
-
-  it('should be able to grab the font-size declaration', function () {
-    assert.equal(stats.declarations.properties['font-size'].length, 2)
-  })
-
-  it('should be able to grab the font-family declaration', function () {
-    assert.equal(stats.declarations.properties['font-family'].length, 1)
-  })
-
-  it('should be able to grab the font-weight declaration', function () {
-    assert.equal(stats.declarations.properties['font-weight'].length, 1)
-  })
-
-  it('should be able to grab the font-style declaration', function () {
-    assert.equal(stats.aggregates.fontStyle.total, 1)
-  })
-})
-*/
-
 describe('cssstats lite', function () {
   var stats
 
   before(function () {
-    stats = cssstats(fixture('small'), { lite: true })
+    stats = cssstats(fixture('small'), { lite: true, mediaQueries: false })
   })
 
   it('should not contain rulesize graph', function () {
     assert.equal(stats.rules.size.graph, null)
   })
 
-  it('should not contain repeated selectors', function () {
-    assert.equal(stats.selectors.repeated, null)
-  })
-
   it('should not contain selector values', function () {
     assert.equal(stats.selectors.values, null)
   })
 
-  it('should not contain selector specificity graph', function () {
-    assert.equal(stats.selectors.specificity.graph, null)
-  })
-
   it('should not contain media query contents', function () {
-    assert.equal(stats.mediaQueries.content, null)
+    assert.equal(stats.mediaQueries.contents, null)
   })
 
 })
