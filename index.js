@@ -46,7 +46,7 @@ module.exports = function (src, opts) {
     }
 
     stats.toJSON = function () {
-      // console.log('toJSON', stats)
+      // Remove methods when using JSON.stringify
       delete stats.selectors.getSpecificityGraph
       delete stats.selectors.getRepeatedValues
       delete stats.selectors.getSortedSpecificity
