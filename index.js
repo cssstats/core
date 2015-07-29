@@ -53,6 +53,7 @@ module.exports = function (src, opts) {
       delete stats.declarations.getPropertyResets
       delete stats.declarations.getUniquePropertyCount
       delete stats.declarations.getPropertyValueCount
+      delete stats.declarations.getVendorPrefixed
       return stats
     }
 
