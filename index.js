@@ -14,7 +14,11 @@ module.exports = function (src, opts) {
   opts = _.defaults(opts, {
     safe: true,
     lite: false,
-    mediaQueries: true
+    mediaQueries: true,
+    specificityGraph: false,
+    sortedSpecificityGraph: false,
+    repeatedSelectors: false,
+    propertyResets: false
   })
 
   function parse (root, result) {
