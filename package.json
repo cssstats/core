@@ -11,7 +11,7 @@
   "dependencies": {
     "camelcase": "^1.0.2",
     "commander": "^2.5.0",
-    "css-selector-parser": "^1.1.0",
+    "css-selector-tokenizer": "^0.5.4",
     "cssfontparser": "^1.1.0",
     "gzip-size": "^1.0.0",
     "has-class-selector": "0.0.1",
