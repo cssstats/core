@@ -117,7 +117,9 @@ The following options add the results of helper methods to the returned object. 
     getPropertyResets(),
     getUniquePropertyCount(),
     getPropertyValueCount(),
-    getVendorPrefixed()
+    getVendorPrefixed(),
+    getAllFontSizes(),
+    getAllFontFamilies(),
   },
   mediaQueries: {
     total: n,
@@ -201,6 +203,8 @@ The size of the stylesheet gzipped in bytes
 - `getUniquePropertyCount(property)` - method that returns the number of unique values for the given property
 - `getPropertyValueCount(property, value)` - method that returns the number of times a declaration occurs for the given property and value
 - `getVendorPrefixed(property, value)` - method that returns an array of declarations with vendor prefixed properties
+- `getAllFontSizes()` - method that returns an array of font sizes from both `font-size` and `font` shorthand declarations
+- `getAllFontFamilies()` - method that returns an array of font families from both `font-family` and `font` shorthand declarations
 
 #### `mediaQueries` object
 

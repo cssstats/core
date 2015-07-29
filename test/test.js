@@ -121,6 +121,14 @@ describe('css-statistics', function () {
     it('should correctly count the number of color: red', function () {
       assert.equal(stats.declarations.getPropertyValueCount('color', 'red'), 2)
     })
+
+    it('should get all font sizes', function () {
+      assert.equal(stats.declarations.getAllFontSizes().length, 0)
+    })
+
+    it('should get all font families', function () {
+      assert.equal(stats.declarations.getAllFontFamilies().length, 0)
+    })
   })
 
   it('should be able to parse css and produce stats', function (done) {
@@ -165,6 +173,7 @@ function fixture (name) {
 function renderJson (filename) {
   var css = fixture(filename)
   var obj = cssstats(css)
+
   fs.writeFileSync('./test/results/' + filename + '.json', JSON.stringify(obj, null, 2))
 }
 

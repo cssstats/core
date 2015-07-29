@@ -54,6 +54,8 @@ module.exports = function (src, opts) {
       delete stats.declarations.getUniquePropertyCount
       delete stats.declarations.getPropertyValueCount
       delete stats.declarations.getVendorPrefixed
+      delete stats.declarations.getAllFontSizes
+      delete stats.declarations.getAllFontFamilies
       return stats
     }
 
