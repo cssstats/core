@@ -31,10 +31,6 @@
     "type": 0,
     "pseudoClass": 0,
     "pseudoElement": 0,
-    "repeated": [
-      ".odometer.odometer-auto-theme",
-      ".odometer.odometer-theme-default"
-    ],
     "values": [
       ".odometer.odometer-auto-theme",
       ".odometer.odometer-theme-default",

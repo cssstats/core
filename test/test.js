@@ -74,7 +74,7 @@ describe('css-statistics', function () {
     })
 
     it('should correctly aggregate the repeated selectors', function () {
-      assert.deepEqual(stats.selectors.repeated, ['.red'])
+      assert.deepEqual(stats.selectors.getRepeatedValues(), ['.red'])
     })
   })
 
@@ -157,7 +157,6 @@ describe('cssstats lite', function () {
 
   before(function () {
     stats = cssstats(fixture('small'), { lite: true })
-    // console.log(JSON.stringify(stats, null, '  '))
   })
 
   it('should not contain rulesize graph', function () {

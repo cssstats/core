@@ -27,9 +27,6 @@
     "type": 0,
     "pseudoClass": 3,
     "pseudoElement": 1,
-    "repeated": [
-      ".red"
-    ],
     "values": [
       ".red",
       "#foo",
@@ -129,7 +126,6 @@
           "type": 0,
           "pseudoClass": 0,
           "pseudoElement": 0,
-          "repeated": [],
           "values": [
             ".sm-tomato"
           ],
