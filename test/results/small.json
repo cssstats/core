@@ -122,8 +122,9 @@
     "values": [
       "(min-width: 30em)"
     ],
-    "contents": {
-      "(min-width: 30em)": {
+    "contents": [
+      {
+        "value": "(min-width: 30em)",
         "rules": {
           "total": 1,
           "size": {
@@ -171,6 +172,6 @@
           "resets": {}
         }
       }
-    }
+    ]
   }
 }
