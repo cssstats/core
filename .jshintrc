@@ -37,6 +37,7 @@
 
 
     // Personal styling preferences.
+    "asi"           : true,
     "newcap"        : true,   // Require capitalization of all constructor functions e.g. `new F()`.
     "noempty"       : true,   // Prohibit use of empty blocks.
     "nomen"         : true,   // Prohibit use of initial or trailing underbars in names.

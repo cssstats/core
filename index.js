@@ -1,52 +1,71 @@
-var _ = require('lodash');
-var postcss = require('postcss');
-var gzipSize = require('gzip-size');
-var declarations = require('./lib/declarations');
-var selectors = require('./lib/selectors');
-var aggregates = require('./lib/aggregates');
-var rules = require('./lib/rules');
-var size = require('./lib/size');
 
-module.exports = function(cssStringOrAST, options) {
-  options = options || {};
-  options.safe = options.safe || true;
+var _ = require('lodash')
+var postcss = require('postcss')
+var gzipSize = require('gzip-size')
+var size = require('./lib/size')
+var rules = require('./lib/rules')
+var selectors = require('./lib/selectors')
+var declarations = require('./lib/declarations')
+var mediaQueries = require('./lib/media-queries')
 
-  var obj;
-  var string;
-  var result = {};
+module.exports = function (src, opts) {
 
-  if (_.isString(cssStringOrAST)) {
-    obj = postcss.parse(cssStringOrAST, options);
-    string = cssStringOrAST;
-  } else if (_.isObject(cssStringOrAST)) {
-    obj = cssStringOrAST;
-    string = obj.toString();
-  } else {
-    throw new TypeError('cssstats expects a string or PostCSS AST');
+  opts = opts || {}
+  opts = _.defaults(opts, {
+    safe: true,
+    lite: false,
+    mediaQueries: true
+  })
+
+  function parse (root, result) {
+
+    var stats = {}
+
+    var string = postcss().process(root).css
+    stats.size = size(string)
+    stats.gzipSize = gzipSize.sync(string)
+
+    stats.rules = rules(root, opts)
+    stats.selectors = selectors(root, opts)
+    stats.declarations = declarations(root, opts)
+    stats.mediaQueries = mediaQueries(root, opts)
+
+    // Push message to PostCSS when used as a plugin
+    if (result && result.messages) {
+      result.messages.push({
+        type: 'cssstats',
+        plugin: 'postcss-cssstats',
+        stats: stats
+      })
+    }
+
+    stats.toJSON = function () {
+      // console.log('toJSON', stats)
+      delete stats.selectors.getSpecificityGraph
+      delete stats.selectors.getRepeatedValues
+      delete stats.selectors.getSortedSpecificity
+      delete stats.declarations.getPropertyResets
+      delete stats.declarations.getUniquePropertyCount
+      delete stats.declarations.getPropertyValueCount
+      return stats
+    }
+
+    // Return stats for default usage
+    return stats
+
   }
 
-  if (!obj) { return false; }
+  if (typeof src === 'string') {
+    // Default behavior
+    var root = postcss.parse(src, { safe: true })
+    var result = parse(root, {})
+    return result
+  } else if (typeof src === 'object' || typeof src === 'undefined') {
+    // Return a PostCSS plugin
+    return parse
+  } else {
+    throw new TypeError('cssstats expects a string or to be used as a PostCSS plugin')
+  }
 
-  result.averages = {};
-  result.size = size(string);
-  result.gzipSize = gzipSize.sync(string);
+}
 
-  var selectorStats = selectors(obj);
-  result.selectors = selectorStats.selectors;
-  result.averages.specificity = selectorStats.averageSpecificity;
-
-  var ruleStats = rules(obj);
-  result.rules = ruleStats.rules;
-  result.averages.ruleSize = ruleStats.averageRuleSize;
-
-  result.declarations = declarations(obj);
-  result.aggregates = aggregates(result);
-
-  result.aggregates.idSelectors = selectorStats.idSelectors;
-  result.aggregates.classSelectors = selectorStats.classSelectors;
-  result.aggregates.repeatedSelectors = selectorStats.repeatedSelectors;
-  result.aggregates.pseudoClassSelectors = selectorStats.pseudoClassSelectors;
-  result.aggregates.pseudoElementSelectors = selectorStats.pseudoElementSelectors;
-
-  return result;
-};
