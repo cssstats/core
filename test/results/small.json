@@ -94,10 +94,6 @@
         "translateY(-20px) translate3d(0, 0, 0)",
         "translateY(0) translate3d(0, 0, 0)"
       ]
-    },
-    "resets": {
-      "margin": 1,
-      "margin-bottom": 1
     }
   },
   "mediaQueries": {
@@ -148,8 +144,7 @@
             "-ms-border-radius": [
               "0"
             ]
-          },
-          "resets": {}
+          }
         }
       }
     ]

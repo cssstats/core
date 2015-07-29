@@ -94,7 +94,7 @@ describe('css-statistics', function () {
     // })
 
     it('should correctly count the number of declarations that reset properties', function () {
-      assert.deepEqual(stats.declarations.resets, {'margin': 1, 'margin-bottom': 1})
+      assert.deepEqual(stats.declarations.getPropertyResets(), {'margin': 1, 'margin-bottom': 1})
     })
   })
 
@@ -173,10 +173,6 @@ describe('cssstats lite', function () {
 
   it('should not contain selector specificity graph', function () {
     assert.equal(stats.selectors.specificity.graph, null)
-  })
-
-  it('should not contain declaration resets', function () {
-    assert.equal(stats.declarations.resets, null)
   })
 
   it('should not contain media query contents', function () {

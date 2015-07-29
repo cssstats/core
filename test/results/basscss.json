@@ -1296,13 +1296,6 @@
       "border-left-color": [
         "#ccc"
       ]
-    },
-    "resets": {
-      "margin": 3,
-      "margin-top": 6,
-      "margin-left": 5,
-      "margin-right": 2,
-      "margin-bottom": 1
     }
   },
   "mediaQueries": {
@@ -1358,8 +1351,7 @@
             "display": [
               "block"
             ]
-          },
-          "resets": {}
+          }
         }
       },
       {
@@ -1397,8 +1389,7 @@
             "display": [
               "block"
             ]
-          },
-          "resets": {}
+          }
         }
       },
       {
@@ -1436,8 +1427,7 @@
             "display": [
               "block"
             ]
-          },
-          "resets": {}
+          }
         }
       },
       {
@@ -1475,8 +1465,7 @@
             "display": [
               "none"
             ]
-          },
-          "resets": {}
+          }
         }
       },
       {
@@ -1514,8 +1503,7 @@
             "display": [
               "none"
             ]
-          },
-          "resets": {}
+          }
         }
       },
       {
@@ -1553,8 +1541,7 @@
             "display": [
               "none"
             ]
-          },
-          "resets": {}
+          }
         }
       },
       {
@@ -1641,8 +1628,7 @@
               "91.66666666666666%",
               "100%"
             ]
-          },
-          "resets": {}
+          }
         }
       },
       {
@@ -1729,8 +1715,7 @@
               "91.66666666666666%",
               "100%"
             ]
-          },
-          "resets": {}
+          }
         }
       },
       {
@@ -1817,8 +1802,7 @@
               "91.66666666666666%",
               "100%"
             ]
-          },
-          "resets": {}
+          }
         }
       },
       {
@@ -1865,8 +1849,7 @@
             "vertical-align": [
               "middle"
             ]
-          },
-          "resets": {}
+          }
         }
       },
       {
@@ -1913,8 +1896,7 @@
             "vertical-align": [
               "middle"
             ]
-          },
-          "resets": {}
+          }
         }
       },
       {
@@ -1961,8 +1943,7 @@
             "vertical-align": [
               "middle"
             ]
-          },
-          "resets": {}
+          }
         }
       }
     ]
