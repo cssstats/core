@@ -94,7 +94,10 @@ var stats = cssstats(css, { mediaQueries: false })
     specificity: {
       max: n
       average: n
-    }
+    },
+    getSpecificityGraph(),
+    getRepeatedValues(),
+    getSortedSpecificity()
   },
   declarations: {
     total: n,
@@ -102,7 +105,10 @@ var stats = cssstats(css, { mediaQueries: false })
     vendorPrefix: n,
     properties:
       prop: [str]
-    }
+    },
+    getPropertyResets(),
+    getUniquePropertyCount(),
+    getPropertyValueCount()
   },
   mediaQueries: {
     total: n,
