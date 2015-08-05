@@ -14,12 +14,12 @@ module.exports = function (src, opts) {
   opts = _.defaults(opts, {
     safe: true,
     mediaQueries: true,
+    importantDeclarations: false,
     specificityGraph: false,
     sortedSpecificityGraph: false,
     repeatedSelectors: false,
     propertyResets: false,
-    vendorPrefixedProperties: false,
-    importantDeclarations: false
+    vendorPrefixedProperties: false
   })
 
   function parse (root, result) {
