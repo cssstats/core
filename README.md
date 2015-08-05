@@ -1,12 +1,12 @@
-# CSS Statistics
+# cssstats
 Parses stylesheets and returns an object with statistics
 
-Used in http://cssstats.com
+This is the core module used in http://cssstats.com
 
 ## Installation
 
 ```sh
-npm install --save cssstats
+npm install cssstats
 ```
 
 ## Usage
