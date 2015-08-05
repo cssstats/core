@@ -31,3 +31,7 @@
     transform: translateY(0) translate3d(0, 0, 0);
   }
 }
+
+header { padding: 0; }
+.georgia { font: 1.5em Georgia; }
+
