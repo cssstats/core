@@ -13,7 +13,6 @@ module.exports = function (src, opts) {
   opts = opts || {}
   opts = _.defaults(opts, {
     safe: true,
-    lite: false,
     mediaQueries: true,
     specificityGraph: false,
     sortedSpecificityGraph: false,
