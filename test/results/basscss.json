@@ -295,15 +295,15 @@
         1,
         1
       ],
-      "max": 0,
+      "max": 12,
       "average": 1.6297577854671281
     }
   },
   "selectors": {
     "total": 347,
-    "id": 0,
-    "class": 279,
     "type": 70,
+    "class": 279,
+    "id": 0,
     "pseudoClass": 41,
     "pseudoElement": 3,
     "values": [
@@ -1322,15 +1322,15 @@
             "graph": [
               1
             ],
-            "max": 0,
+            "max": 1,
             "average": 1
           }
         },
         "selectors": {
           "total": 1,
-          "id": 0,
-          "class": 1,
           "type": 0,
+          "class": 1,
+          "id": 0,
           "pseudoClass": 0,
           "pseudoElement": 0,
           "values": [
@@ -1358,15 +1358,15 @@
             "graph": [
               1
             ],
-            "max": 0,
+            "max": 1,
             "average": 1
           }
         },
         "selectors": {
           "total": 1,
-          "id": 0,
-          "class": 1,
           "type": 0,
+          "class": 1,
+          "id": 0,
           "pseudoClass": 0,
           "pseudoElement": 0,
           "values": [
@@ -1394,15 +1394,15 @@
             "graph": [
               1
             ],
-            "max": 0,
+            "max": 1,
             "average": 1
           }
         },
         "selectors": {
           "total": 1,
-          "id": 0,
-          "class": 1,
           "type": 0,
+          "class": 1,
+          "id": 0,
           "pseudoClass": 0,
           "pseudoElement": 0,
           "values": [
@@ -1430,15 +1430,15 @@
             "graph": [
               1
             ],
-            "max": 0,
+            "max": 1,
             "average": 1
           }
         },
         "selectors": {
           "total": 1,
-          "id": 0,
-          "class": 1,
           "type": 0,
+          "class": 1,
+          "id": 0,
           "pseudoClass": 0,
           "pseudoElement": 0,
           "values": [
@@ -1466,15 +1466,15 @@
             "graph": [
               1
             ],
-            "max": 0,
+            "max": 1,
             "average": 1
           }
         },
         "selectors": {
           "total": 1,
-          "id": 0,
-          "class": 1,
           "type": 0,
+          "class": 1,
+          "id": 0,
           "pseudoClass": 0,
           "pseudoElement": 0,
           "values": [
@@ -1502,15 +1502,15 @@
             "graph": [
               1
             ],
-            "max": 0,
+            "max": 1,
             "average": 1
           }
         },
         "selectors": {
           "total": 1,
-          "id": 0,
-          "class": 1,
           "type": 0,
+          "class": 1,
+          "id": 0,
           "pseudoClass": 0,
           "pseudoElement": 0,
           "values": [
@@ -1551,15 +1551,15 @@
               1,
               1
             ],
-            "max": 0,
+            "max": 3,
             "average": 1.2857142857142858
           }
         },
         "selectors": {
           "total": 14,
-          "id": 0,
-          "class": 14,
           "type": 0,
+          "class": 14,
+          "id": 0,
           "pseudoClass": 0,
           "pseudoElement": 0,
           "values": [
@@ -1636,15 +1636,15 @@
               1,
               1
             ],
-            "max": 0,
+            "max": 3,
             "average": 1.2857142857142858
           }
         },
         "selectors": {
           "total": 14,
-          "id": 0,
-          "class": 14,
           "type": 0,
+          "class": 14,
+          "id": 0,
           "pseudoClass": 0,
           "pseudoElement": 0,
           "values": [
@@ -1721,15 +1721,15 @@
               1,
               1
             ],
-            "max": 0,
+            "max": 3,
             "average": 1.2857142857142858
           }
         },
         "selectors": {
           "total": 14,
-          "id": 0,
-          "class": 14,
           "type": 0,
+          "class": 14,
+          "id": 0,
           "pseudoClass": 0,
           "pseudoElement": 0,
           "values": [
@@ -1794,15 +1794,15 @@
               2,
               2
             ],
-            "max": 0,
+            "max": 2,
             "average": 2
           }
         },
         "selectors": {
           "total": 2,
-          "id": 0,
-          "class": 2,
           "type": 0,
+          "class": 2,
+          "id": 0,
           "pseudoClass": 0,
           "pseudoElement": 0,
           "values": [
@@ -1839,15 +1839,15 @@
               2,
               2
             ],
-            "max": 0,
+            "max": 2,
             "average": 2
           }
         },
         "selectors": {
           "total": 2,
-          "id": 0,
-          "class": 2,
           "type": 0,
+          "class": 2,
+          "id": 0,
           "pseudoClass": 0,
           "pseudoElement": 0,
           "values": [
@@ -1884,15 +1884,15 @@
               2,
               2
             ],
-            "max": 0,
+            "max": 2,
             "average": 2
           }
         },
         "selectors": {
           "total": 2,
-          "id": 0,
-          "class": 2,
           "type": 0,
+          "class": 2,
+          "id": 0,
           "pseudoClass": 0,
           "pseudoElement": 0,
           "values": [

@@ -1,8 +1,8 @@
 {
-  "size": 827,
-  "gzipSize": 336,
+  "size": 885,
+  "gzipSize": 366,
   "rules": {
-    "total": 10,
+    "total": 12,
     "size": {
       "graph": [
         1,
@@ -14,17 +14,19 @@
         1,
         1,
         4,
-        4
+        4,
+        1,
+        1
       ],
-      "max": 0,
-      "average": 2
+      "max": 4,
+      "average": 1.8333333333333333
     }
   },
   "selectors": {
-    "total": 11,
+    "total": 13,
+    "type": 1,
+    "class": 9,
     "id": 1,
-    "class": 8,
-    "type": 0,
     "pseudoClass": 3,
     "pseudoElement": 1,
     "values": [
@@ -38,15 +40,17 @@
       ".box:first-child",
       ".box:last-child",
       "0%",
-      "100%"
+      "100%",
+      "header",
+      ".georgia"
     ],
     "specificity": {
       "max": 100,
-      "average": 20.272727272727273
+      "average": 18
     }
   },
   "declarations": {
-    "total": 20,
+    "total": 22,
     "properties": {
       "color": [
         "red",
@@ -75,7 +79,8 @@
         "0px 0"
       ],
       "padding": [
-        "5px"
+        "5px",
+        "0"
       ],
       "margin-bottom": [
         "0px"
@@ -91,6 +96,9 @@
       "transform": [
         "translateY(-20px) translate3d(0, 0, 0)",
         "translateY(0) translate3d(0, 0, 0)"
+      ],
+      "font": [
+        "1.5em Georgia"
       ]
     }
   },
@@ -109,15 +117,15 @@
             "graph": [
               3
             ],
-            "max": 0,
+            "max": 3,
             "average": 3
           }
         },
         "selectors": {
           "total": 1,
-          "id": 0,
-          "class": 1,
           "type": 0,
+          "class": 1,
+          "id": 0,
           "pseudoClass": 0,
           "pseudoElement": 0,
           "values": [

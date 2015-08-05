@@ -20,15 +20,15 @@
         2,
         1
       ],
-      "max": 0,
+      "max": 10,
       "average": 4.285714285714286
     }
   },
   "selectors": {
     "total": 28,
-    "id": 0,
-    "class": 28,
     "type": 0,
+    "class": 28,
+    "id": 0,
     "pseudoClass": 0,
     "pseudoElement": 0,
     "values": [
