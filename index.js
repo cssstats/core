@@ -1,6 +1,7 @@
 
 var _ = require('lodash')
 var postcss = require('postcss')
+var safeParser = require('postcss-safe-parser');
 var gzipSize = require('gzip-size')
 var size = require('./lib/size')
 var rules = require('./lib/rules')
@@ -65,7 +66,7 @@ module.exports = function (src, opts) {
 
   if (typeof src === 'string') {
     // Default behavior
-    var root = postcss.parse(src, { safe: true })
+    var root = postcss().process(src, { parser: safeParser }).root
     var result = parse(root, {})
     return result
   } else if (typeof src === 'object' || typeof src === 'undefined') {
