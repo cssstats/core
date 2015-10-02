@@ -33,7 +33,7 @@ describe('css-statistics', function () {
     })
 
     it('should calculate the correct gzipped file size', function () {
-      assert.equal(stats.gzipSize, 366)
+      assert.equal(stats.gzipSize, 367)
     })
   })
 
