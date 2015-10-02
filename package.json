@@ -13,11 +13,11 @@
     "commander": "^2.5.0",
     "css-selector-tokenizer": "^0.5.4",
     "cssfontparser": "^1.1.0",
-    "gzip-size": "^1.0.0",
-    "has-class-selector": "0.0.1",
-    "has-id-selector": "0.0.1",
+    "gzip-size": "^3.0.0",
+    "has-class-selector": "1.0.0",
+    "has-id-selector": "1.0.0",
     "has-pseudo-class": "0.0.1",
-    "has-pseudo-element": "0.0.1",
+    "has-pseudo-element": "1.0.0",
     "is-vendor-prefixed": "0.0.1",
     "lodash": "^3.0.0",
     "postcss": "^5.0.0",
@@ -40,10 +40,10 @@
   },
   "homepage": "https://github.com/jxnblk/css-statistics",
   "devDependencies": {
-    "get-css": "0.0.2",
+    "get-css": "1.1.1",
     "jshint": "2.8.0",
     "mocha": "^2.1.0",
-    "standard": "^4.5.4"
+    "standard": "^5.3.1"
   },
   "scripts": {
     "jshint": "jshint index.js lib test",
