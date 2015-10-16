@@ -109,7 +109,7 @@ The following options add the results of helper methods to the returned object. 
   },
   declarations: {
     total: n,
-    important: n,
+    important: [obj],
     properties:
       prop: [str]
     },
@@ -150,7 +150,7 @@ The following options add the results of helper methods to the returned object. 
         },
         declarations: {
           total: n,
-          important: n,
+          important: [obj],
           vendorPrefix: n,
           properties: {
             prop: [str]
