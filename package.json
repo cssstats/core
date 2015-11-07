@@ -18,6 +18,8 @@
     "has-id-selector": "1.0.0",
     "has-pseudo-class": "0.0.1",
     "has-pseudo-element": "1.0.0",
+    "is-blank": "^1.1.0",
+    "is-present": "^1.0.0",
     "is-vendor-prefixed": "0.0.1",
     "lodash": "^3.0.0",
     "postcss": "^5.0.0",
