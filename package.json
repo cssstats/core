@@ -1,6 +1,6 @@
 {
   "name": "cssstats",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "High-level stats for stylesheets",
   "main": "index.js",
   "author": "Brent Jackson",
@@ -19,6 +19,8 @@
     "has-pseudo-class": "0.0.1",
     "has-pseudo-element": "1.0.0",
     "is-css-shorthand": "^1.0.1",
+    "is-blank": "^1.1.0",
+    "is-present": "^1.0.0",
     "is-vendor-prefixed": "0.0.1",
     "lodash": "^3.0.0",
     "postcss": "^5.0.0",
