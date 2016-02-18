@@ -5,9 +5,6 @@
   "main": "index.js",
   "author": "Brent Jackson",
   "license": "MIT",
-  "bin": {
-    "cssstats": "./bin/cssstats.js"
-  },
   "dependencies": {
     "bytes": "^2.3.0",
     "css-selector-tokenizer": "^0.5.4",
@@ -27,27 +24,19 @@
     "postcss-safe-parser": "^1.0.7",
     "specificity": "^0.1.5"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jxnblk/css-statistics.git"
-  },
+  "repository": "cssstats/cssstats-core",
   "keywords": [
     "CSS",
     "Performance",
     "Stats",
     "cssstats"
   ],
-  "bugs": {
-    "url": "https://github.com/jxnblk/css-statistics/issues"
-  },
-  "homepage": "https://github.com/jxnblk/css-statistics",
   "devDependencies": {
     "get-css": "1.1.1",
     "mocha": "^2.4.5",
     "standard": "^5.3.1"
   },
   "scripts": {
-    "jshint": "jshint index.js lib test",
     "standard": "standard",
     "test": "mocha test"
   },
