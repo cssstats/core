@@ -1,4 +1,4 @@
-# cssstats
+# cssstats [![Build Status](https://travis-ci.org/cssstats/cssstats-core.svg?branch=master)](https://travis-ci.org/cssstats/cssstats-core)
 
 Parses stylesheets and returns an object with statistics.
 This is the core module used in [cssstats.com](http://cssstats.com)
