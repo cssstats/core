@@ -1,12 +1,12 @@
 # cssstats
-Parses stylesheets and returns an object with statistics
 
-This is the core module used in http://cssstats.com
+Parses stylesheets and returns an object with statistics.
+This is the core module used in [cssstats.com](http://cssstats.com)
 
 ## Installation
 
 ```sh
-npm install cssstats
+npm i --save cssstats
 ```
 
 ## Usage
@@ -43,6 +43,8 @@ postcss()
 ```
 
 #### CLI
+
+TODO: Implement me in cssstats-cli
 
 ```sh
 npm i -g cssstats
@@ -245,6 +247,14 @@ var uniqueColorsCount = stats.declarations.getUniquePropertyCount('color')
 var displayNoneCount = stats.declarations.getPropertyValueCount('display', 'none')
 ```
 
+## License
 
-MIT License
+MIT
 
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
