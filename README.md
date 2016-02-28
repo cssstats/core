@@ -70,11 +70,11 @@ var stats = cssstats(css, { mediaQueries: false })
 
 The following options add the results of helper methods to the returned object. This is helpful when using `JSON.stringify()`.
 
-- `specificityGraph` (boolean, deault `false`)
-- `sortedSpecificityGraph` (boolean, deault `false`)
-- `repeatedSelectors` (boolean, deault `false`)
-- `propertyResets` (boolean, deault `false`)
-- `vendorPrefixedProperties` (boolean, deault `false`)
+- `specificityGraph` (boolean, default `false`)
+- `sortedSpecificityGraph` (boolean, default `false`)
+- `repeatedSelectors` (boolean, default `false`)
+- `propertyResets` (boolean, default `false`)
+- `vendorPrefixedProperties` (boolean, default `false`)
 
 ### Returned Object
 
