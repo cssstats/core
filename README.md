@@ -15,7 +15,7 @@ npm install cssstats
 
 ```js
 var fs = require('fs')
-var cssstats = require('csstats')
+var cssstats = require('cssstats')
 
 var css = fs.readFileSync('./styles.css', 'utf8')
 var stats = cssstats(css)
@@ -29,7 +29,7 @@ The stats will be added to PostCSS's messages array.
 ```js
 var fs = require('fs')
 var postcss = require('postcss')
-var cssstats = require('csstats')
+var cssstats = require('cssstats')
 
 var css = fs.readFileSync('./styles.css', 'utf8')
 postcss()
