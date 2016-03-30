@@ -9,23 +9,23 @@
     "cssstats": "./bin/cssstats.js"
   },
   "dependencies": {
-    "camelcase": "^1.0.2",
-    "commander": "^2.5.0",
+    "camelcase": "^2.1.1",
+    "commander": "^2.9.0",
     "css-selector-tokenizer": "^0.5.4",
     "css-shorthand-expand": "^1.1.0",
     "gzip-size": "^3.0.0",
     "has-class-selector": "1.0.0",
     "has-id-selector": "1.0.0",
-    "has-pseudo-class": "0.0.1",
+    "has-pseudo-class": "1.0.1",
     "has-pseudo-element": "1.0.0",
     "is-css-shorthand": "^1.0.1",
     "is-blank": "^1.1.0",
     "is-present": "^1.0.0",
     "is-vendor-prefixed": "0.0.1",
-    "lodash": "^3.4.0",
-    "postcss": "^5.0.0",
-    "postcss-safe-parser": "^1.0.0",
-    "specificity": "^0.1.4",
+    "lodash": "^4.6.1",
+    "postcss": "^5.0.19",
+    "postcss-safe-parser": "^1.0.7",
+    "specificity": "^0.1.5",
     "stdin": "0.0.1"
   },
   "repository": {
@@ -43,10 +43,10 @@
   },
   "homepage": "https://github.com/jxnblk/css-statistics",
   "devDependencies": {
-    "get-css": "1.1.1",
-    "jshint": "2.8.0",
-    "mocha": "^2.1.0",
-    "standard": "^5.3.1"
+    "get-css": "1.2.1",
+    "jshint": "2.9.1",
+    "mocha": "^2.4.5",
+    "standard": "^6.0.8"
   },
   "scripts": {
     "jshint": "jshint index.js lib test",

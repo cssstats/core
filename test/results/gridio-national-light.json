@@ -18,7 +18,7 @@
     "pseudoElement": 0,
     "values": [],
     "specificity": {
-      "max": null,
+      "max": 0,
       "average": 0
     }
   },
