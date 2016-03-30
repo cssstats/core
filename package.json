@@ -37,8 +37,7 @@
     "standard": "^6.0.5"
   },
   "scripts": {
-    "standard": "standard",
-    "test": "rm -rf test/results && mkdir test/results && mocha test"
+    "test": "rm -rf test/results && mkdir test/results && mocha test && standard"
   },
   "standard": {
     "global": [
