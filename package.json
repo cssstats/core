@@ -38,7 +38,7 @@
   },
   "scripts": {
     "standard": "standard",
-    "test": "mocha test"
+    "test": "rm -rf test/results && mkdir test/results && mocha test"
   },
   "standard": {
     "global": [
