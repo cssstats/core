@@ -9,6 +9,7 @@
     "cssstats": "./bin/cssstats.js"
   },
   "dependencies": {
+    "bytes": "^2.3.0",
     "camelcase": "^2.1.1",
     "commander": "^2.9.0",
     "css-selector-tokenizer": "^0.5.4",
@@ -18,8 +19,8 @@
     "has-id-selector": "1.0.0",
     "has-pseudo-class": "1.0.1",
     "has-pseudo-element": "1.0.0",
-    "is-css-shorthand": "^1.0.1",
     "is-blank": "^1.1.0",
+    "is-css-shorthand": "^1.0.1",
     "is-present": "^1.0.0",
     "is-vendor-prefixed": "0.0.1",
     "lodash": "^4.6.1",
