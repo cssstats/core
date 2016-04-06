@@ -1,7 +1,8 @@
 
 var _ = require('lodash')
 var postcss = require('postcss')
-var safeParser = require('postcss-safe-parser');
+var safeParser = require('postcss-safe-parser')
+var bytes = require('bytes')
 var gzipSize = require('gzip-size')
 var size = require('./lib/size')
 var rules = require('./lib/rules')
@@ -30,6 +31,8 @@ module.exports = function (src, opts) {
     var string = postcss().process(root).css
     stats.size = size(string)
     stats.gzipSize = gzipSize.sync(string)
+    stats.humanizedSize = bytes(stats.size, { decimalPlaces: 0 })
+    stats.humanizedGzipSize = bytes(stats.gzipSize, { decimalPlaces: 0 })
 
     stats.rules = rules(root, opts)
     stats.selectors = selectors(root, opts)

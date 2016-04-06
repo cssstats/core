@@ -1,6 +1,8 @@
 {
   "size": 3562,
   "gzipSize": 529,
+  "humanizedSize": "3kB",
+  "humanizedGzipSize": "529B",
   "rules": {
     "total": 14,
     "size": {
