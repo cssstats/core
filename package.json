@@ -5,17 +5,13 @@
   "main": "index.js",
   "author": "Brent Jackson",
   "license": "MIT",
-  "bin": {
-    "cssstats": "./bin/cssstats.js"
-  },
   "dependencies": {
     "bytes": "^2.3.0",
-    "camelcase": "^2.1.1",
-    "commander": "^2.9.0",
     "css-selector-tokenizer": "^0.5.4",
     "css-shorthand-expand": "^1.1.0",
     "gzip-size": "^3.0.0",
     "has-class-selector": "1.0.0",
+    "has-element-selector": "^1.0.0",
     "has-id-selector": "1.0.0",
     "has-pseudo-class": "1.0.1",
     "has-pseudo-element": "1.0.0",
@@ -26,33 +22,22 @@
     "lodash": "^4.6.1",
     "postcss": "^5.0.19",
     "postcss-safe-parser": "^1.0.7",
-    "specificity": "^0.1.5",
-    "stdin": "0.0.1"
+    "specificity": "^0.1.5"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jxnblk/css-statistics.git"
-  },
+  "repository": "cssstats/cssstats-core",
   "keywords": [
     "CSS",
     "Performance",
     "Stats",
     "cssstats"
   ],
-  "bugs": {
-    "url": "https://github.com/jxnblk/css-statistics/issues"
-  },
-  "homepage": "https://github.com/jxnblk/css-statistics",
   "devDependencies": {
     "get-css": "1.2.1",
-    "jshint": "2.9.1",
     "mocha": "^2.4.5",
-    "standard": "^6.0.8"
+    "standard": "^6.0.5"
   },
   "scripts": {
-    "jshint": "jshint index.js lib test",
-    "standard": "standard",
-    "test": "mocha test"
+    "test": "rm -rf test/results && mkdir test/results && mocha test && standard"
   },
   "standard": {
     "global": [

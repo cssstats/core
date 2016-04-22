@@ -1,10 +1,6 @@
 language: node_js
-
 node_js:
-  - 0.11
-  - 0.12
+  - "0.12"
   - "iojs"
-install: npm install
-script:
-  - npm test
-  - npm run jshint
+  - "4"
+  - "stable"

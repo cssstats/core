@@ -1,4 +1,3 @@
-
 var _ = require('lodash')
 var postcss = require('postcss')
 var safeParser = require('postcss-safe-parser')
@@ -11,7 +10,6 @@ var declarations = require('./lib/declarations')
 var mediaQueries = require('./lib/media-queries')
 
 module.exports = function (src, opts) {
-
   opts = opts || {}
   opts = _.defaults(opts, {
     safe: true,
@@ -25,7 +23,6 @@ module.exports = function (src, opts) {
   })
 
   function parse (root, result) {
-
     var stats = {}
 
     var string = postcss().process(root).css
@@ -64,7 +61,6 @@ module.exports = function (src, opts) {
 
     // Return stats for default usage
     return stats
-
   }
 
   if (typeof src === 'string') {
@@ -78,6 +74,4 @@ module.exports = function (src, opts) {
   } else {
     throw new TypeError('cssstats expects a string or to be used as a PostCSS plugin')
   }
-
 }
-

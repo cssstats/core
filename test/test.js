@@ -183,7 +183,6 @@ describe('cssstats no media queries', function () {
   it('should not contain media query contents', function () {
     assert.equal(stats.mediaQueries.contents, null)
   })
-
 })
 
 function fixture (name) {
@@ -196,4 +195,3 @@ function renderJson (filename) {
 
   fs.writeFileSync('./test/results/' + filename + '.json', JSON.stringify(obj, null, 2))
 }
-
