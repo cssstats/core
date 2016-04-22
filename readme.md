@@ -42,22 +42,6 @@ postcss()
   })
 ```
 
-#### CLI
-
-TODO: Implement me in cssstats-cli
-
-```sh
-npm i -g cssstats
-cssstats file path/to/file.css > results.json
-```
-
-You can also pipe CSS to cssstats:
-
-```sh
-cat some-css-file.css | cssstats
-getcss google.com | cssstats
-```
-
 #### Options
 
 Options may be passed as a second argument.
