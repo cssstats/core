@@ -1125,6 +1125,7 @@
   },
   "declarations": {
     "total": 555,
+    "unique": 545,
     "properties": {
       "display": [
         "inline-block",
