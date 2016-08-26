@@ -98,6 +98,10 @@ describe('css-statistics', function () {
       assert.equal(stats.declarations.total, 22)
     })
 
+    it('should correctly count unique declarations', function () {
+      assert.equal(stats.declarations.unique, 21)
+    })
+
     it('should correctly count important values', function () {
       assert.equal(stats.declarations.important.length, 2)
     })
