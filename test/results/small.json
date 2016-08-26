@@ -53,6 +53,7 @@
   },
   "declarations": {
     "total": 22,
+    "unique": 21,
     "properties": {
       "color": [
         "red",
@@ -140,6 +141,7 @@
         },
         "declarations": {
           "total": 3,
+          "unique": 3,
           "properties": {
             "color": [
               "tomato"
