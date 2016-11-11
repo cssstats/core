@@ -37,7 +37,8 @@
     "standard": "^8.5.0"
   },
   "scripts": {
-    "test": "rm -rf test/results && mkdir test/results && mocha test && standard"
+    "test": "npm run lint && rm -rf test/results && mkdir test/results && mocha test",
+    "lint": "standard"
   },
   "standard": {
     "global": [
