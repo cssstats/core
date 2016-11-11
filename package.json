@@ -1,10 +1,17 @@
 {
   "name": "cssstats",
-  "version": "3.0.0-beta.2",
+  "version": "3.0.0",
   "description": "High-level stats for stylesheets",
   "main": "index.js",
   "author": "Brent Jackson",
   "license": "MIT",
+  "repository": "cssstats/cssstats-core",
+  "keywords": [
+    "CSS",
+    "Performance",
+    "Stats",
+    "cssstats"
+  ],
   "dependencies": {
     "bytes": "^2.4.0",
     "css-selector-tokenizer": "^0.7.0",
@@ -24,13 +31,6 @@
     "postcss-safe-parser": "^2.0.0",
     "specificity": "^0.3.0"
   },
-  "repository": "cssstats/cssstats-core",
-  "keywords": [
-    "CSS",
-    "Performance",
-    "Stats",
-    "cssstats"
-  ],
   "devDependencies": {
     "get-css": "1.2.1",
     "mocha": "^3.1.2",
