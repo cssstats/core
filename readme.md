@@ -90,6 +90,7 @@ The following options add the results of helper methods to the returned object. 
       average: n
     },
     getSpecificityGraph(),
+    getSpecificityValues(),
     getRepeatedValues(),
     getSortedSpecificity()
   },
@@ -177,6 +178,7 @@ The size of the stylesheet gzipped in bytes
   - `specificity.max` number - maximum specificity as a base 10 number
   - `specificity.average` number - average specificity as a base 10 number
 - `getSpecificityGraph()` function - returns an array of numbers for each selector’s specificity as a base 10 number
+- `getSpecificityValues()` function - returns an array of selectors with base 10 specificity score in order
 - `getRepeatedValues()` function - returns an array of strings of repeated selectors
 - `getSortedSpecificity()` function - returns an array of selectors with base 10 specificity score, sorted from highest to lowest
 
