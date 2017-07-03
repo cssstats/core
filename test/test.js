@@ -128,6 +128,10 @@ describe('css-statistics', function () {
       assert.equal(stats.selectors.getSpecificityGraph().length > 0, true)
     })
 
+    it('should return specificity values for each selector in order', function () {
+      assert.deepEqual(stats.selectors.getSpecificityValues(), [ { selector: '.red', specificity: 10 }, { selector: '#foo', specificity: 100 }, { selector: '.red', specificity: 10 }, { selector: '.sm-tomato', specificity: 10 }, { selector: '.sm-tomato::after', specificity: 11 }, { selector: '.sm-tomato:first-child:last-child', specificity: 30 }, { selector: '.box', specificity: 10 }, { selector: '.box:first-child', specificity: 20 }, { selector: '.box:last-child', specificity: 20 }, { selector: '0%', specificity: 1 }, { selector: '100%', specificity: 1 }, { selector: 'header', specificity: 1 }, { selector: '.georgia', specificity: 10 } ])
+    })
+
     it('should return a sorted specificity array', function () {
       assert.deepEqual(stats.selectors.getSortedSpecificity(), [ { selector: '#foo', specificity: 100 }, { selector: '.sm-tomato:first-child:last-child', specificity: 30 }, { selector: '.box:first-child', specificity: 20 }, { selector: '.box:last-child', specificity: 20 }, { selector: '.sm-tomato::after', specificity: 11 }, { selector: '.box', specificity: 10 }, { selector: '.sm-tomato', specificity: 10 }, { selector: '.red', specificity: 10 }, { selector: '.red', specificity: 10 }, { selector: '.georgia', specificity: 10 }, { selector: '0%', specificity: 1 }, { selector: '100%', specificity: 1 }, { selector: 'header', specificity: 1 } ])
     })
