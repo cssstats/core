@@ -53,6 +53,23 @@ describe('css-statistics', function () {
     it('should return a rule size graph', function () {
       assert.deepEqual(stats.rules.size.graph, [ 1, 1, 3, 1, 2, 2, 1, 1, 4, 4, 1, 1 ])
     })
+
+    it('should return a selectorByRuleSizes array', function () {
+      assert.deepEqual(stats.rules.selectorByRuleSizes, [
+        { selector: '100%', declarations: 4 },
+        { selector: '0%', declarations: 4 },
+        { selector: '.sm-tomato', declarations: 3 },
+        { selector: '.box', declarations: 2 },
+        { selector: '.sm-tomato:first-child:last-child', declarations: 2 },
+        { selector: '.georgia', declarations: 1 },
+        { selector: 'header', declarations: 1 },
+        { selector: '.box:last-child', declarations: 1 },
+        { selector: '.box:first-child', declarations: 1 },
+        { selector: '.sm-tomato::after', declarations: 1 },
+        { selector: '.red', declarations: 1 },
+        { selector: '.red, #foo', declarations: 1 }
+      ])
+    })
   })
 
   describe('selectors', function () {

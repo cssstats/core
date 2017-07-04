@@ -22,7 +22,57 @@
       ],
       "max": 4,
       "average": 1.8333333333333333
-    }
+    },
+    "selectorByRuleSizes": [
+      {
+        "selector": "100%",
+        "declarations": 4
+      },
+      {
+        "selector": "0%",
+        "declarations": 4
+      },
+      {
+        "selector": ".sm-tomato",
+        "declarations": 3
+      },
+      {
+        "selector": ".box",
+        "declarations": 2
+      },
+      {
+        "selector": ".sm-tomato:first-child:last-child",
+        "declarations": 2
+      },
+      {
+        "selector": ".georgia",
+        "declarations": 1
+      },
+      {
+        "selector": "header",
+        "declarations": 1
+      },
+      {
+        "selector": ".box:last-child",
+        "declarations": 1
+      },
+      {
+        "selector": ".box:first-child",
+        "declarations": 1
+      },
+      {
+        "selector": ".sm-tomato::after",
+        "declarations": 1
+      },
+      {
+        "selector": ".red",
+        "declarations": 1
+      },
+      {
+        "selector": ".red, #foo",
+        "declarations": 1
+      }
+    ]
   },
   "selectors": {
     "total": 13,
@@ -122,7 +172,13 @@
             ],
             "max": 3,
             "average": 3
-          }
+          },
+          "selectorByRuleSizes": [
+            {
+              "selector": ".sm-tomato",
+              "declarations": 3
+            }
+          ]
         },
         "selectors": {
           "total": 1,

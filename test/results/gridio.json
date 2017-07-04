@@ -24,7 +24,65 @@
       ],
       "max": 10,
       "average": 4.285714285714286
-    }
+    },
+    "selectorByRuleSizes": [
+      {
+        "selector": ".odometer.odometer-auto-theme.odometer-animating-down.odometer-animating .odometer-ribbon-inner, .odometer.odometer-theme-default.odometer-animating-down.odometer-animating .odometer-ribbon-inner",
+        "declarations": 10
+      },
+      {
+        "selector": ".odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner, .odometer.odometer-theme-default .odometer-digit .odometer-digit-inner",
+        "declarations": 8
+      },
+      {
+        "selector": ".odometer.odometer-auto-theme .odometer-digit .odometer-digit-spacer, .odometer.odometer-theme-default .odometer-digit .odometer-digit-spacer",
+        "declarations": 6
+      },
+      {
+        "selector": ".odometer.odometer-auto-theme .odometer-digit, .odometer.odometer-theme-default .odometer-digit",
+        "declarations": 6
+      },
+      {
+        "selector": ".odometer.odometer-auto-theme, .odometer.odometer-theme-default",
+        "declarations": 6
+      },
+      {
+        "selector": ".odometer.odometer-auto-theme.odometer-animating-down .odometer-ribbon-inner, .odometer.odometer-theme-default.odometer-animating-down .odometer-ribbon-inner",
+        "declarations": 5
+      },
+      {
+        "selector": ".odometer.odometer-auto-theme.odometer-animating-up.odometer-animating .odometer-ribbon-inner, .odometer.odometer-theme-default.odometer-animating-up.odometer-animating .odometer-ribbon-inner",
+        "declarations": 5
+      },
+      {
+        "selector": ".odometer.odometer-auto-theme.odometer-animating-up .odometer-ribbon-inner, .odometer.odometer-theme-default.odometer-animating-up .odometer-ribbon-inner",
+        "declarations": 5
+      },
+      {
+        "selector": ".odometer.odometer-auto-theme, .odometer.odometer-theme-default",
+        "declarations": 2
+      },
+      {
+        "selector": ".odometer.odometer-auto-theme .odometer-digit .odometer-value, .odometer.odometer-theme-default .odometer-digit .odometer-value",
+        "declarations": 2
+      },
+      {
+        "selector": ".odometer.odometer-auto-theme .odometer-digit .odometer-ribbon-inner, .odometer.odometer-theme-default .odometer-digit .odometer-ribbon-inner",
+        "declarations": 2
+      },
+      {
+        "selector": ".odometer.odometer-auto-theme .odometer-value, .odometer.odometer-theme-default .odometer-value",
+        "declarations": 1
+      },
+      {
+        "selector": ".odometer.odometer-auto-theme .odometer-digit .odometer-value.odometer-last-value, .odometer.odometer-theme-default .odometer-digit .odometer-value.odometer-last-value",
+        "declarations": 1
+      },
+      {
+        "selector": ".odometer.odometer-auto-theme .odometer-digit .odometer-ribbon, .odometer.odometer-theme-default .odometer-digit .odometer-ribbon",
+        "declarations": 1
+      }
+    ]
   },
   "selectors": {
     "total": 28,
