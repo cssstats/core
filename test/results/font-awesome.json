@@ -521,7 +521,2053 @@
       ],
       "max": 6,
       "average": 1.086105675146771
-    }
+    },
+    "selectorByRuleSizes": [
+      {
+        "selector": ".fa-stack",
+        "declarations": 6
+      },
+      {
+        "selector": ".fa",
+        "declarations": 6
+      },
+      {
+        "selector": ".fa-li",
+        "declarations": 5
+      },
+      {
+        "selector": ".fa-stack-1x,.fa-stack-2x",
+        "declarations": 4
+      },
+      {
+        "selector": ".fa-flip-vertical",
+        "declarations": 4
+      },
+      {
+        "selector": ".fa-flip-horizontal",
+        "declarations": 4
+      },
+      {
+        "selector": ".fa-rotate-270",
+        "declarations": 4
+      },
+      {
+        "selector": ".fa-rotate-180",
+        "declarations": 4
+      },
+      {
+        "selector": ".fa-rotate-90",
+        "declarations": 4
+      },
+      {
+        "selector": ".fa-border",
+        "declarations": 3
+      },
+      {
+        "selector": ".fa-ul",
+        "declarations": 3
+      },
+      {
+        "selector": ".fa-lg",
+        "declarations": 3
+      },
+      {
+        "selector": "100%",
+        "declarations": 2
+      },
+      {
+        "selector": "0%",
+        "declarations": 2
+      },
+      {
+        "selector": "100%",
+        "declarations": 2
+      },
+      {
+        "selector": "0%",
+        "declarations": 2
+      },
+      {
+        "selector": ".fa-spin",
+        "declarations": 2
+      },
+      {
+        "selector": ".fa-fw",
+        "declarations": 2
+      },
+      {
+        "selector": ".fa-meanpath:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-shekel:before,.fa-sheqel:before,.fa-ils:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-cc:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-angellist:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-ioxhost:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-bus:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-bicycle:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-toggle-on:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-toggle-off:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-lastfm-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-lastfm:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-line-chart:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-pie-chart:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-area-chart:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-birthday-cake:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-paint-brush:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-eyedropper:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-at:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-copyright:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-trash:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-bell-slash-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-bell-slash:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-cc-stripe:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-cc-paypal:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-cc-amex:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-cc-discover:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-cc-mastercard:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-cc-visa:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-google-wallet:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-paypal:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-calculator:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-wifi:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-newspaper-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-yelp:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-twitch:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-slideshare:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-plug:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-binoculars:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-tty:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-soccer-ball-o:before,.fa-futbol-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-bomb:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-share-alt-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-share-alt:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-sliders:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-paragraph:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-header:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-circle-thin:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-history:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-send-o:before,.fa-paper-plane-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-send:before,.fa-paper-plane:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-wechat:before,.fa-weixin:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-qq:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-tencent-weibo:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-hacker-news:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-git:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-git-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-ge:before,.fa-empire:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-ra:before,.fa-rebel:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-circle-o-notch:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-life-bouy:before,.fa-life-buoy:before,.fa-life-saver:before,.fa-support:before,.fa-life-ring:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-jsfiddle:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-codepen:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-vine:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-file-code-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-file-movie-o:before,.fa-file-video-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-file-sound-o:before,.fa-file-audio-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-file-zip-o:before,.fa-file-archive-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-file-photo-o:before,.fa-file-picture-o:before,.fa-file-image-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-file-powerpoint-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-file-excel-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-file-word-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-file-pdf-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-database:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-soundcloud:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-deviantart:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-spotify:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-tree:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-cab:before,.fa-taxi:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-automobile:before,.fa-car:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-recycle:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-steam-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-steam:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-behance-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-behance:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-cubes:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-cube:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-spoon:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-paw:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-child:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-building:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-fax:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-language:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-joomla:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-drupal:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-pied-piper-alt:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-pied-piper:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-digg:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-delicious:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-stumbleupon:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-stumbleupon-circle:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-reddit-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-reddit:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-google:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-yahoo:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-mortar-board:before,.fa-graduation-cap:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-institution:before,.fa-bank:before,.fa-university:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-openid:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-wordpress:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-envelope-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-slack:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-space-shuttle:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-plus-square-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-turkish-lira:before,.fa-try:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-vimeo-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-wheelchair:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-dot-circle-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-toggle-left:before,.fa-caret-square-o-left:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-arrow-circle-o-left:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-arrow-circle-o-right:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-stack-exchange:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-pagelines:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-renren:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-weibo:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-vk:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-bug:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-archive:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-moon-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-sun-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-gittip:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-male:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-female:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-trello:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-foursquare:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-skype:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-dribbble:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-linux:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-android:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-windows:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-apple:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-long-arrow-right:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-long-arrow-left:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-long-arrow-up:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-long-arrow-down:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-tumblr-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-tumblr:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-bitbucket-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-bitbucket:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-adn:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-flickr:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-instagram:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-stack-overflow:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-dropbox:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-youtube-play:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-xing-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-xing:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-youtube:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-youtube-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-thumbs-down:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-thumbs-up:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-sort-numeric-desc:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-sort-numeric-asc:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-sort-amount-desc:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-sort-amount-asc:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-sort-alpha-desc:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-sort-alpha-asc:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-file-text:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-file:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-bitcoin:before,.fa-btc:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-won:before,.fa-krw:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-ruble:before,.fa-rouble:before,.fa-rub:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-cny:before,.fa-rmb:before,.fa-yen:before,.fa-jpy:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-rupee:before,.fa-inr:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-dollar:before,.fa-usd:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-gbp:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-euro:before,.fa-eur:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-toggle-right:before,.fa-caret-square-o-right:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-toggle-up:before,.fa-caret-square-o-up:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-toggle-down:before,.fa-caret-square-o-down:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-compass:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-share-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-external-link-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-pencil-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-check-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-level-down:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-level-up:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-minus-square-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-minus-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-ticket:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-play-circle:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-rss-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-ellipsis-v:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-ellipsis-h:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-bullseye:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-unlock-alt:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-anchor:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-css3:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-html5:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-chevron-circle-down:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-chevron-circle-up:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-chevron-circle-right:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-chevron-circle-left:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-maxcdn:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-rocket:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-fire-extinguisher:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-calendar-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-shield:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-microphone-slash:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-microphone:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-puzzle-piece:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-eraser:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-subscript:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-superscript:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-exclamation:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-info:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-question:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-unlink:before,.fa-chain-broken:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-code-fork:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-crop:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-location-arrow:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-star-half-empty:before,.fa-star-half-full:before,.fa-star-half-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-mail-reply-all:before,.fa-reply-all:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-code:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-terminal:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-flag-checkered:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-flag-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-keyboard-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-gamepad:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-meh-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-frown-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-smile-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-folder-open-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-folder-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-github-alt:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-mail-reply:before,.fa-reply:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-circle:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-spinner:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-quote-right:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-quote-left:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-circle-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-mobile-phone:before,.fa-mobile:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-tablet:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-laptop:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-desktop:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-angle-down:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-angle-up:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-angle-right:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-angle-left:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-angle-double-down:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-angle-double-up:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-angle-double-right:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-angle-double-left:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-plus-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-h-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-beer:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-fighter-jet:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-medkit:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-ambulance:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-hospital-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-building-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-file-text-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-cutlery:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-coffee:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-bell-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-suitcase:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-stethoscope:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-user-md:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-cloud-upload:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-cloud-download:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-exchange:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-lightbulb-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-paste:before,.fa-clipboard:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-umbrella:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-sitemap:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-flash:before,.fa-bolt:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-comments-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-comment-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-dashboard:before,.fa-tachometer:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-legal:before,.fa-gavel:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-rotate-left:before,.fa-undo:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-linkedin:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-envelope:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-sort-up:before,.fa-sort-asc:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-sort-down:before,.fa-sort-desc:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-unsorted:before,.fa-sort:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-columns:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-caret-right:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-caret-left:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-caret-up:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-caret-down:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-money:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-google-plus:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-google-plus-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-pinterest-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-pinterest:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-truck:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-magic:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-table:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-underline:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-strikethrough:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-list-ol:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-list-ul:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-navicon:before,.fa-reorder:before,.fa-bars:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-save:before,.fa-floppy-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-paperclip:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-copy:before,.fa-files-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-cut:before,.fa-scissors:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-flask:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-cloud:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-chain:before,.fa-link:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-group:before,.fa-users:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-arrows-alt:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-briefcase:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-filter:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-tasks:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-wrench:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-globe:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-arrow-circle-down:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-arrow-circle-up:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-arrow-circle-right:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-arrow-circle-left:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-hand-o-down:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-hand-o-up:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-hand-o-left:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-hand-o-right:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-certificate:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-bell:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-bullhorn:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-hdd-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-rss:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-credit-card:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-unlock:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-github:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-facebook:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-twitter:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-phone-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-bookmark-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-square-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-phone:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-lemon-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-upload:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-github-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-trophy:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-sign-in:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-external-link:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-thumb-tack:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-linkedin-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-sign-out:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-heart-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-star-half:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-thumbs-o-down:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-thumbs-o-up:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-comments:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-gears:before,.fa-cogs:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-key:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-camera-retro:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-facebook-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-twitter-square:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-bar-chart-o:before,.fa-bar-chart:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-arrows-h:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-arrows-v:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-folder-open:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-folder:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-shopping-cart:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-retweet:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-chevron-down:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-chevron-up:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-magnet:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-comment:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-random:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-calendar:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-plane:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-warning:before,.fa-exclamation-triangle:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-eye-slash:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-eye:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-fire:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-leaf:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-gift:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-exclamation-circle:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-asterisk:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-minus:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-plus:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-compress:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-expand:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-mail-forward:before,.fa-share:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-arrow-down:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-arrow-up:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-arrow-right:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-arrow-left:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-ban:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-check-circle-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-times-circle-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-crosshairs:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-info-circle:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-question-circle:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-check-circle:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-times-circle:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-minus-circle:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-plus-circle:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-chevron-right:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-chevron-left:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-eject:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-step-forward:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-fast-forward:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-forward:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-stop:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-pause:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-play:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-backward:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-fast-backward:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-step-backward:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-arrows:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-check-square-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-share-square-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-edit:before,.fa-pencil-square-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-tint:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-adjust:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-map-marker:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-pencil:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-photo:before,.fa-image:before,.fa-picture-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-video-camera:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-indent:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-dedent:before,.fa-outdent:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-list:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-align-justify:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-align-right:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-align-center:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-align-left:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-text-width:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-text-height:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-italic:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-bold:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-font:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-camera:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-print:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-bookmark:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-book:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-tags:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-tag:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-barcode:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-qrcode:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-volume-up:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-volume-down:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-volume-off:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-headphones:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-flag:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-lock:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-list-alt:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-refresh:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-rotate-right:before,.fa-repeat:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-play-circle-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-inbox:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-arrow-circle-o-up:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-arrow-circle-o-down:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-download:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-road:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-clock-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-file-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-home:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-trash-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-gear:before,.fa-cog:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-signal:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-power-off:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-search-minus:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-search-plus:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-remove:before,.fa-close:before,.fa-times:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-check:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-th-list:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-th:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-th-large:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-film:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-user:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-star-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-star:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-heart:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-envelope-o:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-search:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-music:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-glass:before",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-inverse",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-stack-2x",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-stack-1x",
+        "declarations": 1
+      },
+      {
+        "selector": ":root .fa-rotate-90,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-flip-horizontal,:root .fa-flip-vertical",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa.pull-right",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa.pull-left",
+        "declarations": 1
+      },
+      {
+        "selector": ".pull-left",
+        "declarations": 1
+      },
+      {
+        "selector": ".pull-right",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-li.fa-lg",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-ul>li",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-5x",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-4x",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-3x",
+        "declarations": 1
+      },
+      {
+        "selector": ".fa-2x",
+        "declarations": 1
+      }
+    ]
   },
   "selectors": {
     "total": 586,
